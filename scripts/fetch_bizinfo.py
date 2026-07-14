@@ -40,10 +40,11 @@ def parse_apply_period(raw):
     """'20260101 ~ 20260131' 형태를 (start, end, 원문)으로 분해. 상시/소진시 등은 원문만 유지."""
     if not raw:
         return None, None, ""
-    m = re.search(r"(\d{8})\s*~\s*(\d{8})", raw)
+    m = re.search(
+        r"(\d{4})[-./]?(\d{2})[-./]?(\d{2})\s*~\s*(\d{4})[-./]?(\d{2})[-./]?(\d{2})", raw)
     if m:
-        fmt = lambda s: f"{s[0:4]}-{s[4:6]}-{s[6:8]}"
-        return fmt(m.group(1)), fmt(m.group(2)), raw.strip()
+        g = m.groups()
+        return f"{g[0]}-{g[1]}-{g[2]}", f"{g[3]}-{g[4]}-{g[5]}", raw.strip()
     return None, None, raw.strip()
 
 

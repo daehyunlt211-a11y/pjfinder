@@ -15,12 +15,12 @@ if (-not $env:BIZINFO_API_KEY) {
     exit 1
 }
 
-Write-Host "[1/3] 기업마당 API에서 공고 수집 중..."
+Write-Host "[1/3] 원격 변경사항 동기화..."
+git pull --rebase --autostash origin main
+
+Write-Host "[2/3] 기업마당 API에서 공고 수집 중..."
 python scripts/fetch_bizinfo.py
 if ($LASTEXITCODE -ne 0) { Write-Host "수집 실패" -ForegroundColor Red; exit 1 }
-
-Write-Host "[2/3] 원격 변경사항 동기화..."
-git pull --rebase origin main
 
 Write-Host "[3/3] 변경사항 업로드..."
 git add data/announcements.json

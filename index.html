@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PjFinder — 정부지원과제 파인더</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>🔍 PjFinder</h1>
+    <p class="tagline">정부지원과제 검색 · 요약 · 공고 시기 예측</p>
+    <p class="updated" id="updatedAt"></p>
+  </div>
+</header>
+
+<div id="sampleBanner" class="sample-banner" hidden>
+  ⚠️ 지금 보시는 것은 <strong>샘플 데이터</strong>입니다. 기업마당 OpenAPI 키를 등록하면 실제 공고 데이터로 자동 교체됩니다.
+</div>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="list">📋 공고 목록</button>
+  <button class="tab" data-tab="files">📎 첨부파일 검색</button>
+  <button class="tab" data-tab="predict">🔮 공고 시기 예측</button>
+</nav>
+
+<main>
+  <!-- 공고 목록 -->
+  <section id="tab-list" class="tab-panel active">
+    <div class="toolbar">
+      <input type="search" id="searchInput" placeholder="공고명, 기관, 내용, 해시태그 검색…" autocomplete="off">
+      <select id="sortSelect">
+        <option value="latest">최신 등록순</option>
+        <option value="deadline">마감 임박순</option>
+        <option value="views">조회수순</option>
+      </select>
+    </div>
+    <div class="filter-row" id="statusFilters">
+      <span class="filter-label">상태</span>
+      <button class="chip active" data-status="">전체</button>
+      <button class="chip" data-status="open">접수중</button>
+      <button class="chip" data-status="upcoming">접수예정</button>
+      <button class="chip" data-status="always">상시</button>
+      <button class="chip" data-status="closed">마감</button>
+    </div>
+    <div class="filter-row" id="fieldFilters">
+      <span class="filter-label">분야</span>
+    </div>
+    <p class="result-count" id="resultCount"></p>
+    <div id="cardList" class="card-list"></div>
+  </section>
+
+  <!-- 첨부파일 검색 -->
+  <section id="tab-files" class="tab-panel">
+    <div class="toolbar">
+      <input type="search" id="fileSearchInput" placeholder="파일명 또는 공고명으로 첨부파일 검색…" autocomplete="off">
+    </div>
+    <p class="result-count" id="fileResultCount"></p>
+    <div id="fileList" class="file-list"></div>
+  </section>
+
+  <!-- 공고 시기 예측 -->
+  <section id="tab-predict" class="tab-panel">
+    <div class="predict-intro">
+      <p>같은 사업의 과거 공고일 패턴을 분석해 다음 공고가 언제쯤 나올지 예측합니다.
+      데이터가 누적될수록 정확해지며, 실제 공고 시기는 부처 사정에 따라 달라질 수 있습니다.</p>
+      <label class="toggle">
+        <input type="checkbox" id="includeSingle"> 공고 이력이 1건뿐인 사업도 포함 (정확도 낮음)
+      </label>
+    </div>
+    <div id="predictList" class="predict-list"></div>
+  </section>
+</main>
+
+<!-- 상세 모달 -->
+<div id="detailModal" class="modal" hidden>
+  <div class="modal-backdrop"></div>
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" aria-label="닫기">&times;</button>
+    <div id="detailContent"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>데이터 출처: <a href="https://www.bizinfo.go.kr" target="_blank" rel="noopener">기업마당(bizinfo.go.kr)</a> ·
+  본 사이트의 예측 정보는 참고용이며 실제 공고 일정과 다를 수 있습니다.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

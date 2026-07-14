@@ -17,9 +17,15 @@
 PjFinder/
 ├── index.html / style.css / app.js   # 웹앱 (정적 사이트, 서버 불필요)
 ├── data/announcements.json           # 공고 데이터 (수집 스크립트가 갱신)
-├── scripts/fetch_bizinfo.py          # 기업마당 OpenAPI 수집 스크립트
-└── .github/workflows/update-data.yml # 매일 자동 수집 (GitHub Actions)
+├── scripts/fetch_bizinfo.py          # 기업마당 OpenAPI 수집 (BIZINFO_API_KEY 필요)
+├── scripts/fetch_kosmo.py            # KOSMO(smart-factory.kr) 사업공고 수집 (키 불필요)
+├── scripts/update_data.ps1           # 수집 → GitHub 반영 원클릭 스크립트 (작업 스케줄러가 매일 9시 실행)
+└── .github/workflows/update-data.yml # (참고) 기업마당이 해외 IP를 차단해 자동 스케줄은 비활성화
 ```
+
+데이터 출처는 두 곳이며 목록 화면에서 출처별 필터링이 가능합니다:
+- **기업마당**: 전 부처 지원사업 공고 (OpenAPI)
+- **KOSMO**: 스마트공장 구축·고도화 사업 공고 — 일반정부형, 대중소상생형, AI트랙 등 (smart-factory.kr)
 
 처음에는 **샘플 데이터**가 들어 있으며, API 키를 등록하면 실제 데이터로 교체됩니다.
 

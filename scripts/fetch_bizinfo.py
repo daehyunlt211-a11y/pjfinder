@@ -98,6 +98,7 @@ def normalize(item):
         "hashtags": hashtags,
         "created": created,
         "views": item.get("inqireCo") or 0,
+        "source": "기업마당",
     }
 
 
@@ -147,11 +148,13 @@ def main():
         else:
             added += 1
         existing[a["id"]] = a
+    for a in existing.values():
+        a.setdefault("source", "기업마당")
     announcements = sorted(existing.values(), key=lambda a: a.get("created") or "", reverse=True)
     doc = {
         "sample": False,
         "updatedAt": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"),
-        "source": "기업마당(bizinfo.go.kr) OpenAPI",
+        "source": "기업마당(bizinfo.go.kr) OpenAPI + KOSMO(smart-factory.kr)",
         "announcements": announcements,
     }
     os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)

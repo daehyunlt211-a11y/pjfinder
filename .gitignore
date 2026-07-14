@@ -3,3 +3,6 @@ __pycache__/
 
 # API 키는 절대 GitHub에 올리지 않음
 scripts/apikey.txt
+
+# 자동 실행 로그
+scripts/update_log.txt

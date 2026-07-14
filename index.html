@@ -48,6 +48,9 @@
     <div class="filter-row" id="fieldFilters">
       <span class="filter-label">분야</span>
     </div>
+    <div class="filter-row" id="sourceFilters">
+      <span class="filter-label">출처</span>
+    </div>
     <p class="result-count" id="resultCount"></p>
     <div id="cardList" class="card-list"></div>
   </section>
@@ -69,6 +72,9 @@
       <label class="toggle">
         <input type="checkbox" id="includeSingle"> 공고 이력이 1건뿐인 사업도 포함 (정확도 낮음)
       </label>
+    </div>
+    <div class="toolbar">
+      <input type="search" id="predictSearchInput" placeholder="사업명으로 예측 검색… (예: 상생형, 스마트공장)" autocomplete="off">
     </div>
     <div id="predictList" class="predict-list"></div>
   </section>

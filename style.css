@@ -134,6 +134,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 20px; }
 .badge.closed { background: var(--closed); }
 .badge.always { background: var(--always); }
 .badge.field { background: #eef1f8; color: #46527a; }
+.badge.source { background: #fff; color: var(--muted); border: 1px solid var(--border); }
 .badge.dday { background: var(--danger); }
 .badge.dday.far { background: var(--open); }
 
@@ -258,6 +259,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 20px; }
   padding: 18px 20px;
 }
 .predict-card h3 { font-size: 1.05rem; margin-bottom: 4px; letter-spacing: -0.3px; }
+.predict-card.inactive { opacity: .62; }
 .predict-when { font-size: 1rem; margin: 8px 0; }
 .predict-when strong { color: var(--primary); font-size: 1.1rem; }
 .predict-history { font-size: .85rem; color: var(--muted); margin-top: 6px; }

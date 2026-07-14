@@ -67,6 +67,28 @@
   // ---------- 공고 목록 ----------
   let currentStatus = "";
   let currentField = "";
+  let currentSource = "";
+
+  function srcOf(a) {
+    return a.source || "기업마당";
+  }
+
+  function buildSourceFilters() {
+    const sources = [...new Set(DATA.announcements.map(srcOf))].sort();
+    const row = $("#sourceFilters");
+    if (sources.length < 2) { row.hidden = true; return; }
+    row.hidden = false;
+    row.innerHTML = '<span class="filter-label">출처</span>' +
+      '<button class="chip active" data-source="">전체</button>' +
+      sources.map((s) => `<button class="chip" data-source="${esc(s)}">${esc(s)}</button>`).join("");
+    row.querySelectorAll(".chip").forEach((chip) => {
+      chip.addEventListener("click", () => {
+        currentSource = chip.dataset.source;
+        row.querySelectorAll(".chip").forEach((c) => c.classList.toggle("active", c === chip));
+        renderList();
+      });
+    });
+  }
 
   function buildFieldFilters() {
     const fields = [...new Set(DATA.announcements.map((a) => a.field).filter(Boolean))].sort();
@@ -107,6 +129,7 @@
     let items = DATA.announcements.filter((a) => matchesQuery(a, q));
     if (currentStatus) items = items.filter((a) => statusOf(a) === currentStatus);
     if (currentField) items = items.filter((a) => a.field === currentField);
+    if (currentSource) items = items.filter((a) => srcOf(a) === currentSource);
 
     if (sort === "latest") {
       items.sort((x, y) => (y.created || "").localeCompare(x.created || ""));
@@ -134,6 +157,7 @@
         <div class="card-top">
           ${statusBadge(a)}
           ${a.field ? `<span class="badge field">${esc(a.field)}</span>` : ""}
+          <span class="badge source">${esc(srcOf(a))}</span>
         </div>
         <h3>${esc(a.title)}</h3>
         <div class="card-meta">
@@ -169,7 +193,8 @@
     ];
     $("#detailContent").innerHTML = `
       <div class="detail-badges">${statusBadge(a)}
-        ${a.field ? `<span class="badge field">${esc(a.field)}</span>` : ""}</div>
+        ${a.field ? `<span class="badge field">${esc(a.field)}</span>` : ""}
+        <span class="badge source">${esc(srcOf(a))}</span></div>
       <h2 class="detail-title">${esc(a.title)}</h2>
       <dl class="summary-grid">
         ${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}
@@ -185,7 +210,7 @@
           : '<p style="color:var(--muted);font-size:.9rem">첨부파일이 없습니다.</p>'}
       </div>
       <div class="detail-actions">
-        ${a.url ? `<a class="btn-primary" href="${esc(a.url)}" target="_blank" rel="noopener">기업마당에서 원문 보기 ↗</a>` : ""}
+        ${a.url ? `<a class="btn-primary" href="${esc(a.url)}" target="_blank" rel="noopener">${srcOf(a) === "KOSMO" ? "KOSMO에서 원문 보기" : "기업마당에서 원문 보기"} ↗</a>` : ""}
       </div>`;
     $("#detailModal").hidden = false;
     document.body.style.overflow = "hidden";
@@ -246,10 +271,10 @@
   // 사업명 정규화: 연도·차수·꺾쇠 표기 제거 → 같은 사업끼리 그룹핑
   function normalizeTitle(title) {
     return title
-      .replace(/\[[^\]]*\]/g, " ")
-      .replace(/\(\s*(재공고|재|연장|변경|수정)\s*\)/g, " ")
-      .replace(/재공고/g, " ")
-      .replace(/20\d{2}\s*년도?/g, " ")
+      .replace(/\[([^\]]*)\]/g, " $1 ")  // 괄호만 제거하고 내용(지역·기업명)은 그룹 구분에 유지
+      .replace(/\(\s*(재공고|재|연장|변경|수정|수시)\s*\)/g, " ")
+      .replace(/재공고|추가모집/g, " ")
+      .replace(/20\d{2}(\s*년도?)?|(?:^|\s)\d{2}년/g, " ")
       .replace(/제?\s*\d+\s*차/g, " ")
       .replace(/모집\s*공고|시행계획\s*공고|참여기업|창업\s*기업|공고문?|안내/g, " ")
       .replace(/\s+/g, " ")
@@ -289,11 +314,15 @@
       }, 0) / yearly.length);
 
       const lastYear = yearly[yearly.length - 1].d.getFullYear();
+      const yearsSinceLast = TODAY.getFullYear() - lastYear;
+      const active = yearsSinceLast <= 1; // 2년 이상 공고가 없으면 중단된 사업으로 추정
+      // 예측일은 항상 오늘 기준 미래(최근 45일 이내 과거까지 허용)로 계산
+      const graceMs = 45 * 86400000;
       let predYear = lastYear + 1;
       let predDate = new Date(predYear, 0, 1 + avgDoy);
-      // 예측일이 이미 한참 지났으면 다음 해로
-      if (predDate < TODAY && (TODAY - predDate) / 86400000 > 60) {
-        predDate = new Date(predYear + 1, 0, 1 + avgDoy);
+      while (TODAY - predDate > graceMs) {
+        predYear += 1;
+        predDate = new Date(predYear, 0, 1 + avgDoy);
       }
 
       preds.push({
@@ -301,11 +330,14 @@
         entries: entries.sort((x, y) => y.d - x.d),
         yearlyCount: yearly.length,
         predDate,
+        active,
+        lastYear,
         latest: yearly[yearly.length - 1].a,
       });
     });
 
-    preds.sort((x, y) => x.predDate - y.predDate);
+    preds.sort((x, y) =>
+      x.active !== y.active ? (x.active ? -1 : 1) : x.predDate - y.predDate);
     return preds;
   }
 
@@ -317,7 +349,12 @@
 
   function renderPredict() {
     const includeSingle = $("#includeSingle").checked;
-    const preds = buildPredictions(includeSingle);
+    const q = $("#predictSearchInput").value.trim().toLowerCase();
+    let preds = buildPredictions(includeSingle);
+    if (q) {
+      preds = preds.filter((p) =>
+        q.split(/\s+/).every((w) => p.name.toLowerCase().includes(w)));
+    }
     const list = $("#predictList");
     if (!preds.length) {
       list.innerHTML = '<p class="empty">예측할 수 있는 사업이 아직 없습니다.<br>데이터가 누적되면 같은 사업의 과거 공고일을 바탕으로 예측을 제공합니다.</p>';
@@ -331,15 +368,19 @@
         const cls = i === predMonth ? "predicted" : pastMonths.has(i) ? "past" : "";
         return `<div class="month-cell ${cls}">${m}</div>`;
       }).join("");
-      const conf = p.yearlyCount >= 3 ? ["high", `이력 ${p.yearlyCount}년 · 신뢰도 높음`]
+      const conf = !p.active ? ["low", `마지막 공고 ${p.lastYear}년 · 중단 추정`]
+        : p.yearlyCount >= 3 ? ["high", `이력 ${p.yearlyCount}년 · 신뢰도 높음`]
         : p.yearlyCount === 2 ? ["high", "이력 2년 · 참고용"]
         : ["low", "이력 1건 · 정확도 낮음"];
-      return `<div class="predict-card">
+      const when = p.active
+        ? `다음 공고 예상 시기: <strong>${fmtPredict(p.predDate)}</strong>`
+        : `${p.lastYear}년 이후 공고가 없어 재공고 여부가 불확실합니다. (재개 시 ${p.predDate.getMonth() + 1}월경 예상)`;
+      return `<div class="predict-card ${p.active ? "" : "inactive"}">
         <div class="card-top">
           <span class="confidence ${conf[0]}">${conf[1]}</span>
         </div>
         <h3>${esc(p.name)}</h3>
-        <p class="predict-when">다음 공고 예상 시기: <strong>${fmtPredict(p.predDate)}</strong></p>
+        <p class="predict-when">${when}</p>
         <div class="month-strip">${strip}</div>
         <div class="predict-history">
           과거 공고일:
@@ -351,6 +392,7 @@
   }
 
   $("#includeSingle").addEventListener("change", renderPredict);
+  $("#predictSearchInput").addEventListener("input", renderPredict);
 
   // ---------- 초기화 ----------
   fetch("data/announcements.json")
@@ -364,6 +406,7 @@
       $("#updatedAt").textContent =
         `데이터 기준: ${doc.updatedAt || "-"} · 총 ${doc.announcements.length}건 · 출처: ${doc.source || "기업마당"}`;
       buildFieldFilters();
+      buildSourceFilters();
       renderList();
       renderFiles();
       renderPredict();

@@ -30,7 +30,7 @@ body {
   color: #fff;
   padding: 34px 20px 28px;
 }
-.header-inner { max-width: 1000px; margin: 0 auto; }
+.header-inner { max-width: 1800px; margin: 0 auto; padding: 0 8px; }
 .site-header h1 { font-size: 1.9rem; letter-spacing: -0.5px; }
 .tagline { opacity: .92; margin-top: 4px; font-size: 1rem; }
 .updated { opacity: .7; font-size: .8rem; margin-top: 8px; }
@@ -49,9 +49,9 @@ body {
 .tabs {
   display: flex;
   gap: 4px;
-  max-width: 1000px;
+  max-width: 1800px;
   margin: 0 auto;
-  padding: 14px 20px 0;
+  padding: 14px 24px 0;
 }
 .tab {
   border: none;
@@ -67,7 +67,7 @@ body {
 .tab:hover { color: var(--primary); }
 .tab.active { color: var(--primary); border-bottom-color: var(--primary); background: #fff; }
 
-main { max-width: 1000px; margin: 0 auto; padding: 20px; }
+main { max-width: 1800px; margin: 0 auto; padding: 20px 24px; }
 .tab-panel { display: none; }
 .tab-panel.active { display: block; }
 
@@ -110,10 +110,10 @@ main { max-width: 1000px; margin: 0 auto; padding: 20px; }
 .result-count { font-size: .85rem; color: var(--muted); margin: 10px 2px; }
 
 /* 목록 + 우측 요약 패널 분할 레이아웃 */
-.split { display: flex; gap: 14px; align-items: flex-start; }
-.split-left { flex: 1 1 50%; min-width: 0; }
+.split { display: flex; gap: 16px; align-items: flex-start; }
+.split-left { flex: 1 1 42%; min-width: 0; }
 .detail-panel {
-  flex: 1 1 50%;
+  flex: 1 1 58%;
   min-width: 0;
   position: sticky;
   top: 14px;
@@ -175,7 +175,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 20px; }
 .modal-box {
   position: relative;
   background: var(--card);
-  width: min(760px, calc(100vw - 32px));
+  width: min(960px, calc(100vw - 32px));
   max-height: calc(100vh - 80px);
   overflow-y: auto;
   border-radius: 16px;
@@ -312,7 +312,7 @@ main { max-width: 1000px; margin: 0 auto; padding: 20px; }
 .empty { text-align: center; color: var(--muted); padding: 50px 0; font-size: .95rem; }
 
 .site-footer {
-  max-width: 1000px; margin: 30px auto 0; padding: 20px;
+  max-width: 1800px; margin: 30px auto 0; padding: 20px 24px;
   border-top: 1px solid var(--border);
   font-size: .8rem; color: var(--muted); text-align: center;
 }

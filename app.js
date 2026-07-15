@@ -474,6 +474,80 @@
   $("#predictSearchInput").addEventListener("input", renderPredict);
 
   // ---------- 공고문 분석 (PDF) ----------
+  // 공고문 구조를 인식해 항목 제목부터 다음 섹션 전까지 통째로 추출.
+  // 제목 3단계: Ⅰ.(3) > □(2) > 1.(1) — 시작 제목보다 같거나 큰 단계를 만나면 중단
+  const PAGE_NUM_LINE = /^[-–ㅡ\s]*\d+\s*[-–ㅡ\s]*$/;
+
+  function headLevel(line) {
+    if (/^\s*(?:[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ]|[IVX]{1,4}\s*[.)]|【)/.test(line)) return 3;
+    if (/^\s*[□■◇◆]/.test(line)) return 2;
+    if (/^\s*\d{1,2}\s*[.)]\s/.test(line)) return 1;
+    return 0;
+  }
+
+  function extractBlock(text, keywords, maxChars) {
+    if (!text) return null;
+    maxChars = maxChars || 1000;
+    const lines = text.split(/\n+/).map((l) => l.trim()).filter((l) => l && !PAGE_NUM_LINE.test(l));
+    const kws = keywords.map((k) => k.replace(/\s/g, ""));
+    let best = null;
+    for (let i = 0; i < lines.length; i++) {
+      const stripped = lines[i]
+        .replace(/^[\s□■◇◆○●◦•▶►〈<\[(【*-]+/, "")
+        .replace(/^제?\d+[.)]\s*|^[가-힣][.)]\s*/, "")
+        .replace(/\s+/g, "");
+      for (const kw of kws) {
+        const pos = stripped.indexOf(kw);
+        if (pos === -1) continue;
+        if (pos > 0 && /[가-힣]/.test(stripped[pos - 1])) {
+          // 공백 제거로 합성어처럼 보이는 경우, 원본 줄에서 앞 글자가 공백/기호면 정상 매칭으로 인정
+          const po = lines[i].indexOf(kw);
+          if (po === -1 || (po > 0 && /[가-힣]/.test(lines[i][po - 1]))) continue;
+        }
+        let score = pos === 0 ? 100 : pos <= 4 ? 60 : 20;
+        if (headLevel(lines[i]) > 0) score += 40; // 제목형 줄 가중치
+        const after = stripped.slice(pos + kw.length, pos + kw.length + 2);
+        if (after.startsWith(":") || after.startsWith("：")) score += 20;
+        if (lines[i].replace(/\s/g, "").length <= kw.length + 14) score += 20; // 짧은 제목 줄
+        if (!best || score > best.score) best = { i, score };
+      }
+    }
+    if (!best) return null;
+    const startLevel = headLevel(lines[best.i]);
+    const out = [lines[best.i]];
+    let chars = lines[best.i].length;
+    for (let j = best.i + 1; j < lines.length && chars < maxChars && out.length < 60; j++) {
+      const lv = headLevel(lines[j]);
+      if (lv > 0 && lv >= startLevel) break; // 같은 단계 이상의 다음 섹션 제목에서 중단
+      out.push(lines[j]);
+      chars += lines[j].length;
+    }
+    const block = out.join("\n");
+    return block.length > maxChars ? block.slice(0, maxChars) + "\n…(생략 — 아래 전체 텍스트 참조)" : block;
+  }
+
+  // PDF 전용: 섹션 블록 단위의 상세 요약
+  function buildPdfSummaryRows(text) {
+    const val = (v) => (v ? esc(v) : REF);
+    const DATE = "\\d{4}\\s*[.\\-\\/년]\\s*\\d{1,2}\\s*[.\\-\\/월]\\s*\\d{1,2}[일.]?\\s*(?:\\([^)]{1,4}\\))?\\s*(?:\\d{1,2}\\s*:\\s*\\d{2})?";
+    const overview = extractBlock(text, ["사업개요", "사업 개요", "공고개요", "사업목적", "지원목적", "지원개요", "공고 개요"], 900)
+      || text.split(/\n+/).filter((l) => l.trim() && !PAGE_NUM_LINE.test(l)).slice(0, 8).join("\n").slice(0, 500);
+    const period = extractBlock(text, ["접수기간", "신청기간", "모집기간", "공모기간", "접수 기간", "신청기한", "접수기한", "신청서 제출기간", "추진일정", "접수 및 신청"], 500)
+      || (text.match(new RegExp(DATE + "\\s*~\\s*" + DATE)) || [null])[0];
+    const money = extractBlock(text, ["지원금액", "지원규모", "지원내용", "정부지원금", "총사업비", "정부출연금", "지원한도", "연구개발비"], 900)
+      || extractMoney(text);
+    return [
+      ["사업개요", val(overview)],
+      ["모집기간", val(period)],
+      ["금액", val(money)],
+      ["참가조건", val(extractBlock(text, ["신청자격", "지원대상", "참여자격", "지원자격", "공모대상", "신청요건", "참여요건", "지원 대상"], 1000))],
+      ["제출서류", val(extractBlock(text, ["제출서류", "신청서류", "구비서류", "제출서식", "제출 서류", "제출방법", "신청방법", "접수방법", "신청 및 접수"], 1000))],
+      ["평가방식", val(extractBlock(text, ["평가방식", "평가방법", "평가절차", "선정방법", "선정절차", "심사방법", "평가기준", "평가 및 선정", "선정 절차", "평가내용", "평가일정", "선정평가"], 1000))],
+      ["사업기간", val(extractBlock(text, ["사업기간", "수행기간", "연구개발기간", "협약기간", "지원기간", "사업 기간"], 400))],
+      ["문의처", val(extractBlock(text, ["문의처", "문의 및", "문의", "담당부서", "연락처"], 600))],
+    ];
+  }
+
   function ensurePdfJs() {
     if (window.pdfjsLib) return Promise.resolve(window.pdfjsLib);
     return new Promise((resolve, reject) => {
@@ -535,7 +609,7 @@
         result.innerHTML = '<p class="empty">이 PDF에서 텍스트를 추출할 수 없습니다.<br>스캔(이미지) 방식의 PDF는 분석할 수 없어요.</p>';
         return;
       }
-      const rows = buildSummaryRows(text, {});
+      const rows = buildPdfSummaryRows(text);
       status.textContent = `분석 완료 — ${file.name} (텍스트 ${text.length.toLocaleString()}자)`;
       result.innerHTML = `
         <div class="pdf-card">

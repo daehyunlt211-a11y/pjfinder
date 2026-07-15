@@ -137,6 +137,7 @@ main { max-width: 1800px; margin: 0 auto; padding: 20px 24px; }
   padding: 24px 26px;
   margin-top: 6px;
 }
+.pdf-card .summary-grid dd { max-height: 320px; overflow-y: auto; line-height: 1.7; }
 .pdf-fulltext { margin-top: 14px; }
 .pdf-fulltext summary { cursor: pointer; color: var(--primary); font-size: .9rem; font-weight: 600; }
 .pdf-fulltext pre {

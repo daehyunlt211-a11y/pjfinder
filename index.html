@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PjFinder — 정부지원과제 파인더</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20260716b">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
 </head>
 <body>
@@ -24,6 +24,7 @@
   <button class="tab active" data-tab="list">📋 공고 목록</button>
   <button class="tab" data-tab="files">📎 첨부파일 검색</button>
   <button class="tab" data-tab="predict">🔮 공고 시기 예측</button>
+  <button class="tab" data-tab="pdf">📄 공고문 분석</button>
 </nav>
 
 <main>
@@ -52,14 +53,7 @@
       <span class="filter-label">출처</span>
     </div>
     <p class="result-count" id="resultCount"></p>
-    <div class="split">
-      <div class="split-left">
-        <div id="cardList" class="card-list"></div>
-      </div>
-      <aside id="detailPanel" class="detail-panel">
-        <div class="panel-placeholder">📋<br>왼쪽 목록에서 공고를 선택하면<br>이곳에 요약이 표시됩니다.</div>
-      </aside>
-    </div>
+    <div id="cardList" class="card-list"></div>
   </section>
 
   <!-- 첨부파일 검색 -->
@@ -85,6 +79,23 @@
     </div>
     <div id="predictList" class="predict-list"></div>
   </section>
+
+  <!-- 공고문 분석 (PDF) -->
+  <section id="tab-pdf" class="tab-panel">
+    <div class="predict-intro">
+      <p>PDF 공고문을 올리면 <strong>사업개요 · 모집기간 · 금액 · 참가조건 · 제출서류 · 평가방식 · 사업기간 · 문의처</strong>
+      8개 항목으로 정리해서 보여줍니다.<br>
+      파일은 서버로 전송되지 않고 브라우저 안에서만 처리됩니다. 텍스트가 포함된 PDF만 분석 가능합니다 (스캔 이미지 PDF 불가).</p>
+    </div>
+    <div id="pdfDrop" class="pdf-drop">
+      <span class="pdf-drop-icon">📄</span>
+      <strong>여기를 클릭하거나 PDF 파일을 끌어다 놓으세요</strong>
+      <span class="pdf-drop-sub">공고문 · 모집요강 등 (.pdf)</span>
+      <input type="file" id="pdfInput" accept=".pdf,application/pdf" hidden>
+    </div>
+    <p id="pdfStatus" class="result-count"></p>
+    <div id="pdfResult"></div>
+  </section>
 </main>
 
 <!-- 상세 모달 -->
@@ -101,6 +112,6 @@
   본 사이트의 예측 정보는 참고용이며 실제 공고 일정과 다를 수 있습니다.</p>
 </footer>
 
-<script src="app.js"></script>
+<script src="app.js?v=20260716b"></script>
 </body>
 </html>

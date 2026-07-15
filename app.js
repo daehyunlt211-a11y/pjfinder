@@ -177,35 +177,77 @@
 
   // ---------- 상세 요약 ----------
   // 공고 본문 텍스트에서 항목별 핵심 문장을 추출 (없으면 null)
+  // '□ 신청자격 : …' 같은 라벨형 줄을 우선하고, 다른 단어에 포함된 키워드(예: 신규지원'대상')는 제외
   function extractSection(text, keywords, maxLen) {
     if (!text) return null;
     maxLen = maxLen || 240;
     const lines = text.split(/\n+/).map((l) => l.trim()).filter(Boolean);
+    const kws = keywords.map((k) => k.replace(/\s/g, ""));
+    let best = null;
     for (let i = 0; i < lines.length; i++) {
-      for (const kw of keywords) {
-        if (lines[i].includes(kw)) {
-          let snippet = lines[i];
-          // 라벨만 있는 줄이면 다음 줄까지 이어붙임
-          if (snippet.replace(/[^가-힣a-zA-Z]/g, "").length <= kw.length + 4 && lines[i + 1]) {
-            snippet += " " + lines[i + 1];
-          }
-          return snippet.length > maxLen ? snippet.slice(0, maxLen) + "…" : snippet;
-        }
+      // 글머리표·번호 제거 후 공백을 없애 위치 비교
+      const stripped = lines[i]
+        .replace(/^[\s□■◇◆○●◦•▶►〈<\[(【*-]+/, "")
+        .replace(/^제?\d+[.)]\s*|^[가-힣][.)]\s*/, "")
+        .replace(/\s+/g, "");
+      for (const kw of kws) {
+        const pos = stripped.indexOf(kw);
+        if (pos === -1) continue;
+        if (pos > 0 && /[가-힣]/.test(stripped[pos - 1])) continue; // 합성어 내부 매칭 제외
+        let score = pos === 0 ? 100 : pos <= 4 ? 60 : 20;
+        const after = stripped.slice(pos + kw.length, pos + kw.length + 2);
+        if (after.startsWith(":") || after.startsWith("：")) score += 30; // '키워드 :' 라벨형
+        if (!best || score > best.score) best = { i, score };
       }
     }
-    return null;
+    if (!best) return null;
+    let snippet = lines[best.i];
+    let j = best.i;
+    // 라벨만 있는 짧은 줄이면 다음 줄들을 이어붙임 (최대 3줄)
+    while ((snippet.length < 30 || /[:：]\s*$/.test(snippet)) && j + 1 < lines.length && j - best.i < 3) {
+      j += 1;
+      snippet += " " + lines[j];
+    }
+    return snippet.length > maxLen ? snippet.slice(0, maxLen) + "…" : snippet;
   }
 
   function extractMoney(text) {
-    const bykw = extractSection(text, ["지원금액", "지원규모", "지원한도", "정부지원", "총사업비", "사업비", "지원 규모"]);
-    if (bykw) return bykw;
+    const bykw = extractSection(text, ["지원금액", "지원규모", "지원한도", "정부지원금", "총사업비", "총 사업비", "정부출연금", "지원내용"]);
+    // 키워드 줄에 실제 숫자가 있으면 채택
+    if (bykw && /\d/.test(bykw)) return bykw;
     if (!text) return null;
     const lines = text.split(/\n+/).map((l) => l.trim());
-    const hits = lines.filter((l) => /\d[\d,.]*\s*(억|백만|천만|백만원|만)\s*원|\d[\d,.]*\s*억/.test(l)).slice(0, 2);
-    return hits.length ? hits.join(" / ").slice(0, 240) : null;
+    const hits = lines.filter((l) =>
+      /(\d[\d,.]*\s*(억|백만|천만|만)\s*원|\d[\d,.]*\s*억)/.test(l) && /지원|사업비|출연|보조|한도|이내/.test(l)).slice(0, 2);
+    if (hits.length) return hits.join(" / ").slice(0, 240);
+    return bykw || null;
   }
 
   const REF = '<span class="ref-note">공고 원문·첨부파일에서 확인</span>';
+
+  // 텍스트에서 8개 항목을 추출해 [라벨, HTML값] 배열 생성 (상세보기 + PDF 분석 공용)
+  function buildSummaryRows(text, extras) {
+    extras = extras || {};
+    const val = (v) => (v ? esc(v) : REF); // 값이 없으면 '원문 참조' 안내
+    const DATE = "\\d{4}\\s*[.\\-\\/년]\\s*\\d{1,2}\\s*[.\\-\\/월]\\s*\\d{1,2}[일.]?\\s*(?:\\([^)]{1,4}\\))?\\s*(?:\\d{1,2}\\s*:\\s*\\d{2})?";
+    const overview = (extras.overview
+      || extractSection(text, ["사업개요", "사업 개요", "공고개요", "사업목적", "지원목적"], 600)
+      || (text || "").split(/\n+/).slice(0, 4).join(" ").slice(0, 250) // 폴백: 문서 서두(제목·목적)
+      || "").trim();
+    const period = extras.period
+      || extractSection(text, ["접수기간", "신청기간", "모집기간", "공모기간", "접수 기간", "신청 기간"], 200)
+      || (text.match(new RegExp(DATE + "\\s*~\\s*" + DATE)) || [null])[0];
+    return [
+      ["사업개요", val(overview && (overview.length > 600 ? overview.slice(0, 600) + "…" : overview))],
+      ["모집기간", val(period)],
+      ["금액", val(extractMoney(text))],
+      ["참가조건", val(extras.target || extractSection(text, ["지원대상", "신청자격", "참여자격", "지원자격", "참가자격", "공모대상", "신청 자격", "지원 대상"]))],
+      ["제출서류", val(extractSection(text, ["제출서류", "신청서류", "제출 서류", "구비서류", "제출서식", "제출 서식"]))],
+      ["평가방식", val(extractSection(text, ["평가방식", "평가방법", "평가절차", "선정방법", "선정절차", "심사방법", "평가기준", "평가 및 선정", "선정 절차"]))],
+      ["사업기간", val(extractSection(text, ["사업기간", "수행기간", "연구개발기간", "협약기간", "개발기간", "지원기간", "사업 기간"]))],
+      ["문의처", val(extras.contact || extractSection(text, ["문의처", "문의", "연락처", "담당자"]))],
+    ];
+  }
 
   function buildDetailHtml(a) {
     const period = a.applyStart
@@ -215,17 +257,12 @@
     const periodTxt = period + (d !== null ? ` (D-${d === 0 ? "DAY" : d})` : "");
     const text = [a.summary, a.applyMethod].filter(Boolean).join("\n");
     const overview = (a.summary || "").trim();
-    const val = (v) => (v ? esc(v) : REF); // 값이 없으면 '원문 참조' 안내
-    const rows = [
-      ["사업개요", val(overview && (overview.length > 600 ? overview.slice(0, 600) + "…" : overview))],
-      ["모집기간", esc(periodTxt)],
-      ["금액", val(extractMoney(text))],
-      ["참가조건", val(a.target || extractSection(text, ["지원대상", "신청자격", "참여자격", "지원자격", "참가자격", "신청 자격", "지원 대상"]))],
-      ["제출서류", val(extractSection(text, ["제출서류", "신청서류", "제출 서류", "구비서류", "제출서식"]))],
-      ["평가방식", val(extractSection(text, ["평가방식", "평가방법", "평가절차", "선정방법", "선정절차", "심사방법", "평가 및 선정"]))],
-      ["사업기간", val(extractSection(text, ["사업기간", "수행기간", "연구개발기간", "협약기간", "개발기간", "지원기간"]))],
-      ["문의처", val(a.contact || extractSection(text, ["문의처", "문의", "연락처"]))],
-    ];
+    const rows = buildSummaryRows(text, {
+      overview: overview,
+      period: periodTxt,
+      target: a.target,
+      contact: a.contact,
+    });
     const srcName = srcOf(a);
     return `
       <div class="detail-badges">${statusBadge(a)}
@@ -250,22 +287,12 @@
       </div>`;
   }
 
-  function openDetail(id, forceModal) {
+  function openDetail(id) {
     const a = DATA.announcements.find((x) => x.id === id);
     if (!a) return;
-    const html = buildDetailHtml(a);
-    const listTabActive = $("#tab-list").classList.contains("active");
-    const wide = window.matchMedia("(min-width: 960px)").matches;
-    if (!forceModal && listTabActive && wide) {
-      const panel = $("#detailPanel");
-      panel.innerHTML = html;
-      panel.scrollTop = 0;
-      $$("#cardList .card").forEach((c) => c.classList.toggle("selected", c.dataset.id === id));
-    } else {
-      $("#detailContent").innerHTML = html;
-      $("#detailModal").hidden = false;
-      document.body.style.overflow = "hidden";
-    }
+    $("#detailContent").innerHTML = buildDetailHtml(a);
+    $("#detailModal").hidden = false;
+    document.body.style.overflow = "hidden";
   }
 
   function closeDetail() {
@@ -445,6 +472,102 @@
 
   $("#includeSingle").addEventListener("change", renderPredict);
   $("#predictSearchInput").addEventListener("input", renderPredict);
+
+  // ---------- 공고문 분석 (PDF) ----------
+  function ensurePdfJs() {
+    if (window.pdfjsLib) return Promise.resolve(window.pdfjsLib);
+    return new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = "vendor/pdf.min.js";
+      s.onload = () => {
+        window.pdfjsLib.GlobalWorkerOptions.workerSrc = "vendor/pdf.worker.min.js";
+        resolve(window.pdfjsLib);
+      };
+      s.onerror = () => reject(new Error("PDF 분석 라이브러리를 불러오지 못했습니다."));
+      document.head.appendChild(s);
+    });
+  }
+
+  // PDF 텍스트를 y좌표 기준으로 줄 단위 복원
+  async function extractPdfText(file) {
+    const lib = await ensurePdfJs();
+    const buf = await file.arrayBuffer();
+    const pdf = await lib.getDocument({ data: buf }).promise;
+    const pages = [];
+    for (let p = 1; p <= pdf.numPages; p++) {
+      const page = await pdf.getPage(p);
+      const tc = await page.getTextContent();
+      const lines = [];
+      tc.items.forEach((it) => {
+        if (!it.str || !it.str.trim()) return;
+        const y = it.transform[5];
+        let line = lines.find((l) => Math.abs(l.y - y) <= 3);
+        if (!line) {
+          line = { y, items: [] };
+          lines.push(line);
+        }
+        line.items.push({ x: it.transform[4], str: it.str });
+      });
+      const text = lines
+        .sort((a, b) => b.y - a.y)
+        .map((l) => l.items.sort((a, b) => a.x - b.x).map((i) => i.str).join(" ").replace(/\s+/g, " ").trim())
+        .filter(Boolean)
+        .join("\n");
+      pages.push(text);
+      $("#pdfStatus").textContent = `분석 중… (${p}/${pdf.numPages} 페이지)`;
+    }
+    return pages.join("\n");
+  }
+
+  async function analyzePdf(file) {
+    const status = $("#pdfStatus");
+    const result = $("#pdfResult");
+    if (!file || !/\.pdf$/i.test(file.name)) {
+      status.textContent = "PDF 파일만 분석할 수 있습니다.";
+      return;
+    }
+    status.textContent = "PDF를 읽는 중…";
+    result.innerHTML = "";
+    try {
+      const text = await extractPdfText(file);
+      if (!text || text.replace(/\s/g, "").length < 50) {
+        status.textContent = "";
+        result.innerHTML = '<p class="empty">이 PDF에서 텍스트를 추출할 수 없습니다.<br>스캔(이미지) 방식의 PDF는 분석할 수 없어요.</p>';
+        return;
+      }
+      const rows = buildSummaryRows(text, {});
+      status.textContent = `분석 완료 — ${file.name} (텍스트 ${text.length.toLocaleString()}자)`;
+      result.innerHTML = `
+        <div class="pdf-card">
+          <h2 class="detail-title">📄 ${esc(file.name)}</h2>
+          <dl class="summary-grid">
+            ${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}
+          </dl>
+          <details class="pdf-fulltext">
+            <summary>추출된 전체 텍스트 보기</summary>
+            <pre>${esc(text.slice(0, 20000))}${text.length > 20000 ? "\n…(이하 생략)" : ""}</pre>
+          </details>
+          <p class="pdf-note">※ 자동 추출 결과이므로 반드시 원문과 대조해서 확인하세요. 항목이 "원문 참조"로 나오면 공고문 내 표·이미지 형태라 추출하지 못한 경우입니다.</p>
+        </div>`;
+    } catch (err) {
+      status.textContent = "";
+      result.innerHTML = `<p class="empty">분석 실패: ${esc(err.message)}</p>`;
+    }
+  }
+
+  const drop = $("#pdfDrop");
+  drop.addEventListener("click", () => $("#pdfInput").click());
+  $("#pdfInput").addEventListener("change", (e) => {
+    if (e.target.files[0]) analyzePdf(e.target.files[0]);
+  });
+  ["dragover", "dragenter"].forEach((ev) =>
+    drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.add("dragover"); }));
+  ["dragleave", "drop"].forEach((ev) =>
+    drop.addEventListener(ev, (e) => { e.preventDefault(); drop.classList.remove("dragover"); }));
+  drop.addEventListener("drop", (e) => {
+    const f = e.dataTransfer.files && e.dataTransfer.files[0];
+    if (f) analyzePdf(f);
+  });
 
   // ---------- 초기화 ----------
   fetch("data/announcements.json")

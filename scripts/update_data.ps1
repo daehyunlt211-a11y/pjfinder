@@ -33,18 +33,28 @@ Write-Host "[2/4] 기업마당 API에서 공고 수집 중..."
 python scripts/fetch_bizinfo.py 2>&1 | ForEach-Object { "$_" } | Write-Host
 if ($LASTEXITCODE -ne 0) { Fail "기업마당 수집 오류" }
 
-Write-Host "[3/4] KOSMO(스마트공장) 공고 수집 중..."
+Write-Host "[3/5] KOSMO(스마트공장) 공고 수집 중..."
 if (Test-Path (Join-Path $PSScriptRoot "fetch_kosmo.py")) {
     python scripts/fetch_kosmo.py 2>&1 | ForEach-Object { "$_" } | Write-Host
     if ($LASTEXITCODE -ne 0) {
-        # KOSMO는 크롤링이라 사이트 개편 시 깨질 수 있음 — 실패해도 기업마당 데이터는 반영
-        Write-Host "경고: KOSMO 수집 실패 (기업마당 데이터만 반영합니다)" -ForegroundColor Yellow
+        # 크롤링 소스는 사이트 개편 시 깨질 수 있음 — 실패해도 나머지 데이터는 반영
+        Write-Host "경고: KOSMO 수집 실패 (다른 소스 데이터만 반영합니다)" -ForegroundColor Yellow
     }
 } else {
     Write-Host "fetch_kosmo.py 없음 — 건너뜀"
 }
 
-Write-Host "[4/4] 변경사항 업로드..."
+Write-Host "[4/5] IRIS(R&D) 공고 수집 중..."
+if (Test-Path (Join-Path $PSScriptRoot "fetch_iris.py")) {
+    python scripts/fetch_iris.py 2>&1 | ForEach-Object { "$_" } | Write-Host
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "경고: IRIS 수집 실패 (다른 소스 데이터만 반영합니다)" -ForegroundColor Yellow
+    }
+} else {
+    Write-Host "fetch_iris.py 없음 — 건너뜀"
+}
+
+Write-Host "[5/5] 변경사항 업로드..."
 git add data/announcements.json
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {

@@ -9,6 +9,7 @@ data/announcements.json 에 누적 저장하는 스크립트.
 기존 데이터와 병합(공고ID 기준)하므로 매일 실행하면 과거 공고가 계속 누적되고,
 누적된 이력은 웹앱의 '공고 시기 예측' 화면에서 사용된다.
 """
+import html
 import json
 import os
 import re
@@ -31,8 +32,7 @@ def strip_html(text):
     text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
     text = re.sub(r"</p\s*>", "\n", text, flags=re.I)
     text = re.sub(r"<[^>]+>", "", text)
-    text = text.replace("&nbsp;", " ").replace("&amp;", "&")
-    text = text.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"')
+    text = html.unescape(text).replace("\xa0", " ")
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 

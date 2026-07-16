@@ -386,22 +386,24 @@
       const yearly = [...byYear.values()].sort((x, y) => x.d - y.d);
       if (yearly.length < (includeSingle ? 1 : 2)) return;
 
+      const lastYear = yearly[yearly.length - 1].d.getFullYear();
+      // 2년 이상 공고가 없으면 중단된 사업으로 보고 제외 (미래 예측 대상 아님)
+      if (TODAY.getFullYear() - lastYear >= 2) return;
+
       // 평균 공고 시점(연중 일자)
       const avgDoy = Math.round(yearly.reduce((s, e) => {
         const start = new Date(e.d.getFullYear(), 0, 1);
         return s + (e.d - start) / 86400000;
       }, 0) / yearly.length);
 
-      const lastYear = yearly[yearly.length - 1].d.getFullYear();
-      const yearsSinceLast = TODAY.getFullYear() - lastYear;
-      const active = yearsSinceLast <= 1; // 2년 이상 공고가 없으면 중단된 사업으로 추정
-      // 예측일은 항상 오늘 기준 미래(최근 45일 이내 과거까지 허용)로 계산
-      const graceMs = 45 * 86400000;
-      let predYear = lastYear + 1;
+      // 예측일은 항상 오늘 이후(미래)로 계산
+      let predYear = TODAY.getFullYear();
       let predDate = new Date(predYear, 0, 1 + avgDoy);
-      while (TODAY - predDate > graceMs) {
+      predDate.setHours(0, 0, 0, 0);
+      while (predDate < TODAY) {
         predYear += 1;
         predDate = new Date(predYear, 0, 1 + avgDoy);
+        predDate.setHours(0, 0, 0, 0);
       }
 
       preds.push({
@@ -409,14 +411,12 @@
         entries: entries.sort((x, y) => y.d - x.d),
         yearlyCount: yearly.length,
         predDate,
-        active,
         lastYear,
         latest: yearly[yearly.length - 1].a,
       });
     });
 
-    preds.sort((x, y) =>
-      x.active !== y.active ? (x.active ? -1 : 1) : x.predDate - y.predDate);
+    preds.sort((x, y) => x.predDate - y.predDate);
     return preds;
   }
 
@@ -426,50 +426,148 @@
     return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${part}`;
   }
 
+  // 캘린더 상태
+  let calYear, calMonth;      // 현재 표시 중인 연/월
+  let calPreds = [];          // 필터가 적용된 미래 예측 목록
+  let selectedDateKey = null; // 선택된 날짜(YYYY-MM-DD)
+
+  function dateKey(d) {
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+
+  function predsByDate() {
+    const map = new Map();
+    calPreds.forEach((p) => {
+      const k = dateKey(p.predDate);
+      if (!map.has(k)) map.set(k, []);
+      map.get(k).push(p);
+    });
+    return map;
+  }
+
+  function confOf(p) {
+    return p.yearlyCount >= 3 ? ["high", `이력 ${p.yearlyCount}년 · 신뢰도 높음`]
+      : p.yearlyCount === 2 ? ["high", "이력 2년 · 참고용"]
+      : ["low", "이력 1건 · 정확도 낮음"];
+  }
+
   function renderPredict() {
     const includeSingle = $("#includeSingle").checked;
     const q = $("#predictSearchInput").value.trim().toLowerCase();
-    let preds = buildPredictions(includeSingle);
+    calPreds = buildPredictions(includeSingle);
     if (q) {
-      preds = preds.filter((p) =>
+      calPreds = calPreds.filter((p) =>
         q.split(/\s+/).every((w) => p.name.toLowerCase().includes(w)));
     }
-    const list = $("#predictList");
-    if (!preds.length) {
-      list.innerHTML = '<p class="empty">예측할 수 있는 사업이 아직 없습니다.<br>데이터가 누적되면 같은 사업의 과거 공고일을 바탕으로 예측을 제공합니다.</p>';
+
+    if (!calPreds.length) {
+      $("#calTitle").textContent = "";
+      $("#calGrid").innerHTML = "";
+      $("#calJump").hidden = true;
+      $("#predictList").innerHTML =
+        '<p class="empty">앞으로 예상되는 공고가 없습니다.<br>데이터가 누적되면 같은 사업의 과거 공고일을 바탕으로 예측을 제공합니다.</p>';
       return;
     }
-    const MONTHS = ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월", "11월", "12월"];
-    list.innerHTML = preds.map((p) => {
-      const pastMonths = new Set(p.entries.map((e) => e.d.getMonth()));
-      const predMonth = p.predDate.getMonth();
-      const strip = MONTHS.map((m, i) => {
-        const cls = i === predMonth ? "predicted" : pastMonths.has(i) ? "past" : "";
-        return `<div class="month-cell ${cls}">${m}</div>`;
-      }).join("");
-      const conf = !p.active ? ["low", `마지막 공고 ${p.lastYear}년 · 중단 추정`]
-        : p.yearlyCount >= 3 ? ["high", `이력 ${p.yearlyCount}년 · 신뢰도 높음`]
-        : p.yearlyCount === 2 ? ["high", "이력 2년 · 참고용"]
-        : ["low", "이력 1건 · 정확도 낮음"];
-      const when = p.active
-        ? `다음 공고 예상 시기: <strong>${fmtPredict(p.predDate)}</strong>`
-        : `${p.lastYear}년 이후 공고가 없어 재공고 여부가 불확실합니다. (재개 시 ${p.predDate.getMonth() + 1}월경 예상)`;
-      return `<div class="predict-card ${p.active ? "" : "inactive"}">
-        <div class="card-top">
-          <span class="confidence ${conf[0]}">${conf[1]}</span>
-        </div>
-        <h3>${esc(p.name)}</h3>
-        <p class="predict-when">${when}</p>
-        <div class="month-strip">${strip}</div>
-        <div class="predict-history">
-          과거 공고일:
-          <ul>${p.entries.map((e) =>
-            `<li>${fmtDate(e.a.created || e.a.applyStart)} — ${esc(e.a.title)}</li>`).join("")}</ul>
-        </div>
-      </div>`;
-    }).join("");
+
+    // 필터가 바뀌면 가장 이른 예측 달로 이동하고 그 날짜를 자동 선택
+    const earliest = calPreds.reduce((m, p) => (p.predDate < m ? p.predDate : m), calPreds[0].predDate);
+    calYear = earliest.getFullYear();
+    calMonth = earliest.getMonth();
+    selectedDateKey = dateKey(earliest);
+    renderCalendar();
+    renderPredictList(predsByDate().get(selectedDateKey), selectedDateKey);
   }
 
+  const WEEK = ["일", "월", "화", "수", "목", "금", "토"];
+
+  function renderCalendar() {
+    const byDate = predsByDate();
+    $("#calTitle").textContent = `${calYear}년 ${calMonth + 1}월`;
+
+    const monthCount = calPreds.filter((p) =>
+      p.predDate.getFullYear() === calYear && p.predDate.getMonth() === calMonth).length;
+
+    const startDay = new Date(calYear, calMonth, 1).getDay();
+    const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+    let html = WEEK.map((w, i) =>
+      `<div class="cal-dow ${i === 0 ? "sun" : i === 6 ? "sat" : ""}">${w}</div>`).join("");
+    for (let i = 0; i < startDay; i++) html += '<div class="cal-cell empty"></div>';
+    const todayKey = dateKey(TODAY);
+    for (let d = 1; d <= daysInMonth; d++) {
+      const k = `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+      const items = byDate.get(k) || [];
+      const dow = new Date(calYear, calMonth, d).getDay();
+      const cls = ["cal-cell"];
+      if (items.length) cls.push("has-pred");
+      if (k === todayKey) cls.push("today");
+      if (k === selectedDateKey) cls.push("selected");
+      html += `<div class="${cls.join(" ")}" data-date="${k}">
+        <span class="cal-day ${dow === 0 ? "sun" : dow === 6 ? "sat" : ""}">${d}</span>
+        ${items.length ? `<span class="cal-badge">${items.length}</span>` : ""}
+      </div>`;
+    }
+    $("#calGrid").innerHTML = html;
+    $("#calGrid").querySelectorAll(".cal-cell.has-pred").forEach((cell) => {
+      cell.addEventListener("click", () => {
+        selectedDateKey = cell.dataset.date;
+        renderCalendar();
+        renderPredictList(byDate.get(selectedDateKey), selectedDateKey);
+      });
+    });
+
+    // "다음 예측 달로" 버튼: 현재 달에 예측이 없고, 이후에 예측이 있으면 표시
+    const nextPred = calPreds
+      .map((p) => p.predDate)
+      .filter((d) => d.getFullYear() > calYear || (d.getFullYear() === calYear && d.getMonth() > calMonth))
+      .sort((a, b) => a - b)[0];
+    const jump = $("#calJump");
+    if (monthCount === 0 && nextPred) {
+      jump.hidden = false;
+      jump.textContent = `다음 예측: ${nextPred.getFullYear()}년 ${nextPred.getMonth() + 1}월 ▶▶`;
+      jump.onclick = () => {
+        calYear = nextPred.getFullYear();
+        calMonth = nextPred.getMonth();
+        renderCalendar();
+      };
+    } else {
+      jump.hidden = true;
+    }
+  }
+
+  function renderPredictList(items, key) {
+    const list = $("#predictList");
+    if (!items || !items.length) {
+      list.innerHTML = '<p class="predict-hint">📅 달력에서 파란 점(숫자)이 있는 날짜를 클릭하면 그날 예상되는 공고가 여기에 표시됩니다.</p>';
+      return;
+    }
+    const [y, m, d] = key.split("-").map(Number);
+    list.innerHTML =
+      `<h3 class="predict-list-title">📌 ${y}년 ${m}월 ${d}일 예상 공고 ${items.length}건</h3>` +
+      items.map((p) => {
+        const conf = confOf(p);
+        return `<div class="predict-card">
+          <div class="card-top">
+            <span class="confidence ${conf[0]}">${conf[1]}</span>
+          </div>
+          <h3>${esc(p.name)}</h3>
+          <p class="predict-when">예상 시기: <strong>${fmtPredict(p.predDate)}</strong></p>
+          <div class="predict-history">
+            과거 공고일:
+            <ul>${p.entries.map((e) =>
+              `<li>${fmtDate(e.a.created || e.a.applyStart)} — ${esc(e.a.title)}</li>`).join("")}</ul>
+          </div>
+        </div>`;
+      }).join("");
+  }
+
+  $("#calPrev").addEventListener("click", () => {
+    if (--calMonth < 0) { calMonth = 11; calYear--; }
+    renderCalendar();
+  });
+  $("#calNext").addEventListener("click", () => {
+    if (++calMonth > 11) { calMonth = 0; calYear++; }
+    renderCalendar();
+  });
   $("#includeSingle").addEventListener("change", renderPredict);
   $("#predictSearchInput").addEventListener("input", renderPredict);
 

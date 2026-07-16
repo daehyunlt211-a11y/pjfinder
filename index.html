@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PjFinder — 정부지원과제 파인더</title>
-<link rel="stylesheet" href="style.css?v=20260716e">
+<link rel="stylesheet" href="style.css?v=20260716f">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
 </head>
 <body>
@@ -68,14 +68,23 @@
   <!-- 공고 시기 예측 -->
   <section id="tab-predict" class="tab-panel">
     <div class="predict-intro">
-      <p>같은 사업의 과거 공고일 패턴을 분석해 다음 공고가 언제쯤 나올지 예측합니다.
-      데이터가 누적될수록 정확해지며, 실제 공고 시기는 부처 사정에 따라 달라질 수 있습니다.</p>
+      <p>같은 사업의 과거 공고일 패턴을 분석해 <strong>앞으로 나올 공고 시기</strong>를 달력에 표시합니다.
+      파란 점이 있는 날짜를 클릭하면 그날 예상되는 공고 목록을 볼 수 있습니다. 실제 공고 일정은 부처 사정에 따라 달라질 수 있습니다.</p>
       <label class="toggle">
         <input type="checkbox" id="includeSingle"> 공고 이력이 1건뿐인 사업도 포함 (정확도 낮음)
       </label>
     </div>
     <div class="toolbar">
       <input type="search" id="predictSearchInput" placeholder="사업명으로 예측 검색… (예: 상생형, 스마트공장)" autocomplete="off">
+    </div>
+    <div class="calendar-wrap">
+      <div class="cal-header">
+        <button id="calPrev" class="cal-nav" aria-label="이전 달">◀</button>
+        <h3 id="calTitle"></h3>
+        <button id="calNext" class="cal-nav" aria-label="다음 달">▶</button>
+        <button id="calJump" class="cal-jump" hidden>다음 예측 달로 ▶▶</button>
+      </div>
+      <div id="calGrid" class="cal-grid"></div>
     </div>
     <div id="predictList" class="predict-list"></div>
   </section>
@@ -112,6 +121,6 @@
   본 사이트의 예측 정보는 참고용이며 실제 공고 일정과 다를 수 있습니다.</p>
 </footer>
 
-<script src="app.js?v=20260716e"></script>
+<script src="app.js?v=20260716f"></script>
 </body>
 </html>

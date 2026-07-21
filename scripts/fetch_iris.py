@@ -25,9 +25,11 @@ LIST_URL = BASE + "/contents/retrieveBsnsAncmBtinSituList.do"
 DETAIL_URL = BASE + "/contents/retrieveBsnsAncmView.do?ancmId={}"
 DOWNLOAD_URL = BASE + "/comm/file/fileDownload.do?atchDocId={}&atchFileId={}"
 
-HISTORY_DAYS = int(os.environ.get("IRIS_HISTORY_DAYS", "30"))    # 마감 공고 수집 범위(최근 N일)
+# 접수예정·마감 공고를 최근 N일(공고일 기준)까지만 수집. 목록 API가 페이지당 ~12초로
+# 느리기 때문에, 이 값이 곧 페이지 수 = 수집 속도를 좌우한다. (백필은 IRIS_BACKFILL=1)
+HISTORY_DAYS = int(os.environ.get("IRIS_HISTORY_DAYS", "45"))
 DETAIL_DAYS = int(os.environ.get("IRIS_DETAIL_DAYS", "180"))     # 상세 수집 대상 기간
-MAX_DETAILS = int(os.environ.get("IRIS_MAX_DETAILS", "400"))     # 회당 상세 수집 상한(매일 조금씩 보충)
+MAX_DETAILS = int(os.environ.get("IRIS_MAX_DETAILS", "400"))     # 회당 상세 수집 상한
 BACKFILL = os.environ.get("IRIS_BACKFILL", "") == "1"
 DELAY = 0.15
 
@@ -137,13 +139,17 @@ def collect(prg, existing, cutoff, incremental_stop):
         stop = False
         for it in items:
             created = norm_date(it.get("ancmDe")) or ""
-            if prg == "ancmEnd" and created and created < cutoff:
+            # 목록은 공고일 최신순 → cutoff보다 오래된 공고를 만나면 이후는 볼 필요 없음.
+            # 목록 API가 페이지당 ~12초로 매우 느리므로, 페이지 수를 줄이는 것이 속도의 핵심.
+            # 접수중(ancmIng)은 건수가 적어 전체를 보되, 접수예정/마감은 최근 것만.
+            if prg in ("ancmEnd", "ancmPre") and created and created < cutoff:
                 stop = True
                 break
             if incremental_stop and f"IRIS_{it.get('ancmId')}" in existing:
                 known_streak += 1
-                # 연속 30건이 이미 수집된 것이면 이후는 기존 구간으로 판단하고 중단
-                if prg == "ancmEnd" and known_streak >= 30:
+                # 연속 30건이 이미 수집된 것이면 최신 구간을 다 봤다고 보고 중단
+                # (목록은 공고일 최신순이라 새 공고는 앞쪽에 옴 — 모든 탭 공통 적용)
+                if known_streak >= 30:
                     stop = True
                     break
             else:
@@ -175,8 +181,9 @@ def main():
         aid = f"IRIS_{item.get('ancmId')}"
         is_new = aid not in existing
         created = norm_date(item.get("ancmDe")) or ""
-        # 신규이거나, 기존에 상세 없이 저장된 공고를 상한 내에서 보충 수집
-        needs_detail = (is_new or not (existing.get(aid) or {}).get("summary")) \
+        # 신규 공고만 상세 수집 (요약 보충은 IRIS_BACKFILL=1 로 별도 실행)
+        # BACKFILL 모드에서는 요약 없는 기존 공고도 보충 대상에 포함
+        needs_detail = (is_new or (BACKFILL and not (existing.get(aid) or {}).get("summary"))) \
             and created >= detail_cutoff and detailed < MAX_DETAILS
         detail = None
         if needs_detail:

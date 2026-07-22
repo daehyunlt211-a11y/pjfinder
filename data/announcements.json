@@ -1,7 +1,7 @@
 {
  "sample": false,
- "updatedAt": "2026-07-22 09:00:38",
- "source": "기업마당(bizinfo.go.kr) + KOSMO(smart-factory.kr) + IRIS(iris.go.kr)",
+ "updatedAt": "2026-07-22 14:05:03",
+ "source": "기업마당 + KOSMO + IRIS + 에너지공단 + K-Startup + KEITI",
  "announcements": [
   {
    "id": "KOSMO_2026-N-0149_2",
@@ -3151,6 +3151,764 @@
    "source": "KOSMO"
   },
   {
+   "id": "KEA_24609",
+   "title": "2026년도 제로에너지건축물 에너지 최적화 컨설팅 지원사업 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "안녕하십니까, 한국에너지공단 건물에너지처입니다.\n\n제로에너지건축물(ZEB) 인증 취득 예정인 건축물에 대한 에너지최적화컨설팅 및 가이드라인을 제공하는\n\n'2026년 제로에너지건축물 최적화 컨설팅 지원사업'을 다음과 같이 공고하오니 많은 참여 바랍니다.\n\n                                                                     - 다   음 -\n\n \n\n  가. 지원대상 : 기본설계 또는 실시설계, 운영단계의 건축물 중 제로에너지건축물 인증을 취득하고자 하는 건축주\n\n   ※ 컨설팅 지원 후 제로에너지건축물 예비인증 및 본인증을 필수로 취득하여야 하며,\n\n      지원받은 건축물은 우수사례 홍보 및 사례집 제작에 활용됨\n\n  나. 신청기준 : 세부사항은 [첨부] 공고문 참조\n\n    1) (1순위) 자발적 인증대상 또는 의무 인증대상 중 관련 법령에 따른 의무등급보다 상향된 수준으로 ZEB 인증 예정인 건축물\n\n    2) (2순위) 의무 인증대상\n\n  다. 참여방법 : 공고문 내 [붙임1] 신청서 양식 작성 후 사무국*이메일 접수\n\n    * ZEB 최적화 컨설팅 사무국 : 070-4367-6801, zeb@nedlab.co.kr\n\n  라. 지원내용\n\n    1) 제로에너지건축물 에너지 최적화 컨설팅 지원 및 인증 컨설팅 지원\n\n    2) 인증 취득에 따른 인센티브 취득방안 제시\n\n    3) 공사비 최적화 및 에너지자립률 향상 등 최적의 대안 지원\n\n※ 기타 자세한 내용은 공고문을 확인하시기 바랍니다.\n\n \n\n감사합니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[첨부]2026년도제로에너지건축물(ZEB)에너지최적화컨설팅지원사업공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24536&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부]2026년도제로에너지건축물(ZEB)에너지최적화컨설팅지원사업공고.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24536&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KSTARTUP_178574",
+   "title": "ESG × AI 챌린지 해커톤 참가자 모집",
+   "agency": "중소벤처기업부",
+   "org": "경기창조경제혁신센터",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "ESG × AI 챌린지 해커톤 참가자 모집",
+   "target": "",
+   "applyStart": "2026-07-15",
+   "applyEnd": "2026-07-27",
+   "applyText": "2026-07-15 ~ 2026-07-27",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178574",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178596",
+   "title": "2026년 지역창업특화지원사업(1인) 제3차 신규 입주기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "용인시산업진흥원",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "지역창업특화지원",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-08-05",
+   "applyText": "2026-07-16 ~ 2026-08-05",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178596",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178587",
+   "title": "2026 성공 창업 스쿨 모집 공고 (재도전 과정)",
+   "agency": "중소벤처기업부",
+   "org": "강동구 청년해냄센터",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "2026 성공 창업 스쿨 모집 공고 (재도전 과정)",
+   "target": "",
+   "applyStart": "2026-07-15",
+   "applyEnd": "2026-08-03",
+   "applyText": "2026-07-15 ~ 2026-08-03",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178587",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178583",
+   "title": "2026 연구 아이디어 기술사업화 챌린지 참가자 모집 공고 연장",
+   "agency": "중소벤처기업부",
+   "org": "한국보건산업진흥원",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "2026 연구 아이디어 기술사업화 챌린지",
+   "target": "",
+   "applyStart": "2026-07-15",
+   "applyEnd": "2026-08-05",
+   "applyText": "2026-07-15 ~ 2026-08-05",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178583",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178619",
+   "title": "강원 바이오·헬스케어 산업 AI 대전환 지원사업(연장)",
+   "agency": "중소벤처기업부",
+   "org": "재단법인 강원창조경제혁신센터",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "강원 바이오·헬스케어 산업 AI 대전환 지원사업",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178619",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178581",
+   "title": "「2026년 경기 레벨업 프로그램(하반기)」 지원기업 통합 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "경기콘텐츠진흥원",
+   "field": "창업",
+   "subField": "정책자금",
+   "summary": "「2026년 경기 레벨업 프로그램(하반기)」 지원기업 통합 모집공고",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-08-10",
+   "applyText": "2026-07-16 ~ 2026-08-10",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178581",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "정책자금"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178606",
+   "title": "2026 대구특구 글로벌 딥테크 지원사업 DEEP-BOUND 참가자 모집",
+   "agency": "중소벤처기업부",
+   "org": "와이앤아처(주)",
+   "field": "창업",
+   "subField": "글로벌",
+   "summary": "2026 대구특구 글로벌 딥테크 지원사업 DEEP-BOUND 참가자 모집",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-08-10",
+   "applyText": "2026-07-16 ~ 2026-08-10",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178606",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "글로벌"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178610",
+   "title": "2026년 제4회 창업기업성장지원센터(이노플러스 스테이지) 신규 입주기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "(재)광주테크노파크",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "2026년 제4회 창업기업성장지원센터(이노플러스 스테이지) 신규 입주기업 모집공고",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-21",
+   "applyText": "2026-07-20 ~ 2026-08-21",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178610",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178601",
+   "title": "1인기업 & 예비·초기창업자 환영! 강동50+센터 공유사무실 입주자 추가모집(~26.7.31.(금))",
+   "agency": "중소벤처기업부",
+   "org": "강동구청",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "강동50+센터 공유사무실 입주자 추가모집",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178601",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178603",
+   "title": "예비창업패키지 & 모두의 창업 완벽 대비! 「1:1 맞춤형 창업 멘토링」 참가자 모집",
+   "agency": "중소벤처기업부",
+   "org": "강남구여성능력개발센터",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "예비창업패키지 & 모두의 창업 완벽 대비! 「1:1 맞춤형 창업 멘토링」 참가자 모집",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-08-23",
+   "applyText": "2026-07-16 ~ 2026-08-23",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178603",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178611",
+   "title": "[충남] 43기 IP창업교육 여성 특화 과정 교육생 모집 공고",
+   "agency": "중소벤처기업부",
+   "org": "충남지식재산센터(충남북부상공회의소)",
+   "field": "창업",
+   "subField": "창업교육",
+   "summary": "IP 디딤돌 프로그램",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178611",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "창업교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178612",
+   "title": "2026년 진주시 스타트업 디지털마케팅 참여기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "(재)경남창조경제혁신센터",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "2026년 진주시 스타트업 디지털마케팅 참여기업 모집공고",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178612",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178599",
+   "title": "2026년 세종특별자치시 나성동 AI융합창업보육센터 2차 입주기업(인큐베이팅룸) 모집 공고",
+   "agency": "중소벤처기업부",
+   "org": "세종창조경제혁신센터",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "2026년 세종특별자치시 나성동 AI융합창업보육센터2차 입주기업(인큐베이팅룸) 모집 공고",
+   "target": "",
+   "applyStart": "2026-07-13",
+   "applyEnd": "2026-07-30",
+   "applyText": "2026-07-13 ~ 2026-07-30",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178599",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178617",
+   "title": "중앙대-금천구 창업 협력공간(WB가산타워 7층) 입주자 모집 공고(6차)",
+   "agency": "중소벤처기업부",
+   "org": "중앙대학교 산학협력단",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "중앙대-금천구 창업 협력공간(WB가산타워 7층) 입주자 모집 공고",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-02",
+   "applyText": "2026-07-20 ~ 2026-08-02",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178617",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178598",
+   "title": "2026년 대구 콘텐츠 스케일업 액셀러레이팅 프로그램 지원사업 참여기업 모집 공고",
+   "agency": "중소벤처기업부",
+   "org": "대구디지털혁신진흥원",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "2026년 대구 콘텐츠 스케일업 액셀러레이팅 프로그램 지원사업 참여기업 모집 공고",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-13",
+   "applyText": "2026-07-20 ~ 2026-08-13",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178598",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178609",
+   "title": "[공고 제2026-075호] 2026 Tri Nexus 「AI 딥테크」 오픈이노베이션 참여기업(스타트업) 모집",
+   "agency": "중소벤처기업부",
+   "org": "충남창조경제혁신센터",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "2026 Tri Nexus AI 딥테크 오픈이노베이션 참여기업(스타트업) 모집",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-10",
+   "applyText": "2026-07-20 ~ 2026-08-10",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178609",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178616",
+   "title": "2026년 서울창업허브 창동-동아사이언스 오픈이노베이션 참가기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "(주)오픈놀",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "서울창업허브 창동 운영",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178616",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178615",
+   "title": "디지털콘텐츠기업 성장지원센터 입주기업 모집 공고(2026-1차)",
+   "agency": "중소벤처기업부",
+   "org": "(사)차세대융합콘텐츠산업협회",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "디지털콘텐츠기업 성장지원센터 입주기업 모집 공고(2026-1차)",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-21",
+   "applyText": "2026-07-20 ~ 2026-08-21",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178615",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178614",
+   "title": "[글로벌] 2026 Bio-Health Global Bridge: AHN 프로그램 참가기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "서울창조경제혁신센터",
+   "field": "창업",
+   "subField": "글로벌",
+   "summary": "[글로벌] 2026 Bio-Health Global Bridge: AHN 프로그램 참가기업 모집",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-06",
+   "applyText": "2026-07-20 ~ 2026-08-06",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178614",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "글로벌"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178618",
+   "title": "2026년 성북구 중장년 기술창업센터 입주기업 모집공고(2차)",
+   "agency": "중소벤처기업부",
+   "org": "한성대학교산학협력단",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "지역창업특화지원",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-07",
+   "applyText": "2026-07-20 ~ 2026-08-07",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178618",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178623",
+   "title": "2026년 7월 KICXUP 서울 입주기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "씨엔티테크(주)",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "2026년 7월 KICXUP_서울 _입주기업_모집공고",
+   "target": "",
+   "applyStart": "2026-07-21",
+   "applyEnd": "2026-08-07",
+   "applyText": "2026-07-21 ~ 2026-08-07",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178623",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178594",
+   "title": "2026년 2차 충남대학교 창업보육센터 입주기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "충남대학교 창업지원단",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "창업보육센터 지원",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178594",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178622",
+   "title": "2026년 성장플러스 창업사업화 지원사업 참여기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "달구벌여성인력개발센터",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "2026년 성장플러스 창업사업화 지원사업 참여기업 모집",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-09-03",
+   "applyText": "2026-07-20 ~ 2026-09-03",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178622",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178621",
+   "title": "2026 공공기술 활용 딥테크 창업 경진대회",
+   "agency": "중소벤처기업부",
+   "org": "대전창조경제혁신센터",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "2026 공공기술 활용 딥테크 창업 경진대회",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-14",
+   "applyText": "2026-07-20 ~ 2026-08-14",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178621",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178604",
+   "title": "2026 창조경제혁신센터 글로벌오픈이노베이션 프로그램 참여기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "경기창조경제혁신센터",
+   "field": "창업",
+   "subField": "글로벌",
+   "summary": "2026 창조경제혁신센터 글로벌오픈이노베이션 프로그램 참여기업 모집공고",
+   "target": "",
+   "applyStart": "2026-07-17",
+   "applyEnd": "2026-07-27",
+   "applyText": "2026-07-17 ~ 2026-07-27",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178604",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "글로벌"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178628",
+   "title": "[경희대학교 캠퍼스타운] 2026 경희대학교 캠퍼스타운 캠퍼서핑챌린지 캠퍼 8기 특별형 선발 경진대회",
+   "agency": "중소벤처기업부",
+   "org": "경희대학교 창업보육센터(서울)",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "서울캠퍼스타운사업",
+   "target": "",
+   "applyStart": "2026-07-21",
+   "applyEnd": "2026-07-22",
+   "applyText": "2026-07-21 ~ 2026-07-22",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178628",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178634",
+   "title": "2026년 제3회 ICT콤플렉스 스타트업 투자상담회 참가기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "한국정보방송통신대연합",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "2026년 제3회 ICT콤플렉스 스타트업 투자상담회 참가기업 모집",
+   "target": "",
+   "applyStart": "2026-07-21",
+   "applyEnd": "2026-08-12",
+   "applyText": "2026-07-21 ~ 2026-08-12",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178634",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178620",
+   "title": "2026년 투자유치설명회 및 컨설팅 지원사업 공고",
+   "agency": "중소벤처기업부",
+   "org": "한국발명진흥회",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "2026년 투자유치설명회 및 컨설팅 지원사업 공고",
+   "target": "",
+   "applyStart": "2026-07-15",
+   "applyEnd": "2026-07-30",
+   "applyText": "2026-07-15 ~ 2026-07-30",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178620",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178426",
+   "title": "「다시 쓰는 성공기」 제14회 재도전 사례 공모전 참가 모집 공고",
+   "agency": "중소벤처기업부",
+   "org": "창업진흥원",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "재도전성공패키지",
+   "target": "",
+   "applyStart": "2026-07-21",
+   "applyEnd": "2026-08-20",
+   "applyText": "2026-07-21 ~ 2026-08-20",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178426",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-07-21",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
    "id": "KOSMO_2026-N-0145_2",
    "title": "[한국남동발전] 2026 대중소 상생형 스마트공장 구축 사업_기초",
    "agency": "중소벤처기업부",
@@ -5301,6 +6059,139 @@
    "created": "2026-07-20",
    "views": 0,
    "source": "KOSMO"
+  },
+  {
+   "id": "KEA_24607",
+   "title": "재생에너지 자가설비 인증서(REGO) 발급ㆍ거래 시범사업 공고 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "신ㆍ재생에너지센터 공고 제2026 - 24호재생에너지 자가소비용 발전설비 인증서(REGO) 발급ㆍ거래제도 도입을 위한 시범사업을 첨부와 같이 안내드립니다.2026.7.20한국에너지공단 신ㆍ재생에너지센터소장\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "재생에너지자가설비인증서(REGO)발급·거래시범사업공고(양식).hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24535&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "재생에너지자가설비인증서(REGO)발급·거래시범사업공고.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24535&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-20",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KSTARTUP_178605",
+   "title": "「민관협력 오픈이노베이션 지원」2026년 제2차 민간 선별추천형(Bottom-Up) 창업기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "창업진흥원",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "민관협력 오픈이노베이션 지원사업",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-07-31",
+   "applyText": "2026-07-20 ~ 2026-07-31",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178605",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-07-20",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178592",
+   "title": "2026 콘텐츠 스타트업 글로벌 엑셀러레이팅 프로그램(론치패드 UAE, 싱가포르) 참가기업 추가 모집",
+   "agency": "중소벤처기업부",
+   "org": "한국콘텐츠진흥원",
+   "field": "창업",
+   "subField": "판로ㆍ해외진출",
+   "summary": "2026 콘텐츠 스타트업 글로벌 엑셀러레이팅 프로그램(론치패드) 참가기업 추가 모집",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-07-27",
+   "applyText": "2026-07-16 ~ 2026-07-27",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178592",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "판로ㆍ해외진출"
+   ],
+   "created": "2026-07-20",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178595",
+   "title": "2026. 마을·청년 공유 플랫폼 하반기 예비창업팀 추가 모집",
+   "agency": "중소벤처기업부",
+   "org": "중원유스센터(중원청소년수련관)",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "마을𐩐청년 공유 플랫폼",
+   "target": "",
+   "applyStart": "2026-07-20",
+   "applyEnd": "2026-08-03",
+   "applyText": "2026-07-20 ~ 2026-08-03",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178595",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-07-20",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_178585",
+   "title": "[국민대학교 캠퍼스타운사업단] 2026 지역 현안 문제해결 연계 \"성북 ON 창업교육 프로그램\" 참가자 모집 (~7/29)",
+   "agency": "중소벤처기업부",
+   "org": "비전웍스벤처스",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "[국민대학교 캠퍼스타운사업단] 2026 지역 현안 문제해결 연계 \"성북 ON 창업교육 프로그램\" 참가자 모집 (~7/29)",
+   "target": "",
+   "applyStart": "2026-07-16",
+   "applyEnd": "2026-07-29",
+   "applyText": "2026-07-16 ~ 2026-07-29",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=178585",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-07-20",
+   "views": 0,
+   "source": "K-Startup"
   },
   {
    "id": "PBLN_000000000124463",
@@ -8438,6 +9329,39 @@
    "created": "2026-07-16",
    "views": 0,
    "source": "IRIS"
+  },
+  {
+   "id": "KEA_24606",
+   "title": "미국 RE+2026 전시회 한국관 참가 기업 모집 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "금번 미국 최대 재생에너지 전문전시회인 RE+2026(라스베가스)에 한국관을 구성하여\n\n   태양광 및 재생에너지 관련 기업들의 해외마케팅과 수출판로 개척을 지원하고자 관련하여 안내드립니다.\n\n   \n\n   [미국 RE+2026 전시회 한국관 참가 기업 모집 안내]\n\n   \n\n   o 전시일정 : 2026년 11월 17일(화) ~ 11월 19일(목), 3일간\n\n   o 개최장소 :미국 라스베가스 Las Vegas Convention Center\n\n   o 지원사항 :부스임차료. 장치비, 해상운송보관비 지원\n\n                   * 기업 규모에 따라 참가비용 차등지원\n\n                     (중소기업62% 이내, 중견기업 40% 이내)\n\n                   * (무료 지원 사항) 장치비, 해외바이어 초청, 홍보 등\n\n                   * 운송비의 경우, 최대 지원금액 제한 있음\n\n                   * 출장자 여행경비 및 제제비, 전시품 반송 비용 등은 업체부담\n\n   \n\n   o 제출 서류 : 사업 신청서(양식 별첨)\n\n                     중소중견기업 확인서\n\n                     사업자등록증 사본\n\n                     *자세한 사항은 첨부된 파일 참고 부탁드립니다.\n\n   \n\n   o 신청기한 : 공고일 ~ 2026년 7월 31일 (금) 17:00까지\n\n   \n\n   o 문의처 및 서류 제출처 : 한국태양광산업협회 김윤희 대리(kyh789@kopia.asia/070-5088-6362)\n\n   \n\n   많은 관심과 참여 부탁드리며,\n\n   참가를 희망하시는 기업께서는 첨부파일을 참고하시어 회신 부탁드립니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "01.참가업체모집공고문RE+2026.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24534&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "(첨부서식)미국RE+2026한국관단체참가지원사업참가신청서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24534&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-16",
+   "views": 0,
+   "source": "에너지공단"
   },
   {
    "id": "PBLN_000000000124403",
@@ -13519,6 +14443,77 @@
    "source": "KOSMO"
   },
   {
+   "id": "KEA_24603",
+   "title": "제2차 2026년 분산에너지 국제인증 지원사업 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "국내 분산에너지 산업의 성장과 기업의 해외진출 지원을 위해,\n\n   '제2차 2026년 분산에너지 국제인증 지원사업'의 지원방법, 선정절차 등의 지원내용을 다음과 같이 공고합니다.\n\n   \n\n                                                   - 다    음 - \n\n    \n\n   □ 신청기간\n\n   \n\n    ㅇ 사업공모 : 2026. 7. 14.(화) ~ 8. 14.(금) \n\n    ㅇ 접수기간 : 2026. 7. 14.(화) ~ 8. 14.(금) 16시까지\n\n  \n\n   □ 신청방법\n\n   \n\n    ㅇ 전자파일(PDF) 형태로 e-mail (der@energy.or.kr) 제출 \n\n      * 사업계획서(요약서 포함)를 제외한 모든 제출서류는 원본(원본대조 필)을 스캔하여 수정이 불가능한 파일로 첨부\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[첨부1]제2차2026년도분산에너지국제인증지원사업공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24533&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2]2026년도분산에너지국제인증지원사업운용규정제정.hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24533&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[첨부3](별지서식제1~4호)분산에너지국제인증지원사업신청관련서류일체.hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24533&fileSeq=3&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-14",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40720",
+   "title": "'26-3차 재활용환경성평가 전문교육 수강생 모집 안내",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "'26-3차 재활용환경성평가 전문인력 양성과정(전문교육) 수강생 모집 안내 1. 교육목적 O 재활용환경성평가 제도에 따라 폐기물 재활용 환경성 평가를 수행하기 위",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40720",
+   "attachments": [
+    {
+     "name": "붙임1._26-3차_재활용환경성평가_전문교육_수강생_모집_안내문.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40720&cbIdx=277&streFileNm=e2a9010a-66ae-4f91-8aa9-b1f1f32f9815&fileNo=5"
+    },
+    {
+     "name": "붙임2._2026년도_재활용환경성평가_교육과정_포스터.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40720&cbIdx=277&streFileNm=fd959509-b27f-4716-8e57-3730b0ca138c&fileNo=6"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-14",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
    "id": "PBLN_000000000124308",
    "title": "2026년 울산시ㆍ경주시ㆍ포항시 해오름동맹 첨단이차전지 연대협력사업 기업지원 수혜기업 상시 모집 공고",
    "agency": "울산광역시",
@@ -15671,6 +16666,77 @@
    "created": "2026-07-13",
    "views": 0,
    "source": "IRIS"
+  },
+  {
+   "id": "KEA_24602",
+   "title": "2026 기후산업국제박람회(WCE) 청년 앰버서더 모집 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "안녕하세요. 한국에너지공단 기후정책처에서 안내드립니다.\n\n \n\n2026 기후산업국제박람회 청년 앰버서더를 다음과 같이 모집하오니 많은 지원 바랍니다.\n\n   \n\n   \n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "청년앰버서더.png",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24532&fileSeq=1&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-13",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40715",
+   "title": "「2026년 녹색자산유동화증권 이차보전 지원사업」(신보4차) 공고",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40715",
+   "attachments": [
+    {
+     "name": "(공고문)2026년_녹색자산유동화증권_발행(신보4차)_지원사업_공고.hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40715&cbIdx=277&streFileNm=a168fc88-85dd-4e8a-9a0c-2753e53f06f3&fileNo=1"
+    },
+    {
+     "name": "붙임1._사업_안내서.hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40715&cbIdx=277&streFileNm=e3fb5bca-ce64-40b0-95c4-fd74e7ccac64&fileNo=2"
+    },
+    {
+     "name": "붙임2._녹색자산유동화증권__발행_지원사업_운영규정.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40715&cbIdx=277&streFileNm=78ed68b8-9eab-4039-8f47-b35beee0ac4d&fileNo=3"
+    },
+    {
+     "name": "붙임3._한국형_녹색분류체계_가이드라인.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40715&cbIdx=277&streFileNm=ecc25db4-2ed5-4e56-a7e2-29f5ea0f7266&fileNo=4"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-13",
+   "views": 0,
+   "source": "KEITI"
   },
   {
    "id": "PBLN_000000000124264",
@@ -19151,6 +20217,75 @@
    "created": "2026-07-10",
    "views": 0,
    "source": "IRIS"
+  },
+  {
+   "id": "KEA_24601",
+   "title": "2026년 EV 연비경진대회 개최 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "안녕하세요 한국에너지공단 수송에너지처에서 안내드립니다.\n\n \n\n한국에너지공단은 친환경차 정책지원·연구·시험평가 등을 통해 친환경차 보급 확산에 기여하고 있으며,\n\n친환경차의 우수한 효용성 및 기술성 등을 홍보하고 미래의 신규 인력들이 전문적이고 실무적인 지식을 획득할 수 있도록 노력하고 있습니다.\n\n   \n\n위와 관련하여 '제3회 EV 연비경진대회' 공고문 및 제출서류 등을 첨부와 같이 안내하오니 열정이 넘치고 자동차를 사랑하는 많은 분들의 참여와 관심을 부탁드립니다.\n\n \n\n                   - 다  음  -\n\n \n\n1. 대회명칭 : 제3회 EV 연비경진대회\n\n2. 접수기간 : '26.7.1.(수) 09:00 ~ 7.31.(금) 18:00\n\n3. 참가자격 : 대학생 스마트 e-모빌리티 경진대회 참가팀\n\n  - 대학생 스마트 e-모빌리티 경진대회와 병행하여 운영\n\n4. 참가방법 : 한국자동차공학회 홈페이지(www.ksae.org)로 접수\n\n5. 제출서류 \n\n  - 참가팀 소개자료, 개인정보 수집·이용 동의서, 지도교수 서약서\n\n  - 파일명 [팀명]으로 하여 제출\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "1.제3회EV연비경진대회공고문.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24531&fileSeq=11&boardMngNo=2"
+    },
+    {
+     "name": "2.참가팀소개양식.pptx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24531&fileSeq=12&boardMngNo=2"
+    },
+    {
+     "name": "3.개인정보수집·이용동의서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24531&fileSeq=13&boardMngNo=2"
+    },
+    {
+     "name": "4.지도교수서약서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24531&fileSeq=14&boardMngNo=2"
+    },
+    {
+     "name": "5.제3회EV연비경진대회포스터.jpg",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24531&fileSeq=15&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-10",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEA_24600",
+   "title": "2026년 기후테크 해외진출 협의체 참여기업 모집 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "2026년 기후테크 해외진출 협의체 참여기업을 모집 안내드리며, 많은 관심과 참여 부탁드립니다.\n\n \n\n   \n\n \n\n   \n\n \n\n   \n\n \n\n   \n\n \n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-10",
+   "views": 0,
+   "source": "에너지공단"
   },
   {
    "id": "PBLN_000000000124201",
@@ -24943,6 +26078,144 @@
    "source": "IRIS"
   },
   {
+   "id": "KEA_24598",
+   "title": "인천지역 2026년 미래세대 대상 탄소다이어트 교육활동 사업 참여기관 모집공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "인천지역 미래세대 탄소중립 인재 육성을 위한 \n\n'2026년 미래세대 대상 탄소다이어트 교육활동 사업'에 참여할 기관을\n\n첨부와 같이 공모하오니 많은 참여 바랍니다.\n\n첨부된 모든 자료의 내용을 반드시 숙지하신 후 신청하시기 바랍니다.\n\n \n\n※ 관련문의 : 한국에너지공단 인천지역본부 권은경 과장(032-249-1934)\n\n \n\n감사합니다. \n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "(공고문)2026년미래세대대상탄소다이어트교육활동사업공고문.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24529&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "(신청서)2026년미래세대대상탄소다이어트교육활동사업신청서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24529&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "(집행지침)2026년미래세대대상탄소다이어트교육활동사업집행지침.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24529&fileSeq=3&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-08",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEA_24597",
+   "title": "2026년 일본 Smart Energy Week 전시회 단체참가 기업 모집 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "한국에너지공단은 국내 재생에너지 기업의 해외 시장 진출을 위하여 일본 「Smart Energy Week 2026」 전시회에 한국관을 구성하여 참가할 예정입니다. 아래 사항을 확인하신 후 관심있는 기업들의 많은 참여 부탁드립니다. \n\nㅇ 전시회 개요\n\n - 전시회명 : Smart Energy Week 2026\n\n - 전시일정 : 2026년 9월 9일(수)~9월 11일(금)\n\n - 전시장소 : 일본 치바 마쿠하리 메쎄(Makuhari Messe) \n\nㅇ 지원사항 \n\n - 지원대상 : 국내 신재생에너지 중소, 중견기업(태양광, 풍력, 수소, 바이오, ESS 등)\n\n - 전시회 부스 임차료 : 총 비용의 중소기업 55%, 중견기업 32% 무상지원 \n\n - 운송비(해상) : 이용 시 신청부스, 전시 제품(무게, 부피 등)을 고려하여 지원금 최대 반영\n\n - 해외바이어 초청, 통역, 홍보 등 무상지원\n\n  * 여비, 체재비 미지원\n\nㅇ 신청기간 : ~2026년 7월 17일(금)까지 (*선착순 마감)\n\nㅇ 신청방법 : 첨부된 신청서 작성 후 제출서류와 함께 담당자에게 이메일 접수 \n\n   * 사업자등록증, 중소·중견기업확인서 각 1부.\n\nㅇ 담당자 : 한국신재생에너지협회 정현재 연구원(greatj123@knrea.or.kr, 02-529-4054)\n\n               한국신재생에너지협회 박진경 과장(parkjk@knrea.or.kr, 02-529-4053) \n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[KNREA]SmartEnergyWeek2026안내문.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24528&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[신청서]일본SmartEnergyWeek2026참가신청서(기업명).hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24528&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[신청서]일본SmartE.Week2026한국관참가신청서(기업명).rtf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24528&fileSeq=3&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-08",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40695",
+   "title": "'2026년 환경일자리 으뜸기업 선정·지원사업' 모집공고(~7.31. 18시(금))",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "2026년 환경일자리 으뜸기업 선정 공고 청년 일자리 및 신규 일자리를 활발히 창출하는 환경기업을 발굴·지원하고 사회전반에 일자리 창출 분위기를 확산하기",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40695",
+   "attachments": [
+    {
+     "name": "2026년_환경일자리_으뜸기업_선정_공고문(260709).hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40695&cbIdx=277&streFileNm=d9ce8b31-3194-49db-8590-8c1de1e790b1&fileNo=1"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-08",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
+   "id": "KEITI_40691",
+   "title": "2026년 취업준비생 대상 ESG 기초과정(2차) 교육생 모집 공고",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "한국환경산업기술원 공고 제2026-113호 2026년 취업준비생 대상 ESG 기초과정(2차) 교육생 모집 공고 ESG",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40691",
+   "attachments": [
+    {
+     "name": "붙임1._'26년_취업준비생_대상_ESG_기초과정(2차)_교육생_모집공고.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40691&cbIdx=277&streFileNm=36ad6986-96e7-40f1-bfdf-ce5540d54c01&fileNo=1"
+    },
+    {
+     "name": "붙임2._취준생_대상_기초과정(2회)_포스터.jpg",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40691&cbIdx=277&streFileNm=d338eff4-5fcf-46b7-b6d5-ac8a51a02658&fileNo=2"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-08",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
    "id": "PBLN_000000000124077",
    "title": "[전남광주] 해남군 2026년 3차 지방소멸대응 뿌리ㆍ조선산업 활성화 지원사업 모집 공고(시군구 연고산업육성 협업프로젝트)",
    "agency": "중소벤처기업부",
@@ -27817,6 +29090,77 @@
    "source": "KOSMO"
   },
   {
+   "id": "KEA_24595",
+   "title": "자발적 에너지효율협약(KEEP30+) 참여사업장 모집 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "기후에너지환경부 공고 제2026-648호 『자발적 에너지 효율목표제(KEEP30+) 참여사업장 모집 공고』\n\n   \n\n「에너지이용 합리화법」제28조 및 제31조에 따라, 산업부문 에너지 다소비사업장의 에너지효율 향상을 도모하기 위한 자발적 에너지효율협약 참여사업장 신청절차를 공고하오니, 많은 신청바랍니다.\n\n \n\n※ 접수 방법 및 유의사항 등 자세한 내용은 첨부자료를 참고하시기 바랍니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "자발적에너지효율협약참여사업장모집공고.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24527&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[붙임]참여신청서(양식).hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24527&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-07",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40689",
+   "title": "인도네시아 환경기술홍보관 기술전시 참여기업 모집 및 온라인 신청 안내(~7.24.(금)/18:00)",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "안녕하십니까? 한국환경산업기술원(KEITI) 해외사업실(인도네시아 사무소)에서 알려드립니다. 인도네시아 사무소에서는 국내 환경 관련기술의 해외진출 지원을 위하여 현지",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40689",
+   "attachments": [
+    {
+     "name": "(붙임-1)인도네시아_환경박람회_환경기술홍보관_기술전시_참여_신청서.hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40689&cbIdx=277&streFileNm=35d2de7f-a994-47f2-971b-3f4439475431&fileNo=2"
+    },
+    {
+     "name": "(붙임-2)26년_인도네시아_물․자원재활용․에너지_환경박람회_홍보자료.hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40689&cbIdx=277&streFileNm=60bc476e-3946-4f0e-8345-45be2ad6e44d&fileNo=3"
+    },
+    {
+     "name": "인도네시아_환경박람회_환경기술홍보관_기술전시_참여기엄_모집_및_신청_안내.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40689&cbIdx=277&streFileNm=4ef5ea18-7ec0-4b23-8286-8f842c724e98&fileNo=4"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-07",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
    "id": "PBLN_000000000124014",
    "title": "2026년 2차 디자인 침해 모니터링 참여 모집 공고",
    "agency": "지식재산처",
@@ -30192,6 +31536,164 @@
    "created": "2026-07-06",
    "views": 0,
    "source": "IRIS"
+  },
+  {
+   "id": "KEA_24594",
+   "title": "「2026년 에너지분야 온실가스 국제감축사업」 모집 변경 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "국가 온실가스 감축목표 달성을 위한  『2026년 에너지분야 온실가스 국제감축사업』을 \n\n변경 공고하오니 해당 사업을 수행하고자 하는 기관은 신청하여 주시기 바랍니다. \n\n2026. 7. 6.\n\n한국에너지공단 이사장\n\n                             -  다       음  -\n\nㅇ 지원대상 : 협력국 내 에너지분야(에너지 전환 및 효율화, 인프라 구축 등)를 포함하는 \n\n    국제감축사업의 설비 투자 및 타당성 조사 지원\n\nㅇ 지원규모 : 총 3,000백만원 \n\n  - 투자지원사업: 감축설비 투자비의 50% 이내, 사업당 최대 100억원 이내\n\n  - 타당성조사: 타당성 조사 비용의 최대 90%, 지원한도 예타 3억 본타 5억\n\nㅇ 접수기간 : 2026. 7. 6.(월) ~ 2026. 8. 31.(월) 18:00 (투자지원)\n\n                    2026. 7. 6.(월) ~ 2026. 7. 29.(수) 18:00 (타당성조사)\n\n      * 필요 시 이후 추가 모집 예정(별도 안내)\n\nㅇ 제출방법 : 첨부된 신청서 및 기타양식을 작성하여 전자파일(itmo@energy.or.kr)로 제출\n\nㅇ 문의처 : 한국에너지공단 국제협력처 국제감축팀(itmo@energy.or.kr)\n\n※ 본 공고는 안내를 위해 축약/조정된 것으로 첨부 운영지침, 가이드라인 등을 필히 참조\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "(공고문)2026년온실가스국제감축사업변경공고문.hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부1]온실가스국제감축사업관리지침(2026.3).hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2](투자지원)온실가스국제감축사업신청서.hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=4&boardMngNo=2"
+    },
+    {
+     "name": "[첨부3](타당성조사지원)온실가스국제감축사업신청서.hwpx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=5&boardMngNo=2"
+    },
+    {
+     "name": "[첨부4](기타양식)사업비사용계획서등.zip",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=6&boardMngNo=2"
+    },
+    {
+     "name": "[참고]국제감축사업참여자를위한파리협정6조해설및사업수행가이드라인.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24526&fileSeq=7&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-06",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEA_24593",
+   "title": "2026년 시민과 함께하는 에너지 캠페인 행사 협력사업 참여기관 모집 연장공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "2026년 시민과 함께하는 에너지 캠페인 행사 협력사업 참여기관 모집 연장공고\n\n   \n\n   시민의 효율적 에너지사용 문화 확산 및 탄소중립 이행을 위한\n\n   '시민과 함께하는 에너지 캠페인 행사 협력사업'에 참여할 기관을 \n\n   첨부와 같이 공모하오니 많은 참여 바랍니다. \n\n   \n\n   첨부된 모든 자료의 내용을 반드시 숙지하신 후 신청하시기 바랍니다.\n\n   감사합니다. \n\n    \n\n   \n\n   2026. 7. 6.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[공고]2026년시민과함께하는에너지캠페인행사협력사업모집연장공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24525&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[별첨]2026년시민과함께하는에너지캠페인행사협력사업집행지침.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24525&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[첨부1]참가신청서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24525&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2]참여기관소개서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24525&fileSeq=4&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-06",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40675",
+   "title": "2026년 ESG 전문인력 양성과정(8월) 교육생 모집 공고",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "한국환경산업기술원 공고 제2026-112호 2026년 ESG 전문인력 양성 과정(8월) 교육생 모집",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40675",
+   "attachments": [
+    {
+     "name": "붙임1._'26년_ESG_전문인력_양성_과정(8월)_교육생_모집_공고.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40675&cbIdx=277&streFileNm=401e7b58-97ed-4620-b155-7820090eaf46&fileNo=1"
+    },
+    {
+     "name": "붙임2._ESG_전문인력_양성과정(8월)_포스터.jpg",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40675&cbIdx=277&streFileNm=cce857d7-d389-4a3e-8422-337a639fdbb0&fileNo=2"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-06",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
+   "id": "KEITI_40678",
+   "title": "2026년 녹색경영 우수기업 시상 공모",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "한국환경산업기술원 공고 제2026-114호 2026년 녹색경영 우수기업 시상 공모 안내 기후에너지환경부와 한",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40678",
+   "attachments": [
+    {
+     "name": "붙임_2026년_녹색경영_우수기업_시상_공모_안내서.hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40678&cbIdx=277&streFileNm=0cbcda0f-e110-403f-aa38-8a516c9dfe73&fileNo=1"
+    },
+    {
+     "name": "붙임_2026년_녹색경영_우수기업_시상_공모_안내서.pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40678&cbIdx=277&streFileNm=aff441b5-6347-4800-806e-ebf561998d41&fileNo=2"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-06",
+   "views": 0,
+   "source": "KEITI"
   },
   {
    "id": "PBLN_000000000123957",
@@ -36329,6 +37831,130 @@
    "source": "IRIS"
   },
   {
+   "id": "KEA_24591",
+   "title": "2026년도 7월 재생에너지종합서비스기업(ReSCO) 모집 공고 및 6월 등록 결과 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "햇빛소득마을의 성공적 조성 및 활성화를 위하여 시장에서 검증된 역량과 신뢰성을 갖춘 기업을 재생에너지종합서비스기업(ReSCO)으로 등록하기 위하여 다음과 같이 모집 공고합니다.\n\n                                                                 -   다   음   -\n\nㅇ신청대상 : 햇빛소득마을 대상 시공, 운영관리 등을 수행할 역량을 갖춘 기업(공고문 내 신청자격 및 등록기준 참조)\n\nㅇ공모기간 : 2026. 7. 1.(수) ~ 7.15.(수)\n\nㅇ신청방법 : 한국에너지공단 홈페이지 → 전자민원 → 신재생에너지 → 재생에너지종합서비스기업(ReSCO)에 신청\n\n * 등록기준 : 신청자격을 충족하고 등록기준 배점항목 점수가 75점 이상인 기업\n\n * 등록기준 별 증빙자료에 대해 공고문을 숙지 바라며, 공고내용 숙지미숙 및 자료 미제출(제출 오류) 등으로 인해 발생하는 불이익의 책임은 해당 기업에 있습니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[붙임1]2026년도7월재생에너지종합서비스기업(ReSCO)모집공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[붙임2]ReSCO등록관련FAQ.xlsx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[별첨1]전문인력보유현황.xlsx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "[별첨2]시공실적현황.xlsx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=4&boardMngNo=2"
+    },
+    {
+     "name": "[별첨3]유지관리실적현황.xlsx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=5&boardMngNo=2"
+    },
+    {
+     "name": "[붙임3]재생에너지종합서비스기업(ReSCO)6월기준등록기업목록.xlsx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24523&fileSeq=6&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-01",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEA_24590",
+   "title": "산업진단 지원사업 지원계획 3차 공고 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "\"2026년도 산업진단 지원사업 지원계획\"을 다음과 같이 공고하오니 관심있는 기업의 많은 참여 바랍니다.\n\n                                   \n\n                                                    - 다   음 -\n\n   \n\nㅇ 사업내용 : 에너지진단 전문기관이 사업장을 직접 현장 방문하여 에너지 이용실태 및 손실요인을\n\n                 파악하고 에너지절감을 위한 최적의 개선방안 제시\n\n   \n\nㅇ 지원대상 : 직전 5개년도(`21~`25년) 중 연간 에너지사용량 300toe~2,000toe인 중소,중견기업\n\n   \n\nㅇ 지원규모 : 총 13.5억원 / 약 270개 사업장\n\n   \n\nㅇ 지원한도 : 사업장 당 최대 500만원(진단비용의 100%)\n\n   \n\nㅇ 신청방법\n\n - (사업신청) 온라인 신청(전자민원 홈페이지 : https://min24.energy.or.kr/nedms)\n\n - (접수기간) 2026. 7. 1(수) ~ 7. 31(금) (지원개소 미달시 다음 공고를 통해 추가 접수)\n\n   \n\nㅇ 진단기관 평가등급 확인\n\n - (사이트) https://min24.energy.or.kr/nedms\n\n - (경로) 상단 '진단기관' 탭 → 진단기관 평가등급\n\n   \n\nㅇ 문의처 : 한국에너지공단 에너지진단처(052-920-0653)\n\n   \n\nㅇ 유의사항 : 공단은 사업홍보를 위해 업체에게 휴대폰 연락, 방문을 하지 않으니 유의하여주시기 바랍니다.\n\n \n\n추가 세부내용은 첨부의 공고문, 붙임서식 등을 참조하시기 바랍니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[첨부1]2026년도산업진단지원사업지원계획3차공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24522&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부1]2026년도산업진단지원사업지원계획3차공고.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24522&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2]2026년도산업진단지원사업업무지침서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24522&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2]2026년도산업진단지원사업업무지침서.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24522&fileSeq=4&boardMngNo=2"
+    },
+    {
+     "name": "[첨부3]산업진단지원사업_신청매뉴얼.pptx",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24522&fileSeq=5&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-07-01",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEITI_40664",
+   "title": "2026년도 녹색정책금융 활성화 이차보전 지원사업 운영기준(2026.6.24. 개정)",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "녹색정책금융 활성화 이차보전 지원사업 운영기준(2026.6.24. 개정) 자료입니다. 상세 내용은 첨부 파일을 확인하시기 바랍니다.",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40664",
+   "attachments": [
+    {
+     "name": "녹색정책금융_활성화_이차보전_지원사업_운영기준(2026._6._24.).pdf",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40664&cbIdx=277&streFileNm=f2d48c9d-0c24-4a20-a9c4-f7d7193e3de0&fileNo=1"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-07-01",
+   "views": 0,
+   "source": "KEITI"
+  },
+  {
    "id": "PBLN_000000000123787",
    "title": "[충북] 2026년 성과 창출형 상용화 지원사업 참여기업 모집 공고",
    "agency": "충청북도",
@@ -38114,6 +39740,80 @@
    "created": "2026-06-30",
    "views": 0,
    "source": "IRIS"
+  },
+  {
+   "id": "KEA_24589",
+   "title": "2026년 시민과 함께하는 에너지 캠페인 행사 협력사업 참여기관 모집공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "2026년 시민과 함께하는 에너지 캠페인 행사 협력사업 참여기관 모집공고\n\n   \n\n   시민의 효율적 에너지사용 문화 확산 및 탄소중립 이행을 위한\n\n   '시민과 함께하는 에너지 캠페인 행사 협력사업'에 참여할 기관을 \n\n   첨부와 같이 공모하오니 많은 참여 바랍니다. \n\n   \n\n   첨부된 모든 자료의 내용을 반드시 숙지하신 후 신청하시기 바랍니다.\n\n   감사합니다. \n\n    \n\n   \n\n   2026. 6. 30.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[공고]2026년시민과함께하는에너지캠페인행사협력사업모집공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24521&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부1]참가신청서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24521&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "[첨부2]참여기관소개서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24521&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "[별첨]2026년시민과함께하는에너지캠페인행사협력사업집행지침.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24521&fileSeq=4&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-06-30",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
+   "id": "KEA_24588",
+   "title": "2026년 에너지관리시스템(EMS) 전문인력 양성교육 교육생 모집 안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "한국에너지공단은 에너지관리시스템(Energy Management System, EMS) 관련 종사자의\n\n실무능력 배양 및 역량 강화를 위한 “2026년 에너지관리시스템 전문인력 양성교육”을 실시하오니\n\n관심 있는 분들의 많은 신청 바랍니다.\n\n ㅇ 교 육 명  : 2026년 에너지관리시스템(EMS) 전문인력 양성교육\n\n \n\n ㅇ 교육대상 : EMS 보급 지원사업 전문기업 및 지원사업장, EMS 관련 종사자 등\n\n \n\n ㅇ 교육일자 : 1회차 2026.7.8(수)~7.9(목)\n\n                      2회차 2026.7.14(화)~7.15(수)\n\n                         *교육 회차별 커리큘럼 동일 \n\n ㅇ 교육장소 : 1회차 스페이스쉐어 삼성역센터 갤럭시홀(서울 강남구 영동대로96길 20 지하 1층)\n\n                      2회차 해운대센트럴호텔 5층 대세미나실(부산 해운대구 해운대해변로298번길 33)\n\n \n\n ㅇ 교육내용 : 공장에너지관리시스템(FEMS) 및 에너지경영시스템(EnMS) 관련 실무지식 전반\n\n ㅇ 교육비용 : 전액 지원(교육생 자부담 없음)\n\n ㅇ 접수기간 : 2026.6.30(화)~7.6(월)\n\n ㅇ 신청방법 : 붙임2 신청서 작성후 이메일(enms@k-sdmi.co.kr) 송부\n\n                 \n\n* 상세내용은 첨부의 (1) 안내문, (2) 신청서를 참고하시기 바랍니다.\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[붙임1]2026년에너지관리시스템전문인력양성교육안내문.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24520&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[붙임2]2026년에너지관리시스템전문인력양성교육신청서.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24520&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-06-30",
+   "views": 0,
+   "source": "에너지공단"
   },
   {
    "id": "PBLN_000000000123727",
@@ -40693,6 +42393,39 @@
    "source": "기업마당"
   },
   {
+   "id": "KEA_24586",
+   "title": "2026년 경남 햇빛소득마을(or 산단) 태양광 원스톱컨설팅 지원사업 신청안내",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "경상남도, 창원특례시, 한국에너지공단 경남지역본부에서는 경남지역 산단 및 햇빛소득마을 태양광 설치에 대해\n\n컨설팅 지원 사업을 실시하오니 관심 있는 기업 및 마을의 많은 참여 바랍니다. \n\n \n\n1. 지원대상 : 경남도 햇빛소득마을 참여 희망 마을 또는 산단 태양광 20개소 \n\n \n\n2. 컨설팅 내용 : 태양광사업 전반에 대한 컨설팅(현장방문)\n\n  - 사업방식(발전사업 or 자가소비) 및 추진 절차 안내 등\n\n  - 마을 단위 수익형 사업 모델 제시\n\n  - RE100 이행 전략 수립, 자가소비형·상업용 발전 경제성 분석 \n\n \n\n3. 접수기간 : ~ 2026. 7. 31까지(선착순마감) \n\n \n\n4. 지 원 금 : 컨설팅 기업에 최대 50만원(VAT포함) 지원 \n\n \n\n5. 접수방법 : 이메일(제출 후 반드시 유선확인)\n\n - 이메일 : swhan@energy.or.kr \n\n - 제출서류 : 신청서 ([첨부] 양식 사용) \n\n \n\n6. 문의사항\n？ 한국에너지공단 경남지역본부 (☎ 055-600-8122) \n\n \n\n7. 기타 유의사항 : 본 사업 신청 시, 경남 신재생에너지 업체와 협의 후 제출할 것을 권고함 \n\n \n\n※ 자세한 사항은 첨부파일을 참조하시기 바랍니다. \n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "[첨부]2026년경남햇빛소득마을or산단태양광원스톱컨설팅지원사업신청안내.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24519&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "[첨부]2026년경남햇빛소득마을or산단태양광원스톱컨설팅지원사업신청안내.pdf",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24519&fileSeq=2&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-06-25",
+   "views": 0,
+   "source": "에너지공단"
+  },
+  {
    "id": "KOSMO_2026-N-0126_1",
    "title": "[한화모멘텀] 2026년도 상생형 인공지능 전환(AX) 선도모델 구축지원 사업 공고",
    "agency": "중소벤처기업부",
@@ -41218,6 +42951,47 @@
    "created": "2026-06-18",
    "views": 0,
    "source": "KOSMO"
+  },
+  {
+   "id": "KEA_24583",
+   "title": "2026년도 제2차 재생에너지산업 해외진출지원사업 지원계획 공고",
+   "agency": "산업통상부",
+   "org": "한국에너지공단",
+   "field": "에너지",
+   "subField": "",
+   "summary": "2026년도 제2차 재생에너지산업 해외진출지원사업 지원계획 공고 및 접수 안내\n\n국내 우수기업의 해외진출 활성화를 위한 재생에너지산업 해외진출지원사업의 2026년도 제2차 지원계획을 공고하오니 \n\n해당 사업을 수행하고자 하는 자는 신청하여 주시기 바랍니다.\n\n \n\n* 접수방법 및 유의사항 등 자세한 내용은 첨부자료를 참고하시기 바랍니다.\n\n[첨부]\n\n1. (신·재생에너지센터 공고 제2026-6호) 2026년도 제2차 재생에너지산업 해외진출지원 사업 지원계획 공고\n\n2. (신·재생에너지센터 공고 제2026-5호) 재생에너지산업 해외진출지원사업 운영요령\n\n3. 2026년도 재생에너지산업 해외진출지원 사업 안내자료\n\n4. 2026년도 재생에너지산업 해외진출지원 사업 사업계획서 양식\n\n\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t    URL 복사하기\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t첨부파일",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.energy.or.kr/front/board/List2.do?bbs_id=1",
+   "attachments": [
+    {
+     "name": "1.(신·재생에너지센터공고제2026-18호)2026년도제2차재생에너지산업해외진출지원사업지원계획공고.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24516&fileSeq=1&boardMngNo=2"
+    },
+    {
+     "name": "2.(신·재생에너지센터공고제2026-5호)재생에너지산업해외진출지원사업운영요령.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24516&fileSeq=2&boardMngNo=2"
+    },
+    {
+     "name": "3.2026년도재생에너지산업해외진출지원사업안내자료.hwp",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24516&fileSeq=3&boardMngNo=2"
+    },
+    {
+     "name": "4.2026년도재생에너지산업해외진출지원사업사업계획서양식.zip",
+     "url": "https://www.energy.or.kr/commonFile/fileDownload.do?fileNo=24516&fileSeq=4&boardMngNo=2"
+    }
+   ],
+   "hashtags": [
+    "에너지",
+    "한국에너지공단"
+   ],
+   "created": "2026-06-18",
+   "views": 0,
+   "source": "에너지공단"
   },
   {
    "id": "KOSMO_2026-N-0117_1",

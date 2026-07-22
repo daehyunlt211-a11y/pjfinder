@@ -283,7 +283,7 @@
           : '<p style="color:var(--muted);font-size:.9rem">첨부파일이 없습니다. 원문 페이지를 확인해주세요.</p>'}
       </div>
       <div class="detail-actions">
-        ${a.url ? `<a class="btn-primary" href="${esc(a.url)}" target="_blank" rel="noopener">${srcName === "KOSMO" ? "KOSMO에서 원문 보기" : srcName === "IRIS" ? "IRIS에서 원문 보기" : "기업마당에서 원문 보기"} ↗</a>` : ""}
+        ${a.url ? `<a class="btn-primary" href="${esc(a.url)}" target="_blank" rel="noopener">${esc(srcName)}에서 원문 보기 ↗</a>` : ""}
       </div>`;
   }
 

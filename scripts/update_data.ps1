@@ -54,7 +54,17 @@ if (Test-Path (Join-Path $PSScriptRoot "fetch_iris.py")) {
     Write-Host "fetch_iris.py 없음 — 건너뜀"
 }
 
-Write-Host "[5/5] 변경사항 업로드..."
+Write-Host "[5/6] 기관 게시판(에너지공단/K-Startup/KEITI) 수집 중..."
+if (Test-Path (Join-Path $PSScriptRoot "fetch_boards.py")) {
+    python scripts/fetch_boards.py 2>&1 | ForEach-Object { "$_" } | Write-Host
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "경고: 게시판 수집 실패 (다른 소스 데이터만 반영합니다)" -ForegroundColor Yellow
+    }
+} else {
+    Write-Host "fetch_boards.py 없음 — 건너뜀"
+}
+
+Write-Host "[6/6] 변경사항 업로드..."
 git add data/announcements.json
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {

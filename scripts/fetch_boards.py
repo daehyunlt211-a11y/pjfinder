@@ -30,8 +30,10 @@ TODAY = datetime.now(KST)
 
 UA = {"User-Agent": "Mozilla/5.0 (PjFinder collector)"}
 DELAY = float(os.environ.get("BOARDS_DELAY", "0.2"))
-MAX_PAGES = int(os.environ.get("BOARDS_MAX_PAGES", "3"))
-MAX_DETAILS = int(os.environ.get("BOARDS_MAX_DETAILS", "60"))
+# 사이트별 수집 페이지 수. 에너지공단·KEITI는 페이지당 10건뿐이라 3페이지면
+# 최근 3주치밖에 못 가져온다(FEMS 공고가 9페이지에 있던 사례). 넉넉히 잡는다.
+MAX_PAGES = int(os.environ.get("BOARDS_MAX_PAGES", "0"))  # 0이면 사이트별 기본값 사용
+MAX_DETAILS = int(os.environ.get("BOARDS_MAX_DETAILS", "250"))
 ONLY = os.environ.get("BOARDS_ONLY", "").strip()
 
 # 게시판에는 지원사업 공고와 일반 공지(설문·결과발표·입찰 등)가 섞여 있다.
@@ -292,11 +294,14 @@ def keiti_normalize(item, detail):
 
 
 SITES = [
-    {"key": "KEA", "name": "한국에너지공단",
+    # pages: 페이지당 건수가 사이트마다 달라 커버 기간을 맞추려면 개별 지정이 필요하다.
+    #   에너지공단·KEITI = 10건/페이지 → 25페이지 ≈ 250건 ≈ 1년치
+    #   K-Startup       = 30건/페이지 → 5페이지 = 150건 (모집중만 노출되므로 충분)
+    {"key": "KEA", "name": "한국에너지공단", "pages": 25,
      "list": kea_list, "detail": kea_detail, "normalize": kea_normalize},
-    {"key": "KSTARTUP", "name": "K-Startup",
+    {"key": "KSTARTUP", "name": "K-Startup", "pages": 5,
      "list": kst_list, "detail": None, "normalize": kst_normalize},
-    {"key": "KEITI", "name": "한국환경산업기술원",
+    {"key": "KEITI", "name": "한국환경산업기술원", "pages": 25,
      "list": keiti_list, "detail": keiti_detail, "normalize": keiti_normalize},
 ]
 
@@ -312,7 +317,9 @@ def load_doc():
 
 def collect_site(site, existing, stats):
     rows = []
-    for page in range(1, MAX_PAGES + 1):
+    pages = MAX_PAGES or site.get("pages", 5)
+    seen_ids = set()
+    for page in range(1, pages + 1):
         try:
             got = site["list"](page)
         except Exception as e:
@@ -320,7 +327,12 @@ def collect_site(site, existing, stats):
             break
         if not got:
             break
-        rows.extend(got)
+        # 페이지 파라미터가 무시되면 같은 목록이 반복된다 — 그때는 조기 종료
+        fresh = [r for r in got if r["id"] not in seen_ids]
+        if not fresh:
+            break
+        seen_ids.update(r["id"] for r in fresh)
+        rows.extend(fresh)
         time.sleep(DELAY)
 
     kept = [r for r in rows if is_support_notice(r["title"])]

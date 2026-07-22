@@ -187,6 +187,16 @@ main { max-width: 1800px; margin: 0 auto; padding: 20px 24px; }
   padding: 3px 9px; border-radius: 999px; font-size: .76rem;
 }
 .match-todo { margin-top: 8px; font-size: .78rem; color: var(--muted); font-style: italic; }
+.sub-label { display: block; font-size: .82rem; font-weight: 600; color: #46527a; margin-bottom: 7px; }
+.chip-check.none:has(input:checked) {
+  background: #eef1f8; border-color: #8c96ad; color: #46527a;
+}
+.why-chip.amount { background: #e2f5ea; color: #0d7a44; border-color: #b9e3cc; }
+.match-warn-row { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 6px; }
+.warn-chip {
+  background: #fff5e6; color: #a05e12; border: 1px solid #f0d9ae;
+  padding: 3px 9px; border-radius: 999px; font-size: .76rem;
+}
 @media (max-width: 560px) {
   .match-grid { grid-template-columns: 1fr; }
 }

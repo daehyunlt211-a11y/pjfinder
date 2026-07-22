@@ -601,6 +601,31 @@
     ["capital", "완전자본잠식"],
   ];
 
+  // 상생형 사업의 모기업은 하드코딩하면 목록에 없는 기업(풀무원 등)이 "불명"으로 처리돼
+  // 엉뚱한 추천이 나간다. 그래서 실제 공고 제목에서 추출해 목록을 만든다.
+  // 괄호 안이 모기업이 아니라 차수·상태·사업명인 경우가 많아 걸러낸다.
+  const NON_CORP = /^(제?\d+\s*차|수정|재공고|공고|연장|연장공고|추가|긴급|변경|최종|기초|고도화|신규|모집|알림|안내|결과|공지|필독|중요|스마트공장|지역일자리|지역특화|선도형|인공지능|상생형|대중소|공동|일반)$/;
+
+  // "현대자동차그룹"과 "현대자동차 그룹"은 같은 회사 — 비교·집계는 정규화된 형태로 한다.
+  function normCorp(s) {
+    return (s || "").replace(/\s+/g, "").replace(/\((?:주|재|사)\)|㈜|주식회사/g, "");
+  }
+
+  function extractCorp(title) {
+    // "[한국남부발전] 대중소 상생형…" / "[2차]2026 대중소상생형(삼성) 스마트공장…"
+    let m = title.match(/^\s*[\[(【]\s*([^\])】]{2,20}?)\s*[\])】]/);
+    if (m) {
+      const v = m[1].trim();
+      if (!NON_CORP.test(normCorp(v)) && !REGIONS.some((r) => v.includes(r))) return v;
+    }
+    m = title.match(/[(（]\s*([^)）]{2,16}?)\s*[)）]\s*스마트공장/);
+    if (m && !NON_CORP.test(normCorp(m[1].trim()))) return m[1].trim();
+    // 여기서 더 추측하면 "상생형 스마트공장"의 뒷 단어를 회사명으로 뽑는 오탐이 난다.
+    return null;
+  }
+
+  let PARTNER_CORPS = []; // 데이터 로드 후 채워진다
+
   const REGIONS = ["서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기",
     "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주"];
   // 공고 제목의 지역 표기 흔들림을 흡수 (예: [전남광주], 충청북도)
@@ -610,6 +635,31 @@
     충북: /충북|충청북도/, 충남: /충남|충청남도|대전충남/, 전북: /전북|전라북도/,
     전남: /전남|전라남도/, 경북: /경북|경상북도/, 경남: /경남|경상남도/, 제주: /제주/,
   };
+
+  // 상생형 공고 제목에서 모기업을 뽑아 실제 존재하는 목록만 칩으로 만든다.
+  function buildPartnerChips() {
+    // 표기가 흔들리는 회사명을 정규화 키로 묶고, 가장 많이 쓰인 표기를 대표로 쓴다.
+    const groups = new Map(); // norm → {count, forms:Map}
+    DATA.announcements.forEach((a) => {
+      const t = a.title || "";
+      if (!/상생형|동반성장/.test(t)) return;
+      const corp = extractCorp(t);
+      if (!corp) return;
+      const key = normCorp(corp);
+      if (!groups.has(key)) groups.set(key, { count: 0, forms: new Map() });
+      const g = groups.get(key);
+      g.count += 1;
+      g.forms.set(corp, (g.forms.get(corp) || 0) + 1);
+    });
+    PARTNER_CORPS = [...groups.entries()]
+      .filter(([, g]) => g.count >= 2) // 1건짜리 오탐 제외
+      .sort((x, y) => y[1].count - x[1].count)
+      .map(([, g]) => [...g.forms.entries()].sort((x, y) => y[1] - x[1])[0][0]);
+    $("#mPartners").innerHTML =
+      `<label class="chip-check none"><input type="checkbox" value="__none"><span>해당 없음</span></label>` +
+      PARTNER_CORPS.map((c) =>
+        `<label class="chip-check"><input type="checkbox" value="${esc(c)}"><span>${esc(c)}</span></label>`).join("");
+  }
 
   function buildMatchForm() {
     $("#mGoals").innerHTML = GOALS.map(([label], i) =>
@@ -638,6 +688,12 @@
       certs: checked("#mCerts"),
       blockers: checked("#mBlockers"),
       includeClosed: $("#mIncludeClosed").checked,
+      partners: checked("#mPartners").filter((v) => v !== "__none"),
+      partnerNone: $("#mPartners input[value='__none']").checked,
+      isMember: $("#mMember").value === "yes",
+      memberAnswered: $("#mMember").value !== "",
+      isTenant: $("#mTenant").value === "yes",
+      tenantAnswered: $("#mTenant").value !== "",
     };
   }
 
@@ -648,6 +704,16 @@
     set("#mFounded", p.founded); set("#mEmployees", p.employees); set("#mRevenue", p.revenue);
     set("#mProduct", p.product); set("#mExport", p.exportYn); set("#mPlan", p.plan);
     set("#mBudget", p.budget); set("#mSelfPay", p.selfPay);
+    if (p.memberAnswered) set("#mMember", p.isMember ? "yes" : "no");
+    if (p.tenantAnswered) set("#mTenant", p.isTenant ? "yes" : "no");
+    if (p.partnerNone) {
+      const el = $("#mPartners input[value='__none']");
+      if (el) el.checked = true;
+    }
+    (p.partners || []).forEach((c) => {
+      const el = $$("#mPartners input").find((x) => x.value === c);
+      if (el) el.checked = true;
+    });
     $("#mIncludeClosed").checked = !!p.includeClosed;
     (p.goals || []).forEach((i) => {
       const el = $(`#mGoals input[value="${i}"]`);
@@ -664,6 +730,68 @@
   }
 
   const textCache = new Map();
+
+  // 공고가 특정 집단에만 열려 있는지 판정. 지금 신청 가능한지가 추천의 전제이므로
+  // 여기서 걸러내지 않으면 "신청도 못 하는 사업"이 상위에 뜬다.
+  function restrictionsOf(a) {
+    if (restrCache.has(a.id)) return restrCache.get(a.id);
+    const title = a.title || "";
+    const text = announceText(a);
+    const out = [];
+
+    // 대중소 상생형 = 해당 모기업의 협력사·추천기업만 신청 가능
+    if (/상생형|동반성장/.test(title) || /대중소\s*상생/.test(text)) {
+      const corp = extractCorp(title);
+      out.push({
+        type: "partner",
+        key: corp,
+        label: corp ? `${corp} 협력사·추천기업만 신청 가능` : "대기업 협력사만 신청 가능(상생형)",
+      });
+    }
+    if (/협력사|협력기업|수요기업|공급망|1차\s*벤더|파트너사/.test(text) &&
+        !out.some((r) => r.type === "partner")) {
+      const corp = extractCorp(title);
+      out.push({ type: "partner", key: corp, label: corp ? `${corp} 협력사 대상` : "협력사·수요기업 대상" });
+    }
+    if (/추천\s*(기업|서|받은)|지정\s*기업|선정된\s*기업|사전\s*(신청|수요조사|접수|등록)/.test(text)) {
+      out.push({ type: "recommend", label: "사전 신청·기관 추천이 필요할 수 있음" });
+    }
+    if (/회원사|조합원|협회\s*회원|가입\s*기업/.test(text)) {
+      out.push({ type: "member", label: "조합·협회 회원사 대상" });
+    }
+    if (/입주\s*기업|산업단지\s*입주|단지\s*내\s*기업|입주기업/.test(text)) {
+      out.push({ type: "tenant", label: "산업단지·센터 입주기업 대상" });
+    }
+    restrCache.set(a.id, out);
+    return out;
+  }
+
+  // 지원금액 추출. 데이터에는 "최대 5천만원", "300만원 이내", "3억원" 형태가 섞여 있어
+  // 억/천만/백만/만 단위를 모두 처리한다. (기존엔 억·백만만 봐서 대부분 놓쳤다)
+  const UNIT_TO_MW = { "억": 100, "천만": 10, "백만": 1, "만": 0.01 }; // 백만원 환산
+
+  function supportAmount(a) {
+    if (amountCache.has(a.id)) return amountCache.get(a.id);
+    const text = announceText(a);
+    let best = null;
+    const re = /(?:최대\s*)?([\d][\d,.]*)\s*(억|천만|백만|만)\s*원/g;
+    let m;
+    while ((m = re.exec(text)) !== null) {
+      const num = parseFloat(m[1].replace(/,/g, ""));
+      if (!isFinite(num)) continue;
+      const mw = num * (UNIT_TO_MW[m[2]] || 0);
+      if (mw <= 0) continue;
+      // 가장 큰 금액을 그 사업의 지원 규모로 본다
+      if (!best || mw > best.millionWon) {
+        best = { label: m[0].replace(/\s+/g, " ").trim(), millionWon: mw };
+      }
+    }
+    amountCache.set(a.id, best);
+    return best;
+  }
+
+  const restrCache = new Map();
+  const amountCache = new Map();
 
   function announceText(a) {
     if (textCache.has(a.id)) return textCache.get(a.id);
@@ -690,7 +818,41 @@
   function scoreAnnouncement(a, p) {
     const text = announceText(a);
     const reasons = [];
+    const warnings = [];
     let score = 0;
+
+    // 0단계 신청 가능 여부 — 자격이 닫혀 있으면 아무리 목적이 맞아도 신청할 수 없다
+    for (const r of restrictionsOf(a)) {
+      if (r.type === "partner") {
+        const answered = p.partnerNone || p.partners.length > 0;
+        if (r.key) {
+          // 모기업이 특정된 공고 — 그 기업의 협력사인지로 갈린다 (표기 흔들림은 정규화로 흡수)
+          const mine = p.partners.map(normCorp);
+          if (mine.includes(normCorp(r.key))) {
+            score += 24;
+            reasons.push(`${r.key} 협력사 해당`);
+          } else if (answered) {
+            return null; // 협력관계를 밝혔는데 해당 없음 → 신청 불가
+          } else {
+            warnings.push(r.label);
+          }
+        } else {
+          // 모기업을 특정하지 못한 공고 — 자격을 확인할 수 없으므로 가점도 주지 않는다
+          if (p.partnerNone) return null;
+          warnings.push(r.label);
+        }
+      } else if (r.type === "member") {
+        if (p.isMember) { score += 8; reasons.push("조합·협회 회원"); }
+        else if (p.memberAnswered) return null;
+        else warnings.push(r.label);
+      } else if (r.type === "tenant") {
+        if (p.isTenant) { score += 8; reasons.push("산단 입주기업"); }
+        else if (p.tenantAnswered) return null;
+        else warnings.push(r.label);
+      } else {
+        warnings.push(r.label);
+      }
+    }
 
     // 1단계 신청자격 — 지역: 다른 지역 전용 공고는 아예 제외
     const region = regionOf(a);
@@ -755,21 +917,29 @@
     else if (st === "always") score += 8;
     else if (!p.includeClosed) return null;
 
-    // 4단계 사업규모 — 데이터에 금액이 있는 경우만 참고 표시
+    // 4단계 사업규모 — 추출된 지원금액과 희망 사업비 비교
+    const amount = supportAmount(a);
     let budgetNote = null;
-    if (p.budget) {
-      const m = text.match(/(\d[\d,.]*)\s*(억|백만)\s*원/);
-      if (m) {
-        const val = parseFloat(m[1].replace(/,/g, "")) * (m[2] === "억" ? 100 : 1); // 백만원 환산
+    if (amount) {
+      budgetNote = `지원규모 ${amount.label}`;
+      if (p.budget) {
         const mine = Number(p.budget);
-        if (val >= mine * 0.5) {
-          score += 6;
-          budgetNote = `공고 금액 ${m[0]} (희망 ${mine}백만원)`;
+        if (amount.millionWon >= mine * 0.5) {
+          score += 10;
+          reasons.push(`희망 사업비(${mine}백만원) 대비 규모 적합`);
+        } else {
+          score -= 8;
+          warnings.push(`지원규모(${amount.label})가 희망 사업비 ${mine}백만원보다 작음`);
         }
       }
+    } else if (p.budget) {
+      budgetNote = "지원금액 미기재 (공고문 확인 필요)";
     }
 
-    return { a, score: Math.min(Math.round(score), 100), reasons, budgetNote, region };
+    return {
+      a, score: Math.max(0, Math.min(Math.round(score), 100)),
+      reasons, warnings, budgetNote, region,
+    };
   }
 
   function renderMatchResults(p) {
@@ -827,8 +997,11 @@
         <div class="match-why">
           <strong>추천 이유</strong>
           ${r.reasons.map((x) => `<span class="why-chip">${esc(x)}</span>`).join("")}
-          ${r.budgetNote ? `<span class="why-chip">${esc(r.budgetNote)}</span>` : ""}
+          ${r.budgetNote ? `<span class="why-chip amount">${esc(r.budgetNote)}</span>` : ""}
         </div>
+        ${r.warnings.length ? `<div class="match-warn-row">
+          ${r.warnings.map((w) => `<span class="warn-chip">⚠️ ${esc(w)}</span>`).join("")}
+        </div>` : ""}
         <p class="match-todo">확인 필요: 세부 신청자격(업종·매출·중복지원 제한)은 공고문 원문에서 확인하세요.</p>
       </article>`;
     }).join("");
@@ -849,10 +1022,15 @@
   }
 
   buildMatchForm();
-  try {
-    const saved = localStorage.getItem(PROFILE_KEY);
-    if (saved) applyProfile(JSON.parse(saved));
-  } catch (e) { /* 저장값이 깨졌으면 빈 폼으로 시작 */ }
+
+  // 협력사 칩은 공고 데이터에서 만들어야 하므로 로드 완료 후 구성한다.
+  function initMatchAfterData() {
+    buildPartnerChips();
+    try {
+      const saved = localStorage.getItem(PROFILE_KEY);
+      if (saved) applyProfile(JSON.parse(saved));
+    } catch (e) { /* 저장값이 깨졌으면 빈 폼으로 시작 */ }
+  }
 
   $("#matchForm").addEventListener("submit", (e) => {
     e.preventDefault();
@@ -1053,6 +1231,7 @@
         `데이터 기준: ${doc.updatedAt || "-"} · 총 ${doc.announcements.length}건 · 출처: ${doc.source || "기업마당"}`;
       buildFieldFilters();
       buildSourceFilters();
+      initMatchAfterData();
       renderList();
       renderFiles();
       renderPredict();

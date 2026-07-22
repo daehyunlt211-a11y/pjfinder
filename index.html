@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>정부지원과제 파인더</title>
-<link rel="stylesheet" href="style.css?v=20260722a">
+<link rel="stylesheet" href="style.css?v=20260722c">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
 </head>
 <body>
@@ -25,6 +25,7 @@
   <button class="tab" data-tab="files">📎 첨부파일 검색</button>
   <button class="tab" data-tab="predict">🔮 공고 시기 예측</button>
   <button class="tab" data-tab="pdf">📄 공고문 분석</button>
+  <button class="tab" data-tab="match">🎯 맞춤 추천</button>
 </nav>
 
 <main>
@@ -105,6 +106,110 @@
     <p id="pdfStatus" class="result-count"></p>
     <div id="pdfResult"></div>
   </section>
+
+  <!-- 맞춤 추천 -->
+  <section id="tab-match" class="tab-panel">
+    <div class="predict-intro">
+      <p>회사 조건을 입력하면 <strong>신청자격 → 지원목적 → 제외조건 → 사업규모</strong> 순으로 검토해
+      적합도가 높은 사업부터 보여줍니다. 입력값은 이 브라우저에만 저장되며 서버로 전송되지 않습니다.</p>
+      <p class="match-caveat">⚠️ 공고의 세부 신청자격(업종코드·매출상한·중복지원 제한 등)은 대부분
+      첨부 공고문 안에만 있어 자동 판정이 불가능합니다. 이 화면은 <strong>1차 선별</strong>이며,
+      최종 신청 전 반드시 공고문 원문을 확인하세요.</p>
+    </div>
+
+    <form id="matchForm" class="match-form" autocomplete="off">
+      <fieldset class="match-sec">
+        <legend>1. 기업 기본정보</legend>
+        <div class="match-grid">
+          <label>소재지(공장 기준)
+            <select id="mRegion">
+              <option value="">선택 안 함</option>
+              <option>서울</option><option>부산</option><option>대구</option><option>인천</option>
+              <option>광주</option><option>대전</option><option>울산</option><option>세종</option>
+              <option>경기</option><option>강원</option><option>충북</option><option>충남</option>
+              <option>전북</option><option>전남</option><option>경북</option><option>경남</option>
+              <option>제주</option>
+            </select>
+          </label>
+          <label>기업규모
+            <select id="mSize">
+              <option value="">선택 안 함</option>
+              <option>소상공인</option><option>소공인</option>
+              <option>중소기업</option><option>중견기업</option>
+            </select>
+          </label>
+          <label>업종
+            <select id="mIndustry">
+              <option value="">선택 안 함</option>
+              <option>제조업</option><option>정보통신업</option><option>서비스업</option>
+              <option>건설업</option><option>도소매업</option><option>기타</option>
+            </select>
+          </label>
+          <label>설립연도
+            <input type="number" id="mFounded" placeholder="예: 2019" min="1900" max="2100">
+          </label>
+          <label>상시근로자 수
+            <input type="number" id="mEmployees" placeholder="예: 25" min="0">
+          </label>
+          <label>최근 매출액 (억원)
+            <input type="number" id="mRevenue" placeholder="예: 50" min="0" step="0.1">
+          </label>
+          <label class="match-wide">주요 생산품 · 키워드
+            <input type="text" id="mProduct" placeholder="예: 자동차부품, 사출성형, 바이오, 식품">
+          </label>
+          <label>수출실적
+            <select id="mExport">
+              <option value="">선택 안 함</option>
+              <option value="yes">있음</option>
+              <option value="no">없음</option>
+            </select>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="match-sec">
+        <legend>2. 해결하려는 문제 · 지원받으려는 목적 <span class="req">필수</span></legend>
+        <p class="sec-hint">가장 중요한 항목입니다. 해당하는 것을 모두 선택하세요.</p>
+        <div class="chip-select" id="mGoals"></div>
+      </fieldset>
+
+      <fieldset class="match-sec">
+        <legend>3. 투자 예정 내용 (선택)</legend>
+        <div class="match-grid">
+          <label class="match-wide">도입 예정 시스템·설비
+            <input type="text" id="mPlan" placeholder="예: MES, FEMS, 로봇, 비전검사기, 센서">
+          </label>
+          <label>예상 총사업비 (백만원)
+            <input type="number" id="mBudget" placeholder="예: 100" min="0">
+          </label>
+          <label>기업부담 가능액 (백만원)
+            <input type="number" id="mSelfPay" placeholder="예: 40" min="0">
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="match-sec">
+        <legend>4. 보유 인증 · 가점 항목 (선택)</legend>
+        <div class="chip-select" id="mCerts"></div>
+      </fieldset>
+
+      <fieldset class="match-sec">
+        <legend>5. 제외조건 확인</legend>
+        <p class="sec-hint">해당되면 대부분의 정부지원사업 신청이 제한됩니다.</p>
+        <div class="check-row" id="mBlockers"></div>
+      </fieldset>
+
+      <div class="match-actions">
+        <button type="submit" class="btn-primary">🎯 맞춤 사업 추천받기</button>
+        <button type="button" class="btn-plain" id="mReset">입력 초기화</button>
+        <label class="toggle"><input type="checkbox" id="mIncludeClosed"> 마감된 공고도 포함</label>
+      </div>
+    </form>
+
+    <div id="matchWarn"></div>
+    <p class="result-count" id="matchCount"></p>
+    <div id="matchList" class="card-list"></div>
+  </section>
 </main>
 
 <!-- 상세 모달 -->
@@ -127,6 +232,6 @@
   본 사이트의 예측 정보는 참고용이며 실제 공고 일정과 다를 수 있습니다.</p>
 </footer>
 
-<script src="app.js?v=20260722a"></script>
+<script src="app.js?v=20260722c"></script>
 </body>
 </html>

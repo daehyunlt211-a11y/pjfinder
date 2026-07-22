@@ -571,6 +571,305 @@
   $("#includeSingle").addEventListener("change", renderPredict);
   $("#predictSearchInput").addEventListener("input", renderPredict);
 
+  // ---------- 맞춤 추천 ----------
+  // 지원목적 → 공고 본문에서 찾을 키워드. 추천 점수의 주축이다.
+  // 영문 약어(MES/POP/IP/DX 등)는 단어 경계를 붙인다. 경계가 없으면 공고 본문에
+  // 섞여 있는 URL 조각(openRegistPopYn 등)에 오탐이 난다.
+  const GOALS = [
+    ["스마트공장·MES 구축", /스마트공장|\bMES\b|생산관리시스템|\bPOP\b|제조실행|생산정보화/i],
+    ["설비 데이터 자동수집", /데이터\s*수집|설비\s*데이터|\bIoT\b|센서|게이트웨이|실시간\s*모니터/i],
+    ["에너지 절감·FEMS", /\bFEMS\b|에너지관리|에너지진단|에너지효율|탄소중립|온실가스|에너지절약/i],
+    ["AI 품질검사·예지보전", /\bAI\b|인공지능|머신러닝|딥러닝|비전검사|예지보전|제조지능/i],
+    ["로봇·자동화 도입", /로봇|자동화|무인화|협동로봇/i],
+    ["제품·기술 개발(R&D)", /R&D|기술개발|연구개발|신규과제|기술혁신/i],
+    ["시제품 제작·시험인증", /시제품|인증|시험분석|규격인증|제품화|사업화/i],
+    ["해외시장 진출·수출", /수출|해외|바우처|전시회|무역|글로벌|해외마케팅/i],
+    ["인력 채용·교육", /고용|채용|인력|교육|훈련|일자리|양성/i],
+    ["공장 확장·설비 구입", /정책자금|융자|시설자금|운전자금|설비투자|보증/i],
+    ["특허·디자인 출원", /특허|지식재산|\bIP\b|상표|디자인출원|브랜드/i],
+    ["보안·기술보호", /정보보안|기술보호|보안체계|정보보호|기술유출/i],
+  ];
+
+  const CERTS = ["벤처기업", "이노비즈", "메인비즈", "기업부설연구소", "뿌리기업",
+    "소재부품장비", "스마트공장 수준확인", "수출기업", "청년친화", "여성기업",
+    "장애인기업", "사회적기업", "ISO 인증", "IATF 16949"];
+
+  const BLOCKERS = [
+    ["tax", "국세·지방세 체납"],
+    ["restrict", "정부사업 참여제한·부정수급 이력"],
+    ["closed", "휴업·폐업 상태"],
+    ["capital", "완전자본잠식"],
+  ];
+
+  const REGIONS = ["서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "경기",
+    "강원", "충북", "충남", "전북", "전남", "경북", "경남", "제주"];
+  // 공고 제목의 지역 표기 흔들림을 흡수 (예: [전남광주], 충청북도)
+  const REGION_ALIAS = {
+    서울: /서울/, 부산: /부산/, 대구: /대구/, 인천: /인천/, 광주: /광주/, 대전: /대전/,
+    울산: /울산/, 세종: /세종/, 경기: /경기/, 강원: /강원/,
+    충북: /충북|충청북도/, 충남: /충남|충청남도|대전충남/, 전북: /전북|전라북도/,
+    전남: /전남|전라남도/, 경북: /경북|경상북도/, 경남: /경남|경상남도/, 제주: /제주/,
+  };
+
+  function buildMatchForm() {
+    $("#mGoals").innerHTML = GOALS.map(([label], i) =>
+      `<label class="chip-check"><input type="checkbox" value="${i}"><span>${esc(label)}</span></label>`).join("");
+    $("#mCerts").innerHTML = CERTS.map((c) =>
+      `<label class="chip-check"><input type="checkbox" value="${esc(c)}"><span>${esc(c)}</span></label>`).join("");
+    $("#mBlockers").innerHTML = BLOCKERS.map(([k, label]) =>
+      `<label class="chip-check danger"><input type="checkbox" value="${k}"><span>${esc(label)}</span></label>`).join("");
+  }
+
+  function readProfile() {
+    const checked = (sel) => $$(sel + " input:checked").map((i) => i.value);
+    return {
+      region: $("#mRegion").value,
+      size: $("#mSize").value,
+      industry: $("#mIndustry").value,
+      founded: $("#mFounded").value,
+      employees: $("#mEmployees").value,
+      revenue: $("#mRevenue").value,
+      product: $("#mProduct").value.trim(),
+      exportYn: $("#mExport").value,
+      goals: checked("#mGoals").map(Number),
+      plan: $("#mPlan").value.trim(),
+      budget: $("#mBudget").value,
+      selfPay: $("#mSelfPay").value,
+      certs: checked("#mCerts"),
+      blockers: checked("#mBlockers"),
+      includeClosed: $("#mIncludeClosed").checked,
+    };
+  }
+
+  function applyProfile(p) {
+    if (!p) return;
+    const set = (id, v) => { if (v !== undefined && v !== null) $(id).value = v; };
+    set("#mRegion", p.region); set("#mSize", p.size); set("#mIndustry", p.industry);
+    set("#mFounded", p.founded); set("#mEmployees", p.employees); set("#mRevenue", p.revenue);
+    set("#mProduct", p.product); set("#mExport", p.exportYn); set("#mPlan", p.plan);
+    set("#mBudget", p.budget); set("#mSelfPay", p.selfPay);
+    $("#mIncludeClosed").checked = !!p.includeClosed;
+    (p.goals || []).forEach((i) => {
+      const el = $(`#mGoals input[value="${i}"]`);
+      if (el) el.checked = true;
+    });
+    (p.certs || []).forEach((c) => {
+      const el = $$("#mCerts input").find((x) => x.value === c);
+      if (el) el.checked = true;
+    });
+    (p.blockers || []).forEach((b) => {
+      const el = $(`#mBlockers input[value="${b}"]`);
+      if (el) el.checked = true;
+    });
+  }
+
+  const textCache = new Map();
+
+  function announceText(a) {
+    if (textCache.has(a.id)) return textCache.get(a.id);
+    // 본문에 섞여 있는 URL은 매칭 오탐의 원인이라 제거한다
+    const text = [a.title, a.summary, a.target, a.field, a.subField, a.org,
+      (a.hashtags || []).join(" ")].filter(Boolean).join(" ")
+      .replace(/https?:\/\/\S+/g, " ")
+      .replace(/\b[\w.]+\.(?:do|jsp|html?|kr|com)\b\S*/gi, " ");
+    textCache.set(a.id, text);
+    return text;
+  }
+
+  // 공고가 특정 지역 전용인지 판정. 전용이 아니면 null(전국 사업).
+  function regionOf(a) {
+    const head = (a.title || "").slice(0, 30);
+    const m = head.match(/^\s*[\[(【]([^\])】]+)[\])】]/);
+    const scope = m ? m[1] : head;
+    for (const r of REGIONS) {
+      if (REGION_ALIAS[r].test(scope)) return r;
+    }
+    return null;
+  }
+
+  function scoreAnnouncement(a, p) {
+    const text = announceText(a);
+    const reasons = [];
+    let score = 0;
+
+    // 1단계 신청자격 — 지역: 다른 지역 전용 공고는 아예 제외
+    const region = regionOf(a);
+    if (region && p.region && region !== p.region) return null;
+    if (region && p.region && region === p.region) {
+      score += 22;
+      reasons.push(`${region} 지역사업`);
+    } else if (!region) {
+      score += 6; // 전국 대상
+    }
+
+    // 2단계 지원목적 — 추천의 핵심 (가중치 최대)
+    let goalHit = 0;
+    p.goals.forEach((i) => {
+      const g = GOALS[i];
+      if (g && g[1].test(text)) {
+        goalHit += 1;
+        if (reasons.length < 6) reasons.push(g[0]);
+      }
+    });
+    if (p.goals.length && !goalHit) return null; // 목적이 하나도 안 맞으면 제외
+    score += Math.min(goalHit * 26, 52);
+
+    // 기업규모
+    if (p.size && new RegExp(p.size).test(text)) {
+      score += 14;
+      reasons.push(p.size + " 대상");
+    }
+    // 업종·생산품 키워드
+    const words = [p.industry, ...(p.product ? p.product.split(/[,\s]+/) : []),
+      ...(p.plan ? p.plan.split(/[,\s]+/) : [])].filter((w) => w && w.length >= 2);
+    const wordHit = words.filter((w) => text.includes(w));
+    if (wordHit.length) {
+      score += Math.min(wordHit.length * 8, 16);
+      reasons.push(wordHit.slice(0, 2).join("·") + " 관련");
+    }
+    // 창업기업 (설립 7년 이내)
+    if (p.founded) {
+      const years = TODAY.getFullYear() - Number(p.founded);
+      if (years <= 7 && /창업|초기기업|예비창업/.test(text)) {
+        score += 10;
+        reasons.push(`창업 ${years}년차 대상`);
+      }
+    }
+    // 수출
+    if (p.exportYn === "yes" && /수출|해외|글로벌/.test(text)) {
+      score += 8;
+      reasons.push("수출기업 대상");
+    }
+    // 가점 인증
+    const certHit = (p.certs || []).filter((c) =>
+      text.includes(c.replace(/\s*인증$/, "").replace("소재부품장비", "소재·부품·장비")));
+    if (certHit.length) {
+      score += Math.min(certHit.length * 5, 10);
+      reasons.push("가점: " + certHit.slice(0, 2).join(", "));
+    }
+
+    // 접수 상태 — 지금 신청 가능한 것을 우선
+    const st = statusOf(a);
+    if (st === "open") score += 16;
+    else if (st === "upcoming") score += 12;
+    else if (st === "always") score += 8;
+    else if (!p.includeClosed) return null;
+
+    // 4단계 사업규모 — 데이터에 금액이 있는 경우만 참고 표시
+    let budgetNote = null;
+    if (p.budget) {
+      const m = text.match(/(\d[\d,.]*)\s*(억|백만)\s*원/);
+      if (m) {
+        const val = parseFloat(m[1].replace(/,/g, "")) * (m[2] === "억" ? 100 : 1); // 백만원 환산
+        const mine = Number(p.budget);
+        if (val >= mine * 0.5) {
+          score += 6;
+          budgetNote = `공고 금액 ${m[0]} (희망 ${mine}백만원)`;
+        }
+      }
+    }
+
+    return { a, score: Math.min(Math.round(score), 100), reasons, budgetNote, region };
+  }
+
+  function renderMatchResults(p) {
+    const warn = $("#matchWarn");
+    if (p.blockers.length) {
+      const names = p.blockers.map((b) => (BLOCKERS.find((x) => x[0] === b) || [, b])[1]);
+      warn.innerHTML = `<div class="warn-box">🚫 <strong>${esc(names.join(", "))}</strong>에 해당하면
+        대부분의 정부지원사업은 신청이 제한됩니다. 아래 결과는 참고용이며,
+        신청 전 해당 사항을 먼저 해소하거나 주관기관에 문의하세요.</div>`;
+    } else {
+      warn.innerHTML = "";
+    }
+
+    if (!p.goals.length) {
+      $("#matchCount").textContent = "";
+      $("#matchList").innerHTML =
+        '<p class="empty">「2. 해결하려는 문제」를 하나 이상 선택해주세요.<br>이 항목이 추천의 기준이 됩니다.</p>';
+      return;
+    }
+
+    const results = DATA.announcements
+      .map((a) => scoreAnnouncement(a, p))
+      .filter(Boolean)
+      .sort((x, y) => y.score - x.score || (y.a.created || "").localeCompare(x.a.created || ""))
+      .slice(0, 100);
+
+    $("#matchCount").textContent =
+      `적합도 높은 순 ${results.length}건 (전체 ${DATA.announcements.length}건 중 선별)`;
+
+    if (!results.length) {
+      $("#matchList").innerHTML =
+        '<p class="empty">조건에 맞는 공고를 찾지 못했습니다.<br>목적을 더 선택하거나 지역을 "선택 안 함"으로 두고 다시 시도해보세요.</p>';
+      return;
+    }
+
+    $("#matchList").innerHTML = results.map((r) => {
+      const a = r.a;
+      const period = a.applyStart ? `${fmtDate(a.applyStart)} ~ ${fmtDate(a.applyEnd)}`
+        : (a.applyText || "기간 정보 없음");
+      const grade = r.score >= 70 ? "high" : r.score >= 45 ? "mid" : "low";
+      return `<article class="card match-card" data-id="${esc(a.id)}">
+        <div class="card-top">
+          <span class="match-score ${grade}">적합도 ${r.score}</span>
+          ${statusBadge(a)}
+          ${a.field ? `<span class="badge field">${esc(a.field)}</span>` : ""}
+          <span class="badge source">${esc(srcOf(a))}</span>
+        </div>
+        <h3>${esc(a.title)}</h3>
+        <div class="card-meta">
+          <span>🏛 ${esc(a.agency || "-")}</span>
+          ${a.org ? `<span>🏢 ${esc(a.org)}</span>` : ""}
+          <span>🗓 ${esc(period)}</span>
+          ${a.attachments && a.attachments.length ? `<span>📎 첨부 ${a.attachments.length}개</span>` : ""}
+        </div>
+        <div class="match-why">
+          <strong>추천 이유</strong>
+          ${r.reasons.map((x) => `<span class="why-chip">${esc(x)}</span>`).join("")}
+          ${r.budgetNote ? `<span class="why-chip">${esc(r.budgetNote)}</span>` : ""}
+        </div>
+        <p class="match-todo">확인 필요: 세부 신청자격(업종·매출·중복지원 제한)은 공고문 원문에서 확인하세요.</p>
+      </article>`;
+    }).join("");
+
+    $$("#matchList .card").forEach((card) => {
+      card.addEventListener("click", () => openDetail(card.dataset.id));
+    });
+  }
+
+  const PROFILE_KEY = "pjfinder.profile.v1";
+
+  function runMatch() {
+    const p = readProfile();
+    try {
+      localStorage.setItem(PROFILE_KEY, JSON.stringify(p));
+    } catch (e) { /* 저장 실패는 추천 자체를 막지 않는다 */ }
+    renderMatchResults(p);
+  }
+
+  buildMatchForm();
+  try {
+    const saved = localStorage.getItem(PROFILE_KEY);
+    if (saved) applyProfile(JSON.parse(saved));
+  } catch (e) { /* 저장값이 깨졌으면 빈 폼으로 시작 */ }
+
+  $("#matchForm").addEventListener("submit", (e) => {
+    e.preventDefault();
+    runMatch();
+  });
+  $("#mReset").addEventListener("click", () => {
+    $("#matchForm").reset();
+    $$("#mGoals input, #mCerts input, #mBlockers input").forEach((i) => (i.checked = false));
+    try { localStorage.removeItem(PROFILE_KEY); } catch (e) { /* 무시 */ }
+    $("#matchWarn").innerHTML = "";
+    $("#matchCount").textContent = "";
+    $("#matchList").innerHTML = "";
+  });
+  $("#mIncludeClosed").addEventListener("change", () => {
+    if ($$("#mGoals input:checked").length) runMatch();
+  });
+
   // ---------- 공고문 분석 (PDF) ----------
   // 공고문 구조를 인식해 항목 제목부터 다음 섹션 전까지 통째로 추출.
   // 제목 3단계: Ⅰ.(3) > □(2) > 1.(1) — 시작 제목보다 같거나 큰 단계를 만나면 중단

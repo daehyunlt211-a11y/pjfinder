@@ -149,11 +149,23 @@
       list.innerHTML = '<p class="empty">조건에 맞는 공고가 없습니다.</p>';
       return;
     }
-    list.innerHTML = items.map((a) => {
-      const period = a.applyStart
-        ? `${fmtDate(a.applyStart)} ~ ${fmtDate(a.applyEnd)}`
-        : (a.applyText || "기간 정보 없음");
-      return `<article class="card" data-id="${esc(a.id)}">
+    // 수천 건을 한 번에 그리면 DOM이 무거워 검색·필터가 버벅인다.
+    // 처음엔 PAGE_SIZE개만 그리고 "더 보기"로 이어붙인다.
+    listItems = items;
+    listShown = Math.min(LIST_PAGE, items.length);
+    list.innerHTML = renderCards(items.slice(0, listShown)) + moreButtonHtml();
+    bindCardClicks(list);
+  }
+
+  const LIST_PAGE = 200;
+  let listItems = [];
+  let listShown = 0;
+
+  function cardHtml(a) {
+    const period = a.applyStart
+      ? `${fmtDate(a.applyStart)} ~ ${fmtDate(a.applyEnd)}`
+      : (a.applyText || "기간 정보 없음");
+    return `<article class="card" data-id="${esc(a.id)}">
         <div class="card-top">
           ${statusBadge(a)}
           ${a.field ? `<span class="badge field">${esc(a.field)}</span>` : ""}
@@ -169,10 +181,35 @@
         ${a.hashtags && a.hashtags.length
           ? `<div class="card-tags">${a.hashtags.map((t) => `<span class="tag">#${esc(t)}</span>`).join("")}</div>` : ""}
       </article>`;
-    }).join("");
-    list.querySelectorAll(".card").forEach((card) => {
+  }
+
+  function renderCards(arr) {
+    return arr.map(cardHtml).join("");
+  }
+
+  function moreButtonHtml() {
+    const remain = listItems.length - listShown;
+    if (remain <= 0) return "";
+    return `<button type="button" class="btn-more" id="loadMore">▼ 더 보기 (${remain}건 남음)</button>`;
+  }
+
+  function bindCardClicks(container) {
+    container.querySelectorAll(".card").forEach((card) => {
+      if (card.dataset.bound) return;
+      card.dataset.bound = "1";
       card.addEventListener("click", () => openDetail(card.dataset.id));
     });
+    const more = container.querySelector("#loadMore");
+    if (more) more.addEventListener("click", loadMoreCards);
+  }
+
+  function loadMoreCards() {
+    const btn = $("#loadMore");
+    if (btn) btn.remove();
+    const next = listItems.slice(listShown, listShown + LIST_PAGE);
+    listShown += next.length;
+    $("#cardList").insertAdjacentHTML("beforeend", renderCards(next) + moreButtonHtml());
+    bindCardClicks($("#cardList"));
   }
 
   // ---------- 상세 요약 ----------
@@ -317,12 +354,18 @@
         }
       });
     });
-    $("#fileResultCount").textContent = `첨부파일 ${rows.length}개`;
     const list = $("#fileList");
     if (!rows.length) {
+      $("#fileResultCount").textContent = "검색된 첨부파일이 없습니다";
       list.innerHTML = '<p class="empty">검색된 첨부파일이 없습니다.</p>';
       return;
     }
+    // 검색어가 없으면 전체 5천여 개를 다 그리지 않고 상위 일부만 (검색을 유도)
+    const cap = FILE_PAGE;
+    const shown = rows.slice(0, cap);
+    $("#fileResultCount").textContent = rows.length > cap
+      ? `첨부파일 ${rows.length}개 중 ${cap}개 표시 — 검색어를 입력하면 좁혀집니다`
+      : `첨부파일 ${rows.length}개`;
     const iconOf = (name) => {
       if (/\.pdf$/i.test(name)) return "📕";
       if (/\.hwpx?$/i.test(name)) return "📘";
@@ -331,7 +374,7 @@
       if (/\.(zip|7z|rar)$/i.test(name)) return "🗜️";
       return "📎";
     };
-    list.innerHTML = rows.map((r) => `
+    list.innerHTML = shown.map((r) => `
       <div class="file-item">
         <span class="file-icon">${iconOf(r.file.name)}</span>
         <div class="file-info">
@@ -345,6 +388,7 @@
       el.addEventListener("click", () => openDetail(el.dataset.id));
     });
   }
+  const FILE_PAGE = 300;
 
   // ---------- 공고 시기 예측 ----------
   // 사업명 정규화: 연도·차수·꺾쇠 표기 제거 → 같은 사업끼리 그룹핑

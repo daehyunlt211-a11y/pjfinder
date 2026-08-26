@@ -71,16 +71,43 @@ def is_support_notice(title):
 
 
 def find_period(text):
-    """본문에서 '2026-07-01 ~ 2026-07-31' 형태의 접수기간을 추출."""
+    """본문에서 접수기간을 추출. 기관 게시판은 표기가 제각각이라 여러 형태를 처리한다.
+      - '2026. 7. 14.(화) ~ 8. 14.(금)'  (종료일 연도 생략)
+      - '접수기간 : ~ 2026.8.31.'          (시작일 없음)
+      - '2026-07-01 ~ 2026-07-31'
+    반환: (시작일 or None, 종료일 or None). 종료일만 있어도 마감 판정에 쓰인다."""
     if not text:
         return None, None
-    D = r"(20\d{2})\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})"
-    m = re.search(D + r"[^~]{0,12}~[^0-9]{0,12}" + D, text)
-    if not m:
-        return None, None
-    g = m.groups()
-    fmt = lambda y, mo, d: f"{y}-{int(mo):02d}-{int(d):02d}"
-    return fmt(g[0], g[1], g[2]), fmt(g[3], g[4], g[5])
+
+    # 연도 있는 날짜 / 연도 없는 날짜(월.일)
+    YD = r"(20\d{2})\s*[.\-/년]\s*(\d{1,2})\s*[.\-/월]\s*(\d{1,2})"
+    MD = r"(\d{1,2})\s*[.\-/월]\s*(\d{1,2})"
+    fmt = lambda y, mo, d: f"{int(y)}-{int(mo):02d}-{int(d):02d}"
+
+    # 1) '접수기간/신청기간/공모기간 …' 라벨 뒤 구간을 우선 탐색
+    label = re.search(r"(?:접수|신청|공모|모집)\s*기[간한][^\n]{0,80}", text)
+    scope = label.group(0) if label else text[:400]
+
+    # 시작(연도O) ~ 종료(연도 생략 가능)
+    m = re.search(YD + r"[^~\d]{0,12}~[^~\d]{0,12}" + YD, scope) \
+        or re.search(YD + r"[^~\d]{0,12}~[^~\d]{0,12}", text)
+    if m and len(m.groups()) >= 6:
+        g = m.groups()
+        return fmt(g[0], g[1], g[2]), fmt(g[3], g[4], g[5])
+    # 시작(연도O) ~ 종료(월.일) — 종료 연도는 시작 연도 상속. (요일)·시각 표기를 건너뛰도록 간격 넉넉히
+    m = re.search(YD + r"[^~\d]{0,10}~[^~\d]{0,10}" + MD, scope)
+    if m:
+        g = m.groups()
+        y = g[0]
+        # 종료 월이 시작 월보다 작으면 해 넘김(12월~1월)
+        end_y = int(y) + 1 if int(g[4]) < int(g[1]) else int(y)
+        return fmt(y, g[1], g[2]), fmt(end_y, g[3], g[4])
+    # 시작 없이 '~ 종료(연도O)' — 종료일만
+    m = re.search(r"~[^~\d]{0,8}" + YD, scope)
+    if m:
+        g = m.groups()
+        return None, fmt(g[0], g[1], g[2])
+    return None, None
 
 
 # ────────────────────────────── 한국에너지공단 ──────────────────────────────
@@ -354,6 +381,14 @@ def collect_site(site, existing, stats):
             for k in ("summary", "attachments", "target", "contact"):
                 if old.get(k):
                     a[k] = old[k]
+            # 상세를 다시 안 받는 갱신 건도, 복원한 본문으로 접수기간을 재계산한다.
+            # (find_period 파서가 개선되면 기존 공고에도 반영되도록)
+            if not a.get("applyStart") and not a.get("applyEnd") and a.get("summary"):
+                s, e = find_period(a["summary"])
+                if s or e:
+                    a["applyStart"], a["applyEnd"] = s, e
+                    a["applyText"] = (f"{s} ~ {e}" if s and e
+                                      else f"~ {e}" if e else a.get("applyText", ""))
             updated += 1
         else:
             added += 1

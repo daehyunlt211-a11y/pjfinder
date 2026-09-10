@@ -1,8 +1,2831 @@
 {
  "sample": false,
- "updatedAt": "2026-09-09 09:02:08",
+ "updatedAt": "2026-09-10 09:01:59",
  "source": "기업마당 + KOSMO + IRIS + 에너지공단 + K-Startup + KEITI",
  "announcements": [
+  {
+   "id": "PBLN_000000000126340",
+   "title": "[경남] 산청군 2026년 하반기 농업발전기금 융자지원사업 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "금융",
+   "subField": "융자",
+   "summary": "산청군 농업발전기금 설치 및 운영 조례 제9조(기금운용계획 및 결산)의 규정에 따라 2026년도 하반기 산청군농업발전기금 융자지원사업 계획을 다음과 같이 공고 합니다.\n\n☞ 산청군내에 1년 이상 주소와 사업장을 둔 농업인, 농업법인 및 생산자단체\n\n☞ 농업발전기금 융자 지원\n- 융자금액\n① 농업인: 운영·시설자금 5천만 원 이하\n② 농업법인 및 생산자단체: 운영·시설자금 5억 원 이하\n- 상환조건 : 2년 거치 3년 균분상환(금리 연1%, 청년농업인 0.8%)",
+   "target": "중소기업",
+   "applyStart": "2026-09-04",
+   "applyEnd": "2026-09-22",
+   "applyText": "2026-09-04 ~ 2026-09-22",
+   "applyMethod": "방문 접수\r\n- 접수처 : 주소지 읍ㆍ면사무소(산업경제담당)",
+   "contact": "산청군농업기술센터 농축산과 055-970-7804 또는 읍ㆍ면사무소(산업경제담당)",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126340",
+   "attachments": [
+    {
+     "name": "[서식] 2026년 하반기 산청군 농업발전기금 융자지원사업 신청서 등.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772777&fileSn=0"
+    },
+    {
+     "name": "2026년 하반기 산청군 농업발전기금 융자지원사업 공고.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772778&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "금융",
+    "경남",
+    "2026",
+    "산청군",
+    "농업발전기금",
+    "생산자단체",
+    "농업법인",
+    "농업인",
+    "기초자치단체",
+    "경상남도",
+    "융자"
+   ],
+   "created": "2026-09-09",
+   "views": 976,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126339",
+   "title": "[경남] 함안군 2026년 식품ㆍ공중위생업소 시설개선비 지원사업 대상업소 추가 모집 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "경영",
+   "subField": "시설/입지지원",
+   "summary": "위생업소(식품접객업소, 공중위생업소)의 시설개선으로 신뢰하고 안심할 수 있는 위생환경을 조성하여 우리 군의 이미지를 제고하고자 2026년 식품ㆍ공중위생업소 시설개선 지원사업을 아래와 같이 추가 공고하오니 많은 관심과 참여 바랍니다.\n\n☞ 공고일 기준 영업 기간 2년 이상 경과한 관내 식품ㆍ공중위생업소\n- 노후 시설개선비 지원 : 일반음식점, 휴게음식점, 제과점, 유흥ㆍ단란주점, 목욕장업, 이ㆍ미용업, 세탁업, 건물위생관리업\n- 노후 주방 청소비 지원 : 일반음식점, 휴게음식점, 제과점\n\n☞ 노후 시설개선비, 노후 음식점 주방 청소비 지원",
+   "target": "중소기업",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "예산 소진시까지",
+   "applyMethod": "방문 접수\r\n- 접수처 : 함안군보건소 보건행정과 위생담당",
+   "contact": "함안군보건소 보건행정과 위생담당 055-580-3113",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126339",
+   "attachments": [
+    {
+     "name": "사업 신청 제출서류(2026년 시설개선 지원사업 추가공고).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772775&fileSn=0"
+    },
+    {
+     "name": "2026년 위생업소 시설개선 지원사업 추가공고(20260909_최종본).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772776&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "경영",
+    "경남",
+    "위생환경조성",
+    "2026",
+    "함안군",
+    "공중위생업소",
+    "위생환경",
+    "이용업",
+    "미용업",
+    "세탁업",
+    "제과점",
+    "식품접객업소",
+    "휴게음식점",
+    "일반음식점",
+    "시설개선",
+    "기초자치단체",
+    "경상남도"
+   ],
+   "created": "2026-09-09",
+   "views": 972,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126338",
+   "title": "[경남] 양산시 2026년 고용창출 우수기업 선정 계획 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "기타",
+   "subField": "제도",
+   "summary": "양산시에서는 일자리 창출 및 취업 취약계층 등 고용안정에 기여한 우수한 기업을 발굴·선정하여 고용창출 확대와 고용안정 분위기를 확산하고자「2026년 고용창출 우수기업 선정 계획」을 다음과 같이 공고하오니 많은 참여 바랍니다.\n\n☞ 공고일 현재 본사 또는 주공장이 양산에 소재한 기업\n- 2024. 9. 1. 이전 부터 양산시 관내에서 2년 이상 정상 가동 상태이며 상용근로자수가 공고 시작일 기준 10인 이상인 중소기업\n- 최근 1년간(2025. 9. 1.  ~ 2026. 8. 31.) 고용 증가율이 5% 이상이면서 고용 내국인 증가인원이 3명 이상인 기업\n- 대상업종 : 제조업, 제조업 관련 서비스업, 제조업 관련 지식기반 서비스업\n\n☞ 고용창출 우수기업 인증일로부터 3년간 인증, 우대지원 제도(인센티브) 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-14 ~ 2026-09-30",
+   "applyMethod": "방문 또는 우편 접수\r\n- 접수처 :  (50624) 경상남도 양산시 중앙로 33-2(다방동) 양산시청 비즈니스센터 2층 민생경제과",
+   "contact": "양산시청 민생경제과 055-392-3112",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126338",
+   "attachments": [
+    {
+     "name": "★2026년 고용창출 우수기업 선정 계획 공고.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772773&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "인력",
+    "기타",
+    "경남",
+    "고용창출우수기업선정",
+    "2026",
+    "양산시",
+    "고용창출우수기업",
+    "인센티브",
+    "기초자치단체",
+    "경상남도",
+    "인증",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 904,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126337",
+   "title": "2026년 WoW! 메이커스 IR클리닉 모집 연장 공고(메이커스페이스 전문랩 운영사업)",
+   "agency": "중소벤처기업부",
+   "org": "수원대학교",
+   "field": "창업",
+   "subField": "사업화지원",
+   "summary": "수원대학교 WoW! 메이커스는 2022년부터 현재까지 메이커스페이스 구축ㆍ운영 사업에서 전문랩으로 선정되어 지역 내 메이커 문화 확산 및 시제품 제작의 메카로서의 역할을 담당하고 있습니다. 제조 창업기업의 실전형 투자역량 강화 및 투자유치 가능성 향상을 위해「2026년 WoW! 메이커스 IR클리닉」 참가기업을 다음과 같이 모집하오니 많은 관심과 참여 바랍니다.\n\n☞ 업력 7년 미만의 제조창업기업\n※ 자세한 지원대상 공고문 참조\n\n☞ IR기업진단 및 컨설팅, IR디자인 및 피치덱 제작, 리모델링 진행, IR발표 피칭 컨설팅, IR 데모데이 개최 지원\n※ 자세한 지원내용 공고문 참조",
+   "target": "창업벤처",
+   "applyStart": "2026-08-24",
+   "applyEnd": "2026-09-16",
+   "applyText": "2026-08-24 ~ 2026-09-16",
+   "applyMethod": "이메일 접수 (makerspace@suwon.ac.kr)",
+   "contact": "수원대학교 WoW!메이커스 담당자 031-229-8821",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126337",
+   "attachments": [
+    {
+     "name": "(신청서식) 2026년 WoW!메이커스 IR클리닉 참가 신청서__수원대학교 WoW!메이커스.hwpx@(붙임)2026년 WoW_!메이커스 IR클리닉.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772771&fileSn=1"
+    },
+    {
+     "name": "(공고문)2026년 WoW!메이커스 IR클리닉.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772772&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772772&fileSn=2"
+    }
+   ],
+   "hashtags": [
+    "금융",
+    "창업",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "제조창업기업",
+    "피치덱",
+    "수원대학교",
+    "메이커스페이스",
+    "데모데이",
+    "창업7년미만",
+    "창업기업",
+    "컨설팅",
+    "중소벤처기업부",
+    "제조업",
+    "IR"
+   ],
+   "created": "2026-09-09",
+   "views": 1122,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126336",
+   "title": "[경남] 김해시 2026년 2차 우리동네 맑은공기 패키지 지원사업 참여 사업자 모집 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "경영",
+   "subField": "시설/입지지원",
+   "summary": "「2026년 우리동네 맑은공기 패키지 지원사업」 참여 사업자를 모집하고자 다음과 같이 공고(2차)합니다.\n\n☞ 공고일 기준 다음 조건을 모두 충족하는 사업장\n① 김해시 진영읍 진영ㆍ본산리 준공업지역(악취관리지역), 부곡ㆍ유하동 일반 공업지역(악취관리지역), 지내ㆍ안동 일반공업지역 내 소재한 사업장\n②「대기환경보전법 시행령」제13조에 따른 1~5종 사업장\n③「중소기업기본법 시행령」제3조제1항에 따른 중ㆍ소기업\n\n☞ 소규모 사업장 대기오염방지시설 설치비 지원한도 내 실제 소요비용의 90% 지원",
+   "target": "중소기업",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "예산 소진시까지",
+   "applyMethod": "방문 또는 우편 접수\r\n- 접수처 : (50924) 김해시 김해대로 2401 김해시청 북관 3층 기후대응과 ‘우리동네 맑은공기 패키지 지원사업’ 담당자 앞",
+   "contact": "김해시 기후대응과 환경허가팀 055-330-6812, 6815",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126336",
+   "attachments": [
+    {
+     "name": "공고문(2026년 우리동네 맑은공기 패키지 지원사업).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772757&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "경영",
+    "경남",
+    "악취관리",
+    "2026",
+    "공업지역",
+    "IoT",
+    "방지시설",
+    "사물인터넷",
+    "대기오염방지시설",
+    "김해시",
+    "기초자치단체",
+    "경상남도",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 933,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126335",
+   "title": "[경남] 통영시 경상남도 추천상품(QC) 및 청경해 사용 지정업체 모집 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "기술",
+   "subField": "시험/인증",
+   "summary": "경상남도 내에서 생산ㆍ제조ㆍ가공되는 수산물에 대한 경상남도 추천상품(QC) 및 청경해 사용 지정업체 모집을 위하여 아래와 같이 공고하오니 희망자께서는 신청기간(2026. 9. 7. ~ 9. 21.) 내에 신청서 및 구비서류를 제출하여 주시기 바랍니다.\n\n☞ 관내 수산물 생산ㆍ제조ㆍ가공업체(신규, 재지정)\n\n☞ 경상남도 추천상품(QC), 청경해 사용 지정 및 혜택 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-21",
+   "applyText": "2026-09-07 ~ 2026-09-21",
+   "applyMethod": "방문 접수\r\n- 접수처 : 통영시 수산과 수산식품산업거점센터 직접 제출(통영시 도산면 법송2길 7, 2층 관리사무실)",
+   "contact": "통영시 수산과 055-650-5052",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126335",
+   "attachments": [
+    {
+     "name": "경상남도 추천상품(QC) 지정 신청서 등.hwpx@청경해 상표 사용지정 신청서 등.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772753&fileSn=0"
+    },
+    {
+     "name": "경상남도 추천상품(QC) 및 청경해 사용 지정업체 모집 공고문.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772754&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772754&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "경남",
+    "2026",
+    "경상남도",
+    "기초자치단체",
+    "수산물",
+    "생산",
+    "제조",
+    "가공",
+    "재지정",
+    "신규",
+    "QC",
+    "경상남도추천상품",
+    "청경해",
+    "지정"
+   ],
+   "created": "2026-09-09",
+   "views": 968,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126334",
+   "title": "[인천] 2026년 AX 전환 및 확산 시범사업 외부 지원 프로그램 참여기업 모집 공고",
+   "agency": "인천광역시",
+   "org": "인천창조경제혁신센터",
+   "field": "창업",
+   "subField": "사업화지원",
+   "summary": "인천창조경제혁신센터에서는 인천 창업기업의 업무 프로세스 혁신과 생산성 향상을 위한 AX 솔루션 도입을 지원하고자 「2026년 AX 전환 및 확산 시범사업 외부 지원 프로그램」 참여기업을 다음과 같이 모집하오니 많은 관심과 참여 바랍니다.\n\n☞ AX 도입을 통해 내부 업무 프로세스 개선 및 생산성 향상을 희망하는 창업기업\n- 공고일 기준 창업 7년 이내 기업으로, 인천광역시 내에 본사ㆍ사업장ㆍ연구소 중 1개 이상을 둔 기업\n\n☞ 기업별 업무환경 및 수요에 적합한 AX 솔루션 도입 및 업무 프로세스 개선 지원",
+   "target": "창업벤처",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-10-02",
+   "applyText": "2026-09-07 ~ 2026-10-02",
+   "applyMethod": "이메일 접수 (angela@ccei.kr)",
+   "contact": "인천창조경제혁신센터 032-725-5027, angela@ccei.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126334",
+   "attachments": [
+    {
+     "name": "[별첨1] 프로그램 참가 신청서.hwp@[별첨2] AX 도입 수행계획서.hwp@[별첨3] 개인정보 제공ㆍ이용 동의서.hwp@2026년 AX 외부지원프로그램  모집 공고 포스터.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772740&fileSn=0"
+    },
+    {
+     "name": "2026년 AX 외부지원프로그램  모집 공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772761&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772761&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772761&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772761&fileSn=3"
+    }
+   ],
+   "hashtags": [
+    "창업",
+    "인천",
+    "업무환경",
+    "AX전환",
+    "AX솔루션",
+    "2026",
+    "프로세스개선",
+    "도입",
+    "7년이내",
+    "인천창조경제혁신센터",
+    "창업기업",
+    "인천광역시"
+   ],
+   "created": "2026-09-09",
+   "views": 1062,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126333",
+   "title": "[경남] 통영시 2026년 경남 특산물박람회 참가업체 모집 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "내수",
+   "subField": "오프라인",
+   "summary": "지역 우수 특산물의 홍보와 판로 확대를 도모하기 위한 「2026년 경남특산물박람회」전시(판매)관 부스 참가업체를 다음과 같이 모집공고합니다.\n\n☞ 농ㆍ축ㆍ수산물 및 가공식품, 공예품, 한방약초 및 차, 가공품, 관광 등 품목을 생산(재배)하는 통영 소재 업체\n\n☞ 부스 임차료 및 기본 비품 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-22",
+   "applyText": "2026-09-07 ~ 2026-09-22",
+   "applyMethod": "방문, 팩스, 이메일 접수\r\n- 접수처 : 통영시 일자리경제과 전통시장지원팀\r\n- 팩스 : 055-650-5299\r\n- 이메일 : tan9351@korea.kr\r\n※ 팩스 송신 및 이메일 제출 후 확인전화 요망",
+   "contact": "통영시 일자리경제과 전통시장지원팀 055-650-5214",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126333",
+   "attachments": [
+    {
+     "name": "[붙임1] 2026 경남특산물박람회 참가신청서 및 개인정보동의서.hwpx@[붙임2] 2026 경남특산물박람회 참가규정.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772751&fileSn=0"
+    },
+    {
+     "name": "[공고문] 2026년 경남특산물박람회 참가업체 모집 공고.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772752&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772752&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "내수",
+    "경남",
+    "2026",
+    "경상남도",
+    "기초자치단체",
+    "통영시",
+    "부스임차료",
+    "기본비품",
+    "특산물박람회",
+    "농산물",
+    "축산물",
+    "수산물",
+    "가공식품",
+    "공예품",
+    "가공품"
+   ],
+   "created": "2026-09-09",
+   "views": 947,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126332",
+   "title": "[경남] 창원시 2026년 경남특산물박람회 참여 희망 업체(농가) 모집 공고",
+   "agency": "경상남도",
+   "org": "기초자치단체",
+   "field": "내수",
+   "subField": "오프라인",
+   "summary": "2026년 경남특산물박람회에 참가할 업체(농가)를 다음과 같이 모집 공고합니다.\n\n☞ 창원시 농ㆍ축ㆍ수산물 및 가공품, 특산품 생산 업체(농가)\n\n☞ 1개 부스(3m × 3m), 업체 상호간판, 벽체 등 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-08 ~ 2026-09-17",
+   "applyMethod": "이메일, 우편, 방문 접수\r\n- 이메일 : didwndud@korea.kr\r\n- 접수처 : (51413) 창원시 성산구 대원로 66번길 13, 3층",
+   "contact": "창원시농업기술센터 농산물유통과 농산유통담당 주무관 055-225-5604",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126332",
+   "attachments": [
+    {
+     "name": "★2026 경남특산물박람회 참가신청서_업체모집.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772749&fileSn=0"
+    },
+    {
+     "name": "모집공고문(2026년 경남특산물박람회).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772750&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "내수",
+    "경남",
+    "2026",
+    "경상남도",
+    "기초자치단체",
+    "창원시",
+    "경남특산물박람회",
+    "농가",
+    "농산물",
+    "축산물",
+    "수산물",
+    "가공품",
+    "특산품",
+    "부스"
+   ],
+   "created": "2026-09-09",
+   "views": 948,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126331",
+   "title": "2026년 AI 융합 에스테틱 의료기기 글로벌 사업화  기반구축 사업(1차년도) 참여기업 통합모집 재공고 (바이오산업 개방형 생태계 조성 촉진)",
+   "agency": "산업통상부",
+   "org": "원주의료기기산업진흥원",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "산업통상부와 강원특별자치도(원주시)가 지원하는「AI 융합 에스테틱 의료기기 글로벌 사업화 기반구축」사업의 참여기업을 아래와 같이 추가로 재공고하오니, 희망하시는 기업들의 많은 참여바랍니다.\n\n☞ 전국 소재 AI 융합 에스테틱 의료기기 개발 기업 (국내 AI 융합 에스테틱 의료기기 제조기업 또는 AI 융합 에스테틱 의료기기 제품 개발 희망 기업)\n\n☞ 기반구축, 인허가 및 시장진출 지원, 기업역량 강화 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-22",
+   "applyText": "2026-09-07 ~ 2026-09-22",
+   "applyMethod": "이메일 접수\r\n- 원주의료기기산업진흥원 : lsj2@wmit.or.kr\r\n- 한국AI의료헬스케어연구원 : chs245@koaim.re.kr",
+   "contact": "원주의료기기산업진흥원 033-760-6158, 6160  한국AI의료헬스케어연구원 031-781-1183",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126331",
+   "attachments": [
+    {
+     "name": "붙임2-1. (서식1-1)_(재)원주의료기기산업진흥원_2026 AI 융합 에스테틱 의료기기 기업지원사업 참여기업 모집 재공고 신청서식.hwp@붙임2-2. (서식1-2)_(재)한국AI의료헬스케어연구원_2026 AI 융합 에스테틱 의료기기 기업지원사업 참여기업 모집 재공고 신청서식.hwp@붙임3. 관련근거.Zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772736&fileSn=0"
+    },
+    {
+     "name": "붙임1. 2026년 AI 융합 에스테틱 의료기기 글로벌 사업화 기반구축 사업(1차년도) 참여기업 통합모집 재공고문.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772737&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772737&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772737&fileSn=2"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "원주의료기기산업진흥원",
+    "산업통상부",
+    "AI",
+    "에스테틱",
+    "의료기기",
+    "AI융합",
+    "인허가",
+    "시장진출",
+    "기업역량"
+   ],
+   "created": "2026-09-09",
+   "views": 1187,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126330",
+   "title": "2026년 지스타 콘솔게임 공동관 참가기업 모집 공고",
+   "agency": "문화체육관광부",
+   "org": "한국콘텐츠진흥원",
+   "field": "내수",
+   "subField": "오프라인",
+   "summary": "한국콘텐츠진흥원은 국내 콘솔게임 유저 이용자 저변 확대를 위한 콘솔게임 체험홍보를 위해 다음과 같이 “2026 지스타 콘솔게임 공동관” 참가 기업을 모집합니다. 관심 있는 기업의 많은 관심과 참여 부탁드립니다.\n\n☞ 2026년 일반형 게임콘텐츠 제작지원(콘솔 분야) 과제 및 국내 게임기업이 출시 또는 제작중인 콘솔게임 중 시연(15분 이상 플레이)이 가능한 빌드를 보유한 게임 개발사\n☞ 콘솔게임 공동관 공용 공간 및 기업별 개별 부스 제공, 콘솔게임 공동관 공용 소개자료/홍보물 제작 및 배포, 콘솔게임 공동관 현장 이벤트 프로그램 운영- 게임사별 전용 시연공간 및 장비(전기, 인터넷, 시연기기 등) 구성, 게임사별 참가 뱃지, 온/오프라인 홍보 등 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-16",
+   "applyText": "2026-09-08 ~ 2026-09-16",
+   "applyMethod": "이메일 접수 (illyu1@kocca.kr)",
+   "contact": "(사업관련) 한국콘텐츠진흥원 게임전략팀 061-900-6325, 6328",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126330",
+   "attachments": [
+    {
+     "name": "01_신청서 양식_2026년 지스타 콘솔게임 공동관 참가지원.docx@02_직접참여인력 및 이해관계자 리스트.xls@03_개인정보 활용동의서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772738&fileSn=1"
+    },
+    {
+     "name": "2026 지스타 콘솔게임 공동관 참가기업 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772739&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772739&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772739&fileSn=3"
+    }
+   ],
+   "hashtags": [
+    "내수",
+    "경영",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "시연공간",
+    "소개자료",
+    "참가뱃지",
+    "콘솔게임",
+    "개별부스",
+    "지스타",
+    "배포",
+    "장비",
+    "게임콘텐츠",
+    "게임기업",
+    "홍보물제작",
+    "한국콘텐츠진흥원",
+    "문화체육관광부",
+    "홍보"
+   ],
+   "created": "2026-09-09",
+   "views": 979,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126329",
+   "title": "2026년 10차 해외 온라인 위조상품 유통 사전진단 서비스 공고",
+   "agency": "지식재산처",
+   "org": "한국지식재산보호원",
+   "field": "기술",
+   "subField": "기술정보제공",
+   "summary": "해외 진출 기업의 피해구제 및 위조상품 대응 역량 강화를 위한 해외 온라인 위조상품 유통 사전진단 서비스를 다음과 같이 공고합니다.\n\n☞ 국내에 사업자 등록이 되어있는 개인사업자 또는 중소ㆍ중견ㆍ대기업\n- 다음 중 어느 하나에 해당하는 지식재산권을 보유한 기업\nㆍ 해외에서 유효 또는 출원한 지식재산권을 보유한 기업\nㆍ 국내에서 유효한 지식재산권을 보유\n\n☞ 위조상품 대응을 위한 모니터링 및 대응전략 교육 연간 1회 지원\n- 사전진단, 보고서 제공, 대응전략 교육",
+   "target": "중소기업",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-09-20",
+   "applyText": "2026-09-01 ~ 2026-09-20",
+   "applyMethod": "온라인 접수 (해외 K-브랜드 보호 포털)",
+   "contact": "한국지식재산보호원 K-브랜드보호실 02-6196-2058 / global@koipa.re.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126329",
+   "attachments": [
+    {
+     "name": "2026년 해외 온라인 위조상품 유통 사전진단 서비스 공고 및 신청방법 해설.zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772747&fileSn=1"
+    },
+    {
+     "name": "2026년 해외 온라인 위조상품 유통 사전진단 서비스 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772748&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "수출",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "지식재산처",
+    "해외온라인유통",
+    "사전진단",
+    "모니터링",
+    "대응전략",
+    "보고서",
+    "상표",
+    "위조상품",
+    "한국지식재산보호원",
+    "지식재산권",
+    "디자인",
+    "교육",
+    "특허",
+    "중소기업",
+    "2026",
+    "중견기업"
+   ],
+   "created": "2026-09-09",
+   "views": 1006,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126328",
+   "title": "[경기] 성남시 2026년 국제 바이오헬스케어 컨벤션(SBIC) 참가기업 모집 공고",
+   "agency": "경기도",
+   "org": "성남산업진흥원",
+   "field": "수출",
+   "subField": "시장개척",
+   "summary": "성남산업진흥원은 관내 바이오헬스케어 분야 중소ㆍ벤처기업의 수출 활성화 및 글로벌 네트워킹 강화를 위해 성남 국제 바이오헬스케어 컨벤션 행사를 개최하고자 하오니 관심있는 기업의 많은 참여 바랍니다.\n\n☞ 성남시 소재 바이오헬스케어 분야 중소ㆍ벤처기업\n\n☞ 수출 상담회, 전시부스 참가지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-07 ~ 2026-09-30",
+   "applyMethod": "온라인 접수(성남산업진흥원)",
+   "contact": "성남산업진흥원 바이오산업부 031-782-3083, hjsi333@snip.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126328",
+   "attachments": [
+    {
+     "name": "붙임2-2. [신청서 동의서] 성남 바이오헬스케어 국제컨벤션.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772732&fileSn=0"
+    },
+    {
+     "name": "붙임2-1. [공고문] 2026년 성남 국제 바이오 헬스케어 컨벤션 기업모집.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772733&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "경기",
+    "2026",
+    "성남산업진흥원",
+    "경기도",
+    "중소기업",
+    "중견기업",
+    "글로벌네트워킹",
+    "바이오헬스케어",
+    "전시부스",
+    "수출상담회",
+    "성남시"
+   ],
+   "created": "2026-09-09",
+   "views": 911,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126327",
+   "title": "2026년 6차 해외 상표 무단선점 심층조사 지원사업 모집 공고",
+   "agency": "지식재산처",
+   "org": "한국지식재산보호원",
+   "field": "수출",
+   "subField": "수출정보제공",
+   "summary": "해외에서 국내 상표의 무단선점 피해를 예방하고 피해 발생 시 맞춤형 대응 전략을 제공하는 「해외 상표 무단선점 심층조사 지원사업」을 다음과 같이 공고합니다.\n\n☞ 국내 사업자로 등록된 기업으로 해외에서 상표 무단선점 피해가 발생하였거나 피해가 예상되는 중소(개인사업자 포함)ㆍ중견기업\n\n☞ 전문수행기관을 통한 해외 상표 무단선점 종합분석 보고서 및 맞춤형 온라인 상담 지원\n※ 자세한 지원내용 공고문 참조",
+   "target": "중소기업",
+   "applyStart": "2026-09-05",
+   "applyEnd": "2026-09-20",
+   "applyText": "2026-09-05 ~ 2026-09-20",
+   "applyMethod": "온라인 접수 (K-브랜드보호포털)",
+   "contact": "한국지식재산보호원 K-브랜드보호실 02-6196-2057, 2054 / ipsupport@koipa.re.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126327",
+   "attachments": [
+    {
+     "name": "2026년 해외 상표 무단선점 심층조사 기업모집공고_최종본(변경공고).hwp@붙임 수출실적 증명서 관련 안내사항.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772743&fileSn=1"
+    },
+    {
+     "name": "2026년 해외 상표 무단선점 심층조사 정기 6차 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772744&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772744&fileSn=2"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "경영",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "무단선점",
+    "지식재산처",
+    "국내상표",
+    "2026",
+    "심층조사",
+    "온라인상담",
+    "상표",
+    "한국지식재산보호원",
+    "중견기업",
+    "상담",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 1008,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126326",
+   "title": "2026년 산업혁신기반구축사업 제조 특화 온디바이스 AI 기반 자율제조 실증 기반 구축사업 기업지원(시제품 제작) 프로그램 수혜기업 모집 공고",
+   "agency": "산업통상부",
+   "org": "구미전자정보기술원",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "2026년도 산업통상자원부 산업혁신기반구축사업으로 추진 중인 「제조 특화 온디바이스 AI 기반 자율제조 실증 기반 구축사업」의 기업지원 프로그램을 아래와 같이 안내하오니, 해당 프로그램 참여를 희망하는 중소ㆍ중견기업의 많은 신청 바랍니다.\n\n☞ 첨단소재부품산업(지능형로봇ㆍ첨단제조장비ㆍ전장시스템ㆍ정밀 소재ㆍ부품 등) 및 온디바이스 AI 관련 중소ㆍ중견기업\n\n☞ 시제품 제작(데이터ㆍ통신 기반 자율제조 온디바이스 AI 시제품 제작) 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "이메일 접수 및 우편 또는 방문 접수\r\n- 이메일 : iochu@geri.re.kr\r\n- 접수처 : 경북 구미시 구미대로 350-27 모바일융합기술센터 208호",
+   "contact": "구미전자정보기술원 054-460-9011",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126326",
+   "attachments": [
+    {
+     "name": "(별첨1) 제조 특화 온디바이스 AI 기반 자율제조 실증 기반 구축사업 기업지원(시제품 제작) 신청서_GERI.hwp@(별첨2) 정보수집에 대한 안내 및 동의서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772719&fileSn=0"
+    },
+    {
+     "name": "(공고문) 2026년 산업혁신기반구축사업 제조 특화 온디바이스 AI 기반 자율제조 실증기반 구축사업 기업지원 프로그램 모집.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772720&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772720&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "첨단소재부품산업",
+    "정밀소재",
+    "전장시스템",
+    "첨단제조장비",
+    "산업통상부",
+    "2026",
+    "온디바이스",
+    "지능형로봇",
+    "부품",
+    "구미전자정보기술원",
+    "시제품제작",
+    "AI",
+    "중견기업",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 1193,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126325",
+   "title": "[경기] 시흥시 2026년 시흥창업캠프 운영 사업 모집 공고",
+   "agency": "경기도",
+   "org": "시흥산업진흥원",
+   "field": "창업",
+   "subField": "사업화지원",
+   "summary": "시흥산업진흥원에서는 관내 유망 예비ㆍ초기 스타트업의 국비 선정 수혜 확대를 위해「2026년 시흥창업캠프 사업」의 참여기업을 모집하오니, 관심 있는 지원 대상 기업들의 많은 참여 바랍니다.\n\n☞ 시흥시 관내 예비창업자 및 창업 7년 이내 스타트업\n\n☞ 예비ㆍ초기 스타트업 아이디어 구체화, 역량강화 기초 교육, 사업계획 수립 및 사업계획서 작성 지원",
+   "target": "창업벤처",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-21",
+   "applyText": "2026-09-08 ~ 2026-09-21",
+   "applyMethod": "이메일 접수 (mvptest@alphabrothers.co.kr)",
+   "contact": "시흥산업진흥원 시흥창업센터 031-497-1497, als10wns@sida.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126325",
+   "attachments": [
+    {
+     "name": "2026년 시흥창업캠프 사업 공고문 및 서식.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772730&fileSn=1"
+    },
+    {
+     "name": "2026년 시흥창업캠프 사업 공고문 및 서식.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772731&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "창업",
+    "경영",
+    "경기",
+    "시흥창업캠프",
+    "2026",
+    "사업계획수립",
+    "사업계획서작성",
+    "아이디어",
+    "역량강화",
+    "예비창업자",
+    "시흥시",
+    "시흥산업진흥원",
+    "창업기업",
+    "경기도",
+    "스타트업",
+    "교육"
+   ],
+   "created": "2026-09-09",
+   "views": 437,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126324",
+   "title": "[충남] 아산시 2026년 국제특송(EMS) 지원사업 참여기업 추가 모집 공고",
+   "agency": "충청남도",
+   "org": "충남경제진흥원",
+   "field": "수출",
+   "subField": "해외진출",
+   "summary": "아산시 중소기업의 해외물류비절감 및 수출확대를 위해「2026년 아산시 국제특송\r\n(EMS) 지원사업」을 아래와 같이 지원하오니 많은 신청 바랍니다\n\n☞ 전년도 수출실적 $2,000만 달러 이하인 아산시 소재 중소기업\n\n☞ 우정청 EMS와 연계를 통한 국제특송(EMS) 지원\n- 충청지방우정청 : 국제특송(EMS) 물류비용 12% 할인\n- 충남경제진흥원 : 상기금액에 대한 70% 추가 할인지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-23",
+   "applyText": "2026-09-09 ~ 2026-09-23",
+   "applyMethod": "온라인 접수(충남경제진흥원 통합지원시스템)",
+   "contact": "아산우체국 041-538-2011, wnal6585@korea.kr 충남경제진흥원 해외진출팀 041-404-1359, yjchoi@cepa.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126324",
+   "attachments": [
+    {
+     "name": "2026년 아산시 국제특송(EMS) 지원사업 추가 모집공고 (1).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772724&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "충남",
+    "2026",
+    "충남경제진흥원",
+    "충청남도",
+    "국제특송",
+    "EMS",
+    "아산시",
+    "우정청",
+    "해외물류비",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 368,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126323",
+   "title": "[경북] 2026년 지역특화형 스마트공장 보급ㆍ확산사업 공고",
+   "agency": "중소벤처기업부",
+   "org": "구미전자정보기술원",
+   "field": "경영",
+   "subField": "시설/입지지원",
+   "summary": "식품 제조ㆍ가공업체 생산 제조현장의 첨단화로 안정적인 식자제 관리, 스마트 식품생산, 품질관리기반 구축과 글로벌 경쟁력 제고하고, 식품 산업 분야 스마트 제조 공장 보급ㆍ확산을 위한 「2026년 경북 지역 특화형 스마트공장 보급ㆍ확산 사업」 을 다음과 같이 공고합니다.\n\n☞ 경북 지역내 식품업을 영위하는 중소ㆍ중견 제조기업\n\n☞ 고도화(제조 현장에 적합한 고도화 수준의 스마트공장을 지원) 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-09 ~ 2026-09-17",
+   "applyMethod": "온라인 접수 (스마트 공장 사업관리시스템)",
+   "contact": "구미전자정보기술원(첨단푸드테크연구센터) 054-479-2242 / 경상북도경제진흥원 054-472-2989 / 중소기업 통합콜센터 1357",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126323",
+   "attachments": [
+    {
+     "name": "(붙임일체) 2026년 경북 지역특화 스마트공장 보급 확산사업.zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772717&fileSn=1"
+    },
+    {
+     "name": "(공고문) 2026년 경북 지역특화형 스마트공장 보급 확산사업 공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772718&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "경영",
+    "경북",
+    "2026",
+    "식품업",
+    "지역특화형",
+    "스마트제조혁신추진단",
+    "구미전자정보기술원",
+    "고도화",
+    "중견",
+    "경상북도경제진흥원",
+    "스마트공장",
+    "중소벤처기업부",
+    "제조업",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 457,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126322",
+   "title": "[경기] 시흥시 2026년 해외인증 획득지원 참여기업 추가 모집 공고",
+   "agency": "경기도",
+   "org": "시흥산업진흥원",
+   "field": "기술",
+   "subField": "시험/인증",
+   "summary": "시흥시 관내 기업의 해외인증획득을 통한 무역장벽 해소 및 수출 경쟁력 강화를 위해 「2026년 해외인증 획득지원」참여기업을 다음과 같이 모집 공고합니다.\n\n☞ 시흥시 소재 본사(지사) 또는 공장등록 기업\n\n☞ 해외인증획득에 소요되는 제품 시험비, 인증비, 컨설팅비 등 기업당 소요비용(공급가액 기준, VAT 제외)의 80%, 최대 500만원 한도 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-27",
+   "applyText": "2026-09-08 ~ 2026-09-27",
+   "applyMethod": "온라인 및 이메일 접수\r\n- 온라인 : 시흥산업진흥원\r\n- 이메일 : twobooks@sida.kr\r\n※ 시흥산업진흥원 홈페이지 제출시, 전산 오류에 따른 기업 피해 최소화를 위해 서류 제출(업로드) 후 문의처(070-8879-1167)를 통한 정상등록 여부 확인 요망",
+   "contact": "시흥산업진흥원 수출입지원실 070-8879-1167, twobooks@sida.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126322",
+   "attachments": [
+    {
+     "name": "2026년 해외인증 획득 지원 사업 공고문(추가모집).hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772726&fileSn=1"
+    },
+    {
+     "name": "2026년 해외인증 획득 지원 사업 공고문(추가모집)+.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772727&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "수출",
+    "경기",
+    "2026",
+    "해외인증획득",
+    "컨설팅비",
+    "획득",
+    "인증비",
+    "시험비",
+    "해외인증",
+    "시흥시",
+    "시흥산업진흥원",
+    "경기도"
+   ],
+   "created": "2026-09-09",
+   "views": 413,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126321",
+   "title": "[경북] 2026년 푸드테크 스마트 제조 기반 구축 사업 공고",
+   "agency": "경상북도",
+   "org": "구미전자정보기술원",
+   "field": "경영",
+   "subField": "디자인/상품화/사업화",
+   "summary": "식품 제조ㆍ가공업체 생산 제조현장의 첨단화로 안정적인 식자재 관리, 스마트 식품생산, 품질관리기반 구축과 글로벌 경쟁력을 제고하고, 식품 산업 분야 스마트 제조 공장 보급ㆍ확산을 위한「2026 푸드테크 스마트 제조 기반 구축 사업」을 다음과 같이 공고합니다.\n\n☞ 경북 지역내 식품업을 영위하는 중소ㆍ중견 제조기업\n\n☞ 스마트 공장 구축, 사업화, 지자체 특화프로그램(정책자금, 시제품 제작, 제품인증 평가, 기업 경쟁력 판로 지원, AI기반 표준화ㆍ연계, 박람회 참가) 지원\n※ 자세한 지원내용 공고문 참조",
+   "target": "중소기업",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-09 ~ 2026-09-17",
+   "applyMethod": "온라인 접수 (스마트공장사업관리시스템)",
+   "contact": "구미전자정보기술원 첨단푸드테크연구센터 054-479-2242 / 경상북도 경제진흥원 054-472-2989 / (시행계획 공고관련 문의) 중소기업 통합콜센터 1357",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126321",
+   "attachments": [
+    {
+     "name": "(붙임일체) 2026년 푸드테크 스마트제조 기반 구축 사업공고.zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772713&fileSn=1"
+    },
+    {
+     "name": "(공고문) 2026년 푸드테크 스마트 제조 기반 구축 사업 공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772714&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "경영",
+    "경북",
+    "제품인증평가",
+    "2026",
+    "식품업",
+    "AI기반",
+    "스마트공장구축",
+    "푸드테크",
+    "판로",
+    "구미전자정보기술원",
+    "정책자금",
+    "중견",
+    "제품인증",
+    "사업화",
+    "경상북도경제진흥원",
+    "시제품제작",
+    "제조기업",
+    "스마트공장",
+    "중소기업기술정보진흥원",
+    "경상북도",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 461,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126320",
+   "title": "2026년 전시회 부스 지원 참여 소상공인 모집 공고(고카프 킨텍스 더 파이널 시즌 PART 2)",
+   "agency": "중소벤처기업부",
+   "org": "중소상공인희망재단",
+   "field": "내수",
+   "subField": "오프라인",
+   "summary": "소상공인의 오프라인 판로 개척 및 전시회 활용력 강화를 위해 전시회 부스 지원 사업에 참여할 소상공인을 다음과 같이 모집하오니 많은 관심과 참여 바랍니다.\n\n☞ AX 아카데미 교육을 수강한 연간 프리미엄 멤버십 소상공인\n- 대표자 제외 상시 근로자 수 5인 또는 10인 미만의 소상공인(제조업ㆍ운수업ㆍ광업 10인 미만 / 그 외 5인 미만)\n- 각 전시회 참여에 적합한 품목을 보유한 소상공인\n\n☞ 공동관 부스 및 기본 집기 지원(약 230만원 상당)",
+   "target": "소상공인",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-10-16",
+   "applyText": "2026-09-08 ~ 2026-10-16",
+   "applyMethod": "온라인 접수 (중소상공인희망재단)",
+   "contact": "중소상공인희망재단 디지털혁신사업부 070-4267-8256, pjh@heemangfdn.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126320",
+   "attachments": [
+    {
+     "name": "별첨 3. 고카프 소개자료.pdf@별첨 1. 2026년 전시회 부스 지원 참여 신청서 양식.hwp@별첨 2. 개인·기업 정보 수집이용 및 제3자 제공 프리미엄 멤버십 회비 반환 불가 동의서 양식.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772710&fileSn=1"
+    },
+    {
+     "name": "2026년 전시회 부스 지원 모집공고문(11월).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772721&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772721&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772721&fileSn=3"
+    }
+   ],
+   "hashtags": [
+    "내수",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "기본집기",
+    "프리미엄멤버십",
+    "고카프",
+    "AX아카데미",
+    "2026",
+    "운수업",
+    "킨텍스",
+    "중소상공인희망재단",
+    "광업",
+    "전시회",
+    "중소벤처기업부",
+    "제조업",
+    "소상공인"
+   ],
+   "created": "2026-09-09",
+   "views": 472,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126319",
+   "title": "충칭 한국 소비재 판촉전 연계 K-관광 홍보관 참가신청 모집 공고",
+   "agency": "문화체육관광부",
+   "org": "한국관광공사",
+   "field": "수출",
+   "subField": "시장개척",
+   "summary": "중국 충칭 핵심 상권인 관인차오에서 <한국 프리미엄 소비재 판촉전>과 연계하여 'K-관광 홍보관'을 운영합니다.(B2B/B2C) 중국 서남부지역 진출을 희망하는 관광기업 여러분들의 많은 참여를 부탁드립니다. \n\n☞ 충칭 등 중국 서남지역 진출을 희망하는 관광기업\n\n☞ 부스 임차 및 기본 장치, B2B 상담매칭 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-23",
+   "applyText": "2026-09-08 ~ 2026-09-23",
+   "applyMethod": "온라인 접수 (한국관광공사 투어라즈)",
+   "contact": "한국관광공사 청두지사 +86-28-6557-2311, younge9884@knto.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126319",
+   "attachments": [
+    {
+     "name": "붙임. 개인정보 수집이용 동의서.hwp@붙임. 참가신청서(양식).hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772706&fileSn=0"
+    },
+    {
+     "name": "[청두지사] 충칭 한국 프리미엄 소비재 판촉전 연계 K-관광 홍보관 참가모집안.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772707&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772707&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "관인차오",
+    "2026",
+    "충칭",
+    "기본장치",
+    "상담매칭",
+    "부스임차",
+    "판촉전",
+    "관광기업",
+    "B2C",
+    "한국관광공사",
+    "B2B",
+    "문화체육관광부",
+    "중국",
+    "소비재"
+   ],
+   "created": "2026-09-09",
+   "views": 393,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126318",
+   "title": "[전북] 2026년 3차 전북특별자치도 우수상품 전주국제발효식품엑스포 참가지원 참여기업 추가 모집 공고",
+   "agency": "전북특별자치도",
+   "org": "전북특별자치도경제통상진흥원",
+   "field": "수출",
+   "subField": "해외진출준비",
+   "summary": "전북특별자치도와 (재)전북특별자치도경제통상진흥원에서는 전북특별자치도 우수상품 지정기업의 다양한 판로 개척과 글로벌 네트워크 확대를 위하여 전주국제발효식품엑스포에 참여할 기업을 아래와 같이 추가모집하오니 관심있는 기업의 많은 참여 바랍니다.\n\n☞ 전북특별자치도 우수상품 지정기업 중 발효식품 또는 발효식품기계를 제조ㆍ판매하는 기업\n\n☞ 제24회 전주국제발효식품엑스포 부스비 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-09 ~ 2026-09-15",
+   "applyMethod": "온라인 접수(전북특별자치도중소기업종합지원시스템)",
+   "contact": "전북특별자치도경제통상진흥원 마케팅팀 063-711-2075",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126318",
+   "attachments": [
+    {
+     "name": "[서식1-4] 신청서식.hwp@[별첨] 전주국제발효식품엑스포 단체관 참가지원 가점 및 대상인증 목록.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772704&fileSn=0"
+    },
+    {
+     "name": "[공고문] 전주국제발효식품엑스포 단체관 참가 참여기업 모집3차.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772705&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772705&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "전북",
+    "2026",
+    "전북특별자치도경제통상진흥원",
+    "전북특별자치도",
+    "전주국제발효식품엑스포",
+    "부스비",
+    "발효식품",
+    "발효식품기계"
+   ],
+   "created": "2026-09-09",
+   "views": 363,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126317",
+   "title": "[경북] 2026년 3차 경북 TIPS(기술창업) 지원프로그램 운영사업 TIPS 후보기업 모집 공고",
+   "agency": "경상북도",
+   "org": "경북창조경제혁신센터",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "경북창조경제혁신센터에서는 지역 내 우수 스타트업의 창업성공률 제고와 민간주도 기술창업(TIPS) 활성화를 위한「2026년 경북 TIPS(기술창업) 지원프로그램 운영사업」에 참여할 TIPS 후보기업을 다음과 같이 모집하오니 관심있는 기업의 많은 참여를 바랍니다.\n\n☞ 7년 미만 창업기업(신산업 분야 기업은 10년 이내까지 인정)으로, 경북 소재 또는 경북 내 본사ㆍ지점ㆍ연구소 이전(설립)예정기업\n- (선발분야) ① ICT제조(H/W), ② ICT서비스(플랫폼), ③ 전기ㆍ전자, ④ 소재ㆍ부품ㆍ장비, ⑤ 바이오ㆍ헬스케어, ⑥ 에너지ㆍ자원ㆍ환경(이차전지 포함), ⑦ 농식품ㆍ6차산업, ⑧ 콘텐츠 ⑨ 기타 4차 산업분야\n\n☞ 바우처 지원 (기업 당 10,000천원 상당), 후보기업 컨설팅 지원, TIPS운영사의 추천TO를 활용한 후보기업 TIPS 프로그램 참여 추천 지원",
+   "target": "창업벤처",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-28",
+   "applyText": "2026-09-08 ~ 2026-09-28",
+   "applyMethod": "이메일 접수 (investmentgbb@gmail.com)",
+   "contact": "경북창조경제혁신센터 투자운영본부 벤처투자팀 054-470-2631, investmentgbb@gmail.com",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126317",
+   "attachments": [
+    {
+     "name": "참여신청서 양식 등.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772699&fileSn=0"
+    },
+    {
+     "name": "후보기업 모집 공고(3차).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772700&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "경북",
+    "2026",
+    "경북창조경제혁신센터",
+    "경상북도",
+    "ICT",
+    "창업기업",
+    "스타트업",
+    "바우처",
+    "컨설팅",
+    "TIPS",
+    "기술창업"
+   ],
+   "created": "2026-09-09",
+   "views": 444,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126316",
+   "title": "[서울ㆍ경기ㆍ인천] 2026년 4분기 공공조달시장 진출지원 컨설팅 희망기업 모집 공고",
+   "agency": "조달청",
+   "org": "경기조달지원센터",
+   "field": "경영",
+   "subField": "컨설팅",
+   "summary": "수도권 소재 중소기업과 사회적ㆍ장애인기업의 공공조달시장 진출을 지원하기 위해 공공조달 제도를 바탕으로 기업지원 컨설팅 사업을 실시하오니 많은 참여 바랍니다.\n\n☞ 수도권에 본사 또는 공장이 소재 공공조달시장진출 관심기업\n\n☞ 공공조달 제도 관련 1:1 맞춤형 컨설팅 지원\n- 나라장터 업체 등록 및 조달제도 전 분야\n※ 벤처나라제품, 혁신제품, 우수조달물품, 다수공급자계약(MAS), 경쟁입찰 등",
+   "target": "중소기업",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-09 ~ 2026-09-30",
+   "applyMethod": "이메일 접수 (cms80@korea.kr)",
+   "contact": "경기조달지원센터 070-4056-7802",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126316",
+   "attachments": [
+    {
+     "name": "(26년 4분기) 공공조달시장 진출지원 컨설팅 희망기업 모집공고.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772697&fileSn=1"
+    },
+    {
+     "name": "(26년 4분기) 공공조달시장 진출지원 컨설팅 희망기업 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772698&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "경영",
+    "기타",
+    "서울",
+    "인천",
+    "경기",
+    "1:1맞춤형",
+    "2026",
+    "우수조달물품",
+    "경쟁입찰",
+    "조달제도",
+    "벤처나라",
+    "공공조달시장",
+    "경기조달지원센터",
+    "혁신제품",
+    "MAS",
+    "다수공급자계약",
+    "조달청",
+    "나라장터",
+    "장애인기업",
+    "컨설팅",
+    "사회적기업",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 491,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126315",
+   "title": "[경북] 2026년 바이오 패키지 지원사업 신청 공고(대구대학교 경북전략산업앵커대학사업단)",
+   "agency": "경상북도",
+   "org": "대구대학교",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "대구대학교 앵커사업단에서는 경북 특화산업(바이오) 분야 중소기업 및 기관의 신기술 개발부터 기술 상용화ㆍ사업화ㆍ판로 개척까지 단계별 맞춤형 지원을 통해 기업의 기술혁신과 경쟁력 강화를 지원하기 위해 다음과 같이「2026년도 바이오 패키지 지원사업」을 공모하오니 많은 참여를 부탁드립니다.\n\n☞ 특화산업(바이오) 분야 신기술 개발과 기술혁신을 촉진하고자 하는 경북 지역 중소기업 및 기관\n\n☞ 바이오 기술도약 지원사업, 바이오 시제품제작 지원사업, 바이오 ALLSET 지원사업\n※ 자세한 지원내용 공고문 참조",
+   "target": "중소기업",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-01 ~ 2026-09-15",
+   "applyMethod": "우편 및 방문, 이메일 접수\r\n- 접수처 : 대구대학교 경산캠퍼스 산학협력단 4층 1411호 앵커사업단 행정실\r\n- 이메일 : otg@daegu.ac.kr",
+   "contact": "대구대학교 앵커사업단 경북전략산업앵커대학사업단 053-850-4794, otg@daegu.ac.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126315",
+   "attachments": [
+    {
+     "name": "2026년도 바이오 패키지 지원사업 지원신청서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772693&fileSn=0"
+    },
+    {
+     "name": "2026년도 바이오 패키지 지원사업 신청 공고+.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772694&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "경북",
+    "대응자금",
+    "시작품제작비",
+    "2026",
+    "대구대학교",
+    "자문비",
+    "기업지원금",
+    "회의비",
+    "재료비",
+    "기술이전료",
+    "전문가활용",
+    "지식재산권",
+    "인증획득",
+    "시제품제작",
+    "바이오",
+    "경상북도",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 413,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126314",
+   "title": "2026년 산림분야 오픈이노베이션 참여기업 모집 공고",
+   "agency": "산림청",
+   "org": "한국임업진흥원",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "산림청과 한국임업진흥원에서 산림분야 창업기업의 기술 사업화와 민간 협업을 지원하기 위해「2026 산림분야 오픈이노베이션」의 참여기업을 아래와 같이 모집합니다. 혁신적인 기술과 아이디어를 보유한 창업기업의 많은 관심과 참여 바랍니다.\n\n☞ 수요과제 모집분야에 해당하는 기술을 보유한 창업 7년 이내 기업 (※ 신사업 분야의 경우 창업 10년 이내 기업)\n\n☞ 수요기업 현업 부서와의 협업 상담, 기술실증(PoC) 협업 기회 및 사업화 연계 지원, 수요기업 및 한국임업진흥원 전문인력 멘토링, 서울창조경제혁신센터 보육기업 협약 등 지원",
+   "target": "창업벤처",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-07 ~ 2026-09-30",
+   "applyMethod": "온라인 접수\r\n- 현대건설 : https://oimarket.kr/program/388\r\n- 한국콜마 : https://oimarket.kr/program/395",
+   "contact": "서울창조경제혁신센터 혁신사업실 02-749-9192, syhwang@ccei.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126314",
+   "attachments": [
+    {
+     "name": "(포스터)+2026+산림분야+오픈이노베이션.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772691&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "산림분야",
+    "기술실증",
+    "전문인력",
+    "산림청",
+    "한국임업진흥원",
+    "멘토링",
+    "강원창조경제혁신센터"
+   ],
+   "created": "2026-09-09",
+   "views": 460,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126313",
+   "title": "[제주] 서귀포시 2026년 스마트 해썹(HACCP) 등록시스템 비용 지원 사업 참여자 모집 공고",
+   "agency": "제주특별자치도",
+   "org": "기초자치단체",
+   "field": "기술",
+   "subField": "시험/인증",
+   "summary": "서귀포시에서는 영세한 소규모 HACCP 인증업체의 체계적인 식품안전관리를 통한 효율성과 신뢰도 향상을 위해 「스마트 해썹 등록 시스템 비용 지원 사업」을 붙임과 같이 공고하오니, 관심있는 업체의 많은 신청 바랍니다.\n\n☞ 소규모 HACCP 인증(예정) 업체 중 스마트 HACCP 도입 희망업체\n- 스마트 HACCP 최초 등록 희망업체를 우선 지원 하되, 최초 등록 희망업체가 없을 경우 스마트 HACCP 기 등록업체도 지원 가능\n-「식품 및 축산물 안전관리인증기준」제5조제4항에 따른 소규모 업소\n\n☞ 스마트 HACCP 등록시스템 비용 지원(최대 1,200만원)",
+   "target": "중소기업",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-10-08",
+   "applyText": "2026-09-14 ~ 2026-10-08",
+   "applyMethod": "방문접수\r\n- 제출처 : 서귀포시청 위생관리과(위생지도팀)",
+   "contact": "서귀포시청 위생관리과 064-760-2431, 2432",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126313",
+   "attachments": [
+    {
+     "name": "공고문(스마트HACCP등록시스템 비용지원사업).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772689&fileSn=0"
+    },
+    {
+     "name": "공고문(스마트HACCP등록시스템 비용지원사업).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772690&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "제주",
+    "등록시스템",
+    "식품안전관리",
+    "2026",
+    "스마트HACCP",
+    "서귀포시",
+    "HACCP",
+    "제주특별자치도",
+    "기초자치단체"
+   ],
+   "created": "2026-09-09",
+   "views": 400,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126312",
+   "title": "[대전] 2026년 베트남 호치민 K-라이프 커넥트데이 수출컨소시엄 참여기업 추가 모집 공고",
+   "agency": "중소벤처기업부",
+   "org": "대전일자리경제진흥원",
+   "field": "수출",
+   "subField": "해외진출",
+   "summary": "중소벤처기업부와 대전광역시에서는 관내 우수 바이오(뷰티)산업 분야 및 식품(푸드)산업분야 중소기업의 베트남 시장 진출 및 현지 브랜드 인지도 제고를 위하여「2026년 베트남 호치민 K-라이프 커넥트데이 수출컨소시엄」참여기업을 다음과 같이 추가 모집하오니 관심 있는 기업의 많은 신청 바랍니다.\n\n☞ 대전광역시에 본사 또는 공장을 등록한 중소기업으로서 해외 수출 능력을 보유하고 있거나 준비 중인 기업\n- K-뷰티 분야 : 기초ㆍ색조 화장품, 더마 코스메틱, 바이오 뷰티 디바이스 등\n- K-푸드 분야 : 레토르트 식품, 기능성 건강식품, 전통/즉석 식품, 스낵ㆍ음료 등\n\n☞ 기업지원금(통역, 물류) : B2B 진성 바이어 매칭 및 통역 50% 지원 (1사 1인 전담 배치), 물류비(1cbm 당 최대 600,000원 지원 / 해상, 항공 동일)\n- 상담장 임차료, 기본 장치비, 시식/시연(1사 1부스) 인프라 구축비(70%)\n- 현지 유명 인플루언서 연계 제품 리뷰 콘텐츠 제작 및 현장 라이브 커머스 송출\n- 사전 마케팅 : 사전교육 및 맞춤형 컨설팅, 해외홍보 및 광고, 카탈로그 제작 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-13",
+   "applyText": "2026-09-08 ~ 2026-09-13",
+   "applyMethod": "온라인 접수(중소기업해외전시포탈)",
+   "contact": "대전일자리경제진흥원 기업통상지원팀 042-380-3043,  pjh6446@djbea.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126312",
+   "attachments": [
+    {
+     "name": "2026년 베트남 호치민 K-라이프 커넥트데이 수출컨소시엄 참여기업 추가 모집 공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772687&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "대전",
+    "레토르트",
+    "2026",
+    "뷰티디바이스",
+    "해외홍보",
+    "K-푸드",
+    "K-뷰티",
+    "인플루언서",
+    "수출컨소시엄",
+    "콘텐츠제작",
+    "대전일자리경제진흥원",
+    "라이브커머스",
+    "바이오",
+    "중소벤처기업부",
+    "베트남"
+   ],
+   "created": "2026-09-09",
+   "views": 396,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126311",
+   "title": "[경남] 2026년 2차 태국 방산수출사절단 참가지원사업 참가기업 공고",
+   "agency": "경상남도",
+   "org": "경남테크노파크",
+   "field": "수출",
+   "subField": "시장개척",
+   "summary": "경상남도에 위치한 경쟁력 있는 방산 분야 중소기업을 대상으로 해외 신규 구매자를 발굴하고, 수출 시장을 확대할 기회를 제공하고자,「2026 태국 방산수출사절단 참가지원사업(2차)」에 참가할 기업을 아래와 같이 모집하오니 많은 신청 바랍니다.\n\n☞ 도내에 본사 또는 공장이 소재하는 방산 분야 중소기업\n- 품목 : 방위산업 무기체계 및 전력지원체계 전반\n\n☞ 행사장 임차료외, 통역비(50%), 편도 항공료(1社 1人)",
+   "target": "중소기업",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-14 ~ 2026-09-18",
+   "applyMethod": "온라인 접수(경남테크노파크)",
+   "contact": "경상남도 주력산업과 055-211-3124  경남테크노파크 방위산업본부 방산수출지원단 055-259-7032",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126311",
+   "attachments": [
+    {
+     "name": "지원사업 신청서 등 양식 및 붙임 서식.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772683&fileSn=0"
+    },
+    {
+     "name": "2026 태국 방산수출사절단 참가 지원사업(2차) 모집 공고문(안).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772684&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "경남",
+    "2026",
+    "경남테크노파크",
+    "경상남도",
+    "중소기업",
+    "방산",
+    "방산수출사절단",
+    "태국",
+    "파쿰타니",
+    "사뭇쁘라깐",
+    "방위산업",
+    "무기체계",
+    "전력지원체계"
+   ],
+   "created": "2026-09-09",
+   "views": 355,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126310",
+   "title": "2026년 2차 산림형 예비사회적기업 지정 계획 공고",
+   "agency": "산림청",
+   "org": "한국사회적기업진흥원",
+   "field": "경영",
+   "subField": "디자인/상품화/사업화",
+   "summary": "「산림형 예비사회적기업 지정 및 사회적기업 인증추천을 위한 운영 지침」(’26.3.4.)에 의거하여 2026년도 제2차 산림형 예비사회적기업 지정 계획을 다음과 같이 공고합니다.\n\n☞「사회적기업 육성법」제8조 및 같은 법 시행령 제8조에 따른 조직형태를 갖춘 기업\n※ 자세한 지원대상 공고문 참조\n\n☞ 예비사회적기업(3년) 지정, 산림형 예비사회적기업 성장지원 등\n※ 자세한 지원내용 공고문 참조",
+   "target": "사회적기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-28",
+   "applyText": "2026-09-07 ~ 2026-09-28",
+   "applyMethod": "온라인 접수 (사회적기업 통합정보시스템)",
+   "contact": "산림청 산림안전보건일자리팀 042-481-1855 / 한국사회적기업진흥원 성장지원센터 1551-2024 / 한국사회적기업진흥원 통합사업관리시스템 콜센터 1661-4006",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126310",
+   "attachments": [
+    {
+     "name": "(산림청 공고 제2026-392호) 2026년 제2차 산림형 예비사회적기업 지정 계획 공고문.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772685&fileSn=1"
+    },
+    {
+     "name": "(산림청 공고 제2026-392호) 2026년 제2차 산림형 예비사회적기업 지정 계획 공고문.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772686&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "경영",
+    "기타",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "성장지원",
+    "산림형예비사회적기업",
+    "산림형",
+    "지정",
+    "산림청",
+    "한국사회적기업진흥원",
+    "예비사회적기업",
+    "사회적기업"
+   ],
+   "created": "2026-09-09",
+   "views": 339,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126309",
+   "title": "2026년 AI 창업 경진대회 참가자 모집 공고",
+   "agency": "부산광역시",
+   "org": "부산정보산업진흥원",
+   "field": "창업",
+   "subField": "사업화지원",
+   "summary": "전국 예비ㆍ신규 창업자 대상으로 우수한 AI 창업 아이디어를 발굴하고 지역 창업문화 확산을 위한「2026 AI 창업 경진대회」의 참가팀 모집을 다음과 같이 공고하오니 많은 참여 바랍니다.\n\n☞ 전국 예비ㆍ신규창업팀(2~4인 이내의 팀)\n- 모집분야 : 해양, 에너지테크, 미래모빌리티, 융합부품소재, 라이프스타일, 디지털테크, 금융, 문화관광, 바이오헬스\n\n☞ 시상 및 창업ㆍ사업화 지원\n※ 자세한 지원내용 공고문 참조",
+   "target": "창업벤처",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-07 ~ 2026-09-30",
+   "applyMethod": "온라인 접수 (신청폼)",
+   "contact": "2026년 AI 창업 경진대회 운영사무국 070-4618-1703, office1170@naver.com",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126309",
+   "attachments": [
+    {
+     "name": "[제출서류] 2026 AI 창업 경진대회.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772679&fileSn=0"
+    },
+    {
+     "name": "[모집공고문] 2026 AI 창업 경진대회+.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772680&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "창업",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "융합부품소재",
+    "에너지테크",
+    "디지털테크",
+    "문화관광",
+    "라이프스타일",
+    "미래모빌리티",
+    "신규창업자",
+    "경진대회",
+    "시상",
+    "부산정보산업진흥원",
+    "예비창업자",
+    "사업화",
+    "부산광역시",
+    "바이오헬스",
+    "해양",
+    "AI"
+   ],
+   "created": "2026-09-09",
+   "views": 550,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126308",
+   "title": "[충남] 2026년 해양바이오산업 클러스터 플랫폼 구축 사업 수혜기업 모집 공고",
+   "agency": "충청남도",
+   "org": "충남테크노파크",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "2026년도 충청남도 및 서천군이 지원하고 충남테크노파크가 수행하는「충남 해양바이오산업 클러스터 플랫폼 구축사업」의 수혜기업을 모집하오니, 참여를 희망하는 기업의 많은 관심과 신청 바랍니다.\n\n☞ 충청남도에 본사ㆍ공장ㆍ연구소 중 1개 이상이 소재하거나, 3년 이내 충청남도 내 이전 또는 건립이 가능한 해양바이오 관련기업\n\n☞ 해양바이오 소재개발, 소재 상용화 및 산업 생태계 구축 분야의 총 10개 프로그램, 11건 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-21",
+   "applyText": "2026-09-07 ~ 2026-09-21",
+   "applyMethod": "이메일 접수(pander27@ctp.or.kr)",
+   "contact": "충남테크노파크 041-957-9604,  pander27@ctp.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126308",
+   "attachments": [
+    {
+     "name": "붙임 2. 2026년 충남 해양바이오산업 클러스터 플랫폼 구축 사업_세부프로그램별 설명자료.hwp@붙임 3. 충남 해양바이오산업 클러스터 플랫폼 구축 사업_사업신청서식.zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772675&fileSn=0"
+    },
+    {
+     "name": "붙임1. 2026년 충남 해양바이오산업 클러스터 플랫폼 구축 사업_공고문.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772676&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772676&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "충남",
+    "2026",
+    "해양바이오산업",
+    "해양바이오",
+    "클러스터",
+    "소재",
+    "기능성식품",
+    "충남테크노파크",
+    "기능성화장품",
+    "충청남도",
+    "컨설팅",
+    "시제품제작",
+    "제품신뢰성확보",
+    "제품고급화"
+   ],
+   "created": "2026-09-09",
+   "views": 342,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126307",
+   "title": "[부산] 2026년 3차 국제게임전시회 지스타 BTB 부산공동관 참가기업 모집 공고",
+   "agency": "문화체육관광부",
+   "org": "부산정보산업진흥원",
+   "field": "내수",
+   "subField": "오프라인",
+   "summary": "부산정보산업진흥원에서는 지역 게임콘텐츠 기업의 국내ㆍ외 시장 진출 및 비즈니스 기회 확대를 위해「지스타 2026 BTB 부산공동관」참가기업을 다음과 같이 모집합니다.\n\n☞ 사업공고일 기준 부산광역시에 소재한 게임콘텐츠 관련 기업\n\n☞ 부산공동관 부스 임차 및 구축, 전력, 인터넷, 테이블 등 기본 부스 비품, 공동관 운영 인력 및 통역(BTB) 지원\n- 전시자 출입증, 홍보물 제작, BTB 네트워킹 파티 등 참가, 지스타 온라인 비즈매칭 사이트 등록 및 매칭, 바이어 기념품 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-16",
+   "applyText": "2026-09-07 ~ 2026-09-16",
+   "applyMethod": "이메일 접수 (kimdahye@bipa.kr)",
+   "contact": "부산정보산업진흥원 신기술게임단 게임산업팀 051-749-9188, kimdahye@bipa.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126307",
+   "attachments": [
+    {
+     "name": "[신청서] 지스타 2026 BTB 부산공동관 참가기업 모집.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772677&fileSn=1"
+    },
+    {
+     "name": "[공고문] 지스타 2026 BTB 부산공동관 참가기업 모집.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772678&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "내수",
+    "경영",
+    "부산",
+    "바이어기념품",
+    "2026",
+    "부스구축",
+    "전력",
+    "BTB",
+    "지스타",
+    "부스임차",
+    "비즈매칭",
+    "인터넷",
+    "통역",
+    "게임콘텐츠",
+    "부산정보산업진흥원",
+    "홍보물제작",
+    "네트워킹",
+    "문화체육관광부"
+   ],
+   "created": "2026-09-09",
+   "views": 281,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126306",
+   "title": "[부산] 2026년 4차 부산콘텐츠아카데미 일자리 지원사업 모집 공고",
+   "agency": "부산광역시",
+   "org": "부산정보산업진흥원",
+   "field": "인력",
+   "subField": "고용환경개선",
+   "summary": "부산정보산업진흥원에서는 지역 내 게임 기업을 대상으로「2026 부산콘텐츠아카데미 일자리 지원사업 추가 모집」을 다음과 같이 추진하오니, 관심 있는 기업의 많은 참여를 바랍니다.\n\n☞ 게임 프로젝트를 개발 중인 기업\n- (사업장 요건)\n① 공고일 기준, 부산에 본사 또는 지사를 두고 사업자등록 6개월 이상인 기업\n② 4대보험 가입 사업장으로, 국세 및 지방세 체납이 없는 사업장\n③ 공고일 기준 사업자등록증상 ‘게임’ 관련 종목 포함 기업\n④ 온라인 채용 플랫폼 ‘부산게임인’에 등록된 기업 및 근로자\n\n☞ 신규 채용 인력 월 인건비 최대 180만원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "이메일 접수 (organix@bipa.kr)",
+   "contact": "부산정보산업진흥원 051-749-9154, organix@bipa.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126306",
+   "attachments": [
+    {
+     "name": "[서식] 2026 부산콘텐츠아카데미 일자리 지원사업.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772671&fileSn=1"
+    },
+    {
+     "name": "2026 부산콘텐츠아카데미 일자리 지원사업 4차 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772672&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "인력",
+    "부산",
+    "게임 프로젝트",
+    "신규 채용",
+    "2026",
+    "부산게임인",
+    "부산정보산업진흥원",
+    "개발",
+    "인건비",
+    "부산광역시",
+    "일자리",
+    "게임"
+   ],
+   "created": "2026-09-09",
+   "views": 330,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126305",
+   "title": "[충남] 2026년 3차 예비수소전문기업지원사업 수소산업분야 기술사업화(비R&D) 수혜기업 모집공고",
+   "agency": "충청남도",
+   "org": "충남테크노파크",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "(재)충남테크노파크에서는 충남도내 수소산업 관련한 중소ㆍ중견 기업의 경쟁력강화와 수소전문기업으로의 육성을 위하여 아래와 같이 “2026 예비수소전문기업지원 사업을 추진하고 수혜기업을 모집하오니 지원을 받고자 하는 기업에서는 많은 관심과 신청 바랍니다.\n\n☞ 충청남도에 소재한 중소ㆍ중견 기업으로 수소산업과 관련된 사업 영위(수소산업 매출) 또는 기술력(지식재산권 등)을 보유하고 수소전문기업으로 지정되지 않는 기업\n\n☞ 기술사업화(시제품 제작, 장비활용), 판로개척, 컨설팅 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-14 ~ 2026-09-18",
+   "applyMethod": "우편 및 방문 접수\r\n- 접수처 : 충청남도 예산군 예산읍 수철길 10(미래자동차센터 202호)",
+   "contact": "미래자동차센터 041-331-8013, 8021 / coinss@ctp.or.kr, lvme112@ctp.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126305",
+   "attachments": [
+    {
+     "name": "[필수양식4]중복지원 금지 확약서.hwp@[필수양식1]2026년 예비수소전문기업지원사업 기업지원 수행계획서(기업명).hwp@[필수양식3]개인정보 3자제공 동의서.hwp@[필수양식2]수혜기업 대표의 참여의사 확인 및 실무담당자의 개인정보 이용 동의서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772667&fileSn=0"
+    },
+    {
+     "name": "「2026년 예비수소전문기업지원사업」수소산업분야 기술사업화(비R&D) 3차 수혜기업 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772668&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772668&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772668&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772668&fileSn=3"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "충남",
+    "2026",
+    "충남테크노파크",
+    "기술사업화",
+    "시제품",
+    "장비활용",
+    "판로개척",
+    "컨설팅",
+    "수소산업",
+    "지식재산권",
+    "중소기업",
+    "중견기업",
+    "충청남도"
+   ],
+   "created": "2026-09-09",
+   "views": 341,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126304",
+   "title": "[전남광주] 2026년 3차 무탄소 전력활용 수소산업육성을 위한 기업지원 사업 공고",
+   "agency": "전남광주통합특별시",
+   "org": "전남테크노파크",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "전남테크노파크에서는 전라남도, 영광군의 지원으로 전라남도 소재 수소ㆍ에너지 분야 전ㆍ후방 연관 기술유망 중소기업 발굴 및 기업의 경쟁력 강화를 위한 수소산업육성 기업지원사업을 다음과 같이 공고합니다. \n\n☞ 수소산업분야 관련 제품 매출실적을 보유하고 있거나 수소산업에 대한 구체적인 계획을 가지고 있는 전ㆍ후방 중소ㆍ중견기업\n- 공고일 현재 전라남도 내 6개월 이상 사업을 영위한 기업 (본사, 지사, 공장 등)\n※ 자세한 지원대상 공고문 참조\n\n☞ 수소와 타 산업간 융복합을 통해 기후변화대응, 탄소중립 등 에너지 주요 현안을 해결하는 수소 산업 육성ㆍ지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "온라인 접수(전남테크노파크)",
+   "contact": "전남테크노파크 에너지산업센터 061-872-7032, 7033 / osy@jntp.or.kr, zhoney@jntp.or.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126304",
+   "attachments": [
+    {
+     "name": "붙임4. 신청서 및 사업계획서 양식.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772663&fileSn=0"
+    },
+    {
+     "name": "2026년도 무탄소 전력활용 수소산업육성 기업지원사업(3차).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772664&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "전남광주",
+    "2026",
+    "전남테크노파크",
+    "수소산업",
+    "중소기업",
+    "중견기업",
+    "수소",
+    "융복합",
+    "기후변화대응",
+    "탄소중립",
+    "에너지",
+    "영광군",
+    "전라남도",
+    "전남광주통합특별시"
+   ],
+   "created": "2026-09-09",
+   "views": 300,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126303",
+   "title": "[충북ㆍ대전ㆍ세종ㆍ충남] 2026년 글로벌 생명산업 협력컨퍼런스사업 참여기업 모집 공고",
+   "agency": "충청북도",
+   "org": "오송첨단의료산업진흥재단",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "오송첨단의료산업진흥재단에서는 충청 지역 바이오헬스 기업의 글로벌 시장 진출과 기술사업화 확대를 적극 지원하고자, 아래와 같이 참가기업을 모집합니다. KASBP(재미한인제약인협회) 전문가를 활용한 기업별 맞춤형 글로벌 사업화 지원 컨설팅을 제공합니다. 해외 진출을 준비 중이거나 글로벌 파트너십 확대를 희망하는 바이오헬스기업의 많은 참여 바랍니다.\n\n☞ 충청(충북, 대전, 세종, 충남) 지역 내 사업장 또는 교원 창업 바이오헬스 기업\n\n☞ 기업별 KASBP 전문가 사전 매칭, 기업별 KASBP 현지 전문가 컨설팅, K-바이오 스타트업 포럼 행사 연계 참가 지원\n- KASBP 전문가 초청 현장 맞춤형 컨설팅, 기업별 전문가 컨설팅 영문보고서 제공",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "이메일 접수 (kbionddc@kbiohealth.kr)\r\n※ 메일 제목 형식: [2026 글로벌 생명산업 협력컨퍼런스_기업명_담당자명]",
+   "contact": "오송첨단의료산업진흥재단 043-200-9235, 9214 / kbionddc@kbiohealth.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126303",
+   "attachments": [
+    {
+     "name": "서식1+2.+사업신청서+및+기술수요조사서.hwp@서식3.+투자의사확인서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772665&fileSn=1"
+    },
+    {
+     "name": "[공고문]2026년+글로벌+생명산업+협력+컨퍼런스+기업+참여+공모(하반기)(배포용).hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772666&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772666&fileSn=2"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "수출",
+    "대전",
+    "세종",
+    "충북",
+    "충남",
+    "포럼행사",
+    "재미한인제약인협회",
+    "KASBP",
+    "2026",
+    "사전매칭",
+    "영문보고서",
+    "오송첨단의료산업진흥재단",
+    "충청권",
+    "바이오헬스",
+    "컨설팅",
+    "스타트업"
+   ],
+   "created": "2026-09-09",
+   "views": 334,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126302",
+   "title": "[대구] 2026년 고용친화기업 선정ㆍ지원사업 맞춤형 고용환경 개선지원사업 참여기업 모집 공고",
+   "agency": "대구광역시",
+   "org": "대구테크노파크",
+   "field": "인력",
+   "subField": "고용환경개선",
+   "summary": "대구시와 (재)대구테크노파크에서는 고용친화기업의 고용친화경영을 위한 좋은 복지제도 확충 및 쾌적한 근무환경 조성 등을 위해 「'26년 맞춤형 고용환경 개선지원사업」을 아래와 같이 공고하오니, 고용친화기업의 많은 참여 바랍니다.\n\n☞ 대구광역시 인증 고용친화기업\n\n☞ 직원 복지제도 확충, 근무환경개선 등 기업당 최대 14,000천원 이내 지원",
+   "target": "중소기업",
+   "applyStart": "2026-10-12",
+   "applyEnd": "2026-10-23",
+   "applyText": "2026-10-12 ~ 2026-10-23",
+   "applyMethod": "이메일 접수 (goodjob@dgtp.or.kr)",
+   "contact": "대구테크노파크 기업지원단  053-757-3736",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126302",
+   "attachments": [
+    {
+     "name": "붙임 2. 26년 고용친화기업 맞춤형 고용환경 개선지원사업 모집 신청서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772656&fileSn=1"
+    },
+    {
+     "name": "붙임 1. 26년 고용친화기업 맞춤형 고용환경 개선지원사업 참여기업 모집 공고문.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772657&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "인력",
+    "대구",
+    "2026",
+    "고용친화경영",
+    "복지제도",
+    "근무환경개선",
+    "고용친화기업",
+    "근무환경",
+    "대구테크노파크",
+    "대구광역시"
+   ],
+   "created": "2026-09-09",
+   "views": 338,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126301",
+   "title": "[강원] 2026년 강원BRIDGE 글로벌 진출 일본 온라인 수출상담회 참여기업 모집 공고(강원연구개발특구육성사업)",
+   "agency": "강원특별자치도",
+   "org": "강원창조경제혁신센터",
+   "field": "수출",
+   "subField": "시장개척",
+   "summary": "2026년 강원창조경제혁신센터에서는「2026 강원연구개발특구육성사업」의 일환으로 강원연구개발특구 내 유망기업의 일본 시장 진출과 수출 판로 개척을 지원하기 위하여 다음과 같이「일본 온라인 수출상담회」 참여기업을 모집하오니 많은 관심과 참여 바랍니다.\n\n☞ 공고일 현재 강원연구개발특구에 소재하면서 일본시장 진출을 희망하는 기업\n\n☞ 기업별 사전진단 및 컨설팅, 일본시장 진출 설명회,  일본 현지 바이어 발굴 및 매칭, 1:1 온라인 수출 상담회 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "이메일 접수 (mijung.kim@ccei.kr) \r\n※ 접수 시 제목 기재 : [일본]강원BRIDGE 글로벌 프로그램 신청_기업명",
+   "contact": "강원창조경제혁신센터 전략투자본부 033-248-7910",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126301",
+   "attachments": [
+    {
+     "name": "[강원연구개발육성특구]2026년 강원BRIDGE 글로벌 진출_일본 온라인 수출 상담회_모집공고 (1).hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772658&fileSn=1"
+    },
+    {
+     "name": "[강원연구개발육성특구]2026년 강원BRIDGE 글로벌 진출_일본 온라인 수출 상담회_모집공고+.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772660&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "강원",
+    "2026",
+    "강원특별자치도",
+    "사전진단",
+    "매칭",
+    "일본시장",
+    "강원창조경제혁신센터",
+    "수출상담회",
+    "설명회",
+    "바이어발굴",
+    "컨설팅"
+   ],
+   "created": "2026-09-09",
+   "views": 350,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126300",
+   "title": "[강원] 2026년 강원BRIDGE 글로벌 진출 태국 온라인 수출상담회 참여기업 모집 공고(강원연구개발특구육성사업)",
+   "agency": "강원특별자치도",
+   "org": "강원창조경제혁신센터",
+   "field": "수출",
+   "subField": "시장개척",
+   "summary": "2026년 강원창조경제혁신센터에서는「2026 강원연구개발특구육성사업」의 일환으로 강원연구개발특구 내 유망기업의 태국시장 진출과 수출 판로 개척을 지원하기 위하여 다음과 같이「태국 온라인 수출상담회」 참여기업을 모집하오니 많은 관심과 참여 바랍니다.\n\n☞ 공고일 현재 강원연구개발특구에 소재하면서 태국시장 진출을 희망하는 기업\n\n☞ 기업별 사전진단 및 컨설팅, 태국 현지 바이어 발굴 및 매칭, 온라인 해외진출 설명회 및 1:1 온라인 수출상담회 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-18",
+   "applyText": "2026-09-07 ~ 2026-09-18",
+   "applyMethod": "이메일 접수 (mijung.kim@ccei.kr) \r\n접수 시 제목 기재 : [태국]강원BRIDGE 글로벌 프로그램 신청_기업명",
+   "contact": "강원창조경제혁신센터 전략투자본부 033-248-7910",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126300",
+   "attachments": [
+    {
+     "name": "[강원연구개발육성특구]2026년 강원BRIDGE 글로벌 진출_태국 온라인 수출 상담회_모집공고 .hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772652&fileSn=0"
+    },
+    {
+     "name": "[강원연구개발육성특구]2026년 강원BRIDGE 글로벌 진출_태국 온라인 수출 상담회_모집공고+.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772653&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "수출",
+    "강원",
+    "태국시장",
+    "2026",
+    "강원특별자치도",
+    "사전진단",
+    "매칭",
+    "강원창조경제혁신센터",
+    "수출상담회",
+    "설명회",
+    "바이어발굴",
+    "컨설팅"
+   ],
+   "created": "2026-09-09",
+   "views": 350,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126299",
+   "title": "[경기] 화성시 2026년 4차 지식재산 긴급지원 사업(국내상표, 디자인출원) 모집 공고",
+   "agency": "경기도",
+   "org": "경기테크노파크",
+   "field": "경영",
+   "subField": "컨설팅",
+   "summary": "화성시 중소기업에 맞춤형 지식재산 서비스를 지원하는 ‘지식재산 긴급지원’ 사업의 2026년 시행 계획을 다음과 같이 공고하오니 사업에 참여하고자 하는 기업의 많은 신청 바랍니다.\n\n☞ 경기도 화성시 소재 중소기업 (「중소기업 기본법」 제2조 및 동법 시행령 제3조에 의거)\n\n☞ 지식재산 전문가의 IP현안 진단을 통해 컨설턴트 직접컨설팅을 제공하고, 외부기관(분야별 전문기관)과 함께 국내출원비용을 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-08 ~ 2026-09-15",
+   "applyMethod": "온라인 접수(지역지식재산센터)",
+   "contact": "경기지식재산센터 화성시 지식재산 긴급지원 담당자 031-8016-9203, 031-500-3048",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126299",
+   "attachments": [
+    {
+     "name": "22026 지식재산 긴급지원 모집 공고(첨부문서) (1).zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772650&fileSn=1"
+    },
+    {
+     "name": "붙임01 [공고문] 2026년 지식재산 긴급지원 사업 공고(4차) 화성시.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772651&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "경영",
+    "경기",
+    "2026",
+    "IP현안 진단",
+    "국내출원비용",
+    "특허기술홍보영상",
+    "컨설턴트",
+    "해외출원",
+    "실용신안",
+    "브랜드",
+    "상표",
+    "경기테크노파크",
+    "디자인",
+    "경기도",
+    "컨설팅",
+    "지식재산",
+    "특허"
+   ],
+   "created": "2026-09-09",
+   "views": 369,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126298",
+   "title": "[경기] 용인시 2026년 3차 지식재산 긴급지원 사업(국내상표, 디자인출원) 모집 공고",
+   "agency": "지식재산처",
+   "org": "경기지식재산센터",
+   "field": "경영",
+   "subField": "컨설팅",
+   "summary": "용인시 중소기업에 맞춤형 지식재산 서비스를 지원하는 ‘지식재산 긴급지원’ 사업의 2026년 시행 계획을 다음과 같이 공고하오니 사업에 참여하고자 하는 기업의 많은 신청 바랍니다.\n\n☞ 경기도 용인시 소재 중소기업 (「중소기업 기본법」 제2조 및 동법 시행령 제3조에 의거)\n\n☞ 지식재산 전문가의 IP현안 진단을 통해 컨설턴트 직접 컨설팅을 제공하고, 외부기관(분야별 전문기관)과 함께 국내출원비용 등을 지원\n- 기업당 2,000만원 이내 지원\n※ 자세한 지원내용 공고문 참조",
+   "target": "중소기업",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-08 ~ 2026-09-15",
+   "applyMethod": "온라인 접수 (지역지식재산센터 사업관리시스템)",
+   "contact": "경기지식재산센터 용인시 지식재산 긴급지원 031-321-0170,  031-500-3048",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126298",
+   "attachments": [
+    {
+     "name": "22026 지식재산 긴급지원 모집 공고(첨부문서).zip",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772646&fileSn=1"
+    },
+    {
+     "name": "붙임01 [공고문] 2026년 지식재산 긴급지원 사업 공고(3차) 용인시.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772647&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "내수",
+    "경영",
+    "경기",
+    "IP현안",
+    "지식재산처",
+    "2026",
+    "국내출원비용",
+    "긴급지원",
+    "경기지식재산센터",
+    "용인시",
+    "지식재산",
+    "특허",
+    "중소기업"
+   ],
+   "created": "2026-09-09",
+   "views": 312,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126297",
+   "title": "2026년 로봇분야 예비창업자 및 재창업자를 위한 창업 성장 프로그램 참가자 모집 공고",
+   "agency": "산업통상부",
+   "org": "한국로봇산업진흥원",
+   "field": "창업",
+   "subField": "사업화지원",
+   "summary": "한국로봇산업진흥원에서는 성장 잠재력이 우수한 예비창업자 및 재창업자를 위한 성장 프로그램을 운영하오니 관심 있는 로봇 관련 창업자 분들의 많은 참여 바랍니다.\n\n☞ 로봇분야 예비 창업자, 초기 창업기업 및 재창업 희망자\n\n☞ 사무공간 제공, 창업교육ㆍ컨설팅 및 네트워킹 등 지원",
+   "target": "창업벤처",
+   "applyStart": "2026-09-01",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-01 ~ 2026-09-30",
+   "applyMethod": "이메일 접수(yr2000@kiria.org)",
+   "contact": "한국로봇산업진흥원 사업총괄팀 053-210-9572, yr2000@kiria.org",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126297",
+   "attachments": [
+    {
+     "name": "[신청양식] 지원신청서 및 사업계획서 양식.hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772640&fileSn=0"
+    },
+    {
+     "name": "로봇창업 성장 프로그램 지원기업 모집공고_KIRIA.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772641&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "창업",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "2026",
+    "한국로봇산업진흥원",
+    "산업통상부",
+    "로봇",
+    "컨설팅",
+    "네트워킹",
+    "창업교육",
+    "예비창업",
+    "초기창업",
+    "재창업"
+   ],
+   "created": "2026-09-09",
+   "views": 399,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126296",
+   "title": "[제주] 서귀포시 2026년 소상공인 출산급여 지원사업 공고",
+   "agency": "제주특별자치도",
+   "org": "기초자치단체",
+   "field": "인력",
+   "subField": "고용유지",
+   "summary": "서귀포시에서는 출산으로 인한 1인 여성 소상공인의 경제적 부담을 완화하고 안정적인 사업 환경을 조성하고자「2026년 소상공인 출산급여 지원사업」을 추진하고 있습니다. 대상자 분들의 많은 신청바랍니다.\n\n☞  당해 연도 출산하고, 아래 조건을 충족한 1인 여성 소상공인\n①「고용보험법」상 출산 관련 고용보험을 적용받지 않는 소상공인\n② 제주에 사업장을 두고, 출산일 기준 6개월 이상 사업을 운영한 소상공인\n③ 출생 자녀를 제주에 출생 등록한 소상공인\n④ 전년도 매출액 연 1,200만원 이상 또는 최근 3개월 매출 발생 소상공인\n\n☞ 월 30만원 3개월간 지급(총 90만원 한도)",
+   "target": "여성기업",
+   "applyStart": "2026-01-01",
+   "applyEnd": "2026-12-20",
+   "applyText": "2026-01-01 ~ 2026-12-20",
+   "applyMethod": "방문 접수\r\n- 접수처: 주소지 읍면동주민센터",
+   "contact": "서귀포시 064-760-4749",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126296",
+   "attachments": [
+    {
+     "name": "소상공인 출산급여 신청서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772638&fileSn=0"
+    },
+    {
+     "name": "2026년 소상공인 출산급여 지원사업 공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772639&fileSn=0"
+    }
+   ],
+   "hashtags": [
+    "인력",
+    "제주",
+    "2026",
+    "제주특별자치도",
+    "기초자치단체",
+    "서귀포시",
+    "소상공인",
+    "출산급여",
+    "1인여성소상공인",
+    "여성"
+   ],
+   "created": "2026-09-09",
+   "views": 299,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126295",
+   "title": "2026년 3분기 민간-공공기관 협력 미활용 특허 무료 및 소액 나눔 공고",
+   "agency": "지식재산처",
+   "org": "한국발명진흥회",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "공공기관이 보유하고 있는 미활용 특허 등을 국내 기업으로 이전하여 새로운 시장창출 등 국가 경제 활성화에 기여하고자 미활용 특허 무료 및 소액 나눔을 공고하오니 참여하고자 하는 기업은 아래 절차에 따라 신청하여 주시기 바랍니다.\n\n☞ 국내사용을 목적으로 한 국내기업(법인 또는 개인사업자)\n☞ 공공기관이 보유하고 있는 미활용 특허, 실용신안을 국내 기업에 무료 및 소액 나눔",
+   "target": "중소기업",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "상시 접수",
+   "applyMethod": "희망 기술 보유 기관 담당자 또는 중개기관에 신청\r\n※ 자세한 담당자별 문의처 공고문 참조",
+   "contact": "(운영총괄) 한국발명진흥회(지식재산처) 02-3459-2786 및 담당자별 문의처 공고문 참조",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126295",
+   "attachments": [
+    {
+     "name": "[붙임4]_특허활용_계획서_및_개인정보_제공_동의서.hwp@[붙임2]_26년_3분기_미활용_나눔_대상_특허_목록(2925건).xlsx@[붙임3]_공공기관_미활용_특허_무료나눔_신청_양식.hwp@[붙임1]_민간-공공기관_협력_미활용_특허_무료_및_소액_나눔_26년_3분기_공고문.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772644&fileSn=2"
+    },
+    {
+     "name": "[붙임1]_민간-공공기관_협력_미활용_특허_무료_및_소액_나눔_26년_3분기_공고문.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772645&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772645&fileSn=3@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772645&fileSn=4@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772645&fileSn=5"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "미활용",
+    "지식재산처",
+    "2026",
+    "소액나눔",
+    "한국발명진흥회",
+    "특허"
+   ],
+   "created": "2026-09-09",
+   "views": 363,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126294",
+   "title": "[울산] 2026년 뿌리기업 기술애로 해결 및 제품 고도화 지원사업 모집공고",
+   "agency": "울산광역시",
+   "org": "울산정보산업진흥원",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "(재)울산정보산업진흥원에서는 울산 3D프린팅 뿌리산업 특화단지 입주기업을 대상으로 제조기술 현장 애로를 해소하고 제품 고도화를 지원하기 위한「2026년 뿌리기업 기술애로 해결 및 제품 고도화 지원사업」을 다음과 같이 공고하오니, 참여를 희망하는 기업은 절차에 따라 신청하여 주시기 바랍니다.\n\n☞ 울산 3D프린팅 뿌리산업 특화단지 내 소재한 기업\n- 제품, 기술, 제조공정상의 구체적인 기술애로를 보유한 기업\n- 사업기간 내 과제 수행 및 지원결과의 실제 적용ㆍ검증이 가능한 기업\n\n☞ 역설계ㆍ3D스캐팅, 3D모델링ㆍ설계, DfAMㆍ설계 최적화, 해석ㆍ시뮬레이션, 시제품제작, 후가공ㆍ제품 고도화, 시험ㆍ분석ㆍ검증, 기타 기술지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-04",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-04 ~ 2026-09-15",
+   "applyMethod": "이메일 접수 (3dp@uipa.or.kr)",
+   "contact": "울산정보산업진흥원 모빌리티융합사업단 052-220-0394",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126294",
+   "attachments": [
+    {
+     "name": "붙임+2.+2026년+뿌리기업+기술애로+해결+및+제품고도화+지원사업+신청서+및+계획서.hwp@붙임+3.+개인정보+제공·수집·이용+동의서.hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772632&fileSn=0"
+    },
+    {
+     "name": "붙임+1.+공고문(2026년+뿌리기업+기술애로+해결+및+제품+고도화+지원사업).pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772633&fileSn=0@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772633&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "울산",
+    "2026",
+    "울산정보산업진흥원",
+    "울산광역시",
+    "뿌리산업",
+    "3D프린팅",
+    "기술애로",
+    "시제품",
+    "3D스캐팅",
+    "DfAM",
+    "후가공",
+    "시험",
+    "분석",
+    "검증"
+   ],
+   "created": "2026-09-09",
+   "views": 300,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126293",
+   "title": "2026년 시설농업 AI로봇 실증기반 구축사업 기술지원(기술지도) 수혜기업 모집 공고",
+   "agency": "산업통상부",
+   "org": "한국전자기술연구원",
+   "field": "기술",
+   "subField": "기술사업화/이전/지도",
+   "summary": "한국전자기술연구원에서는 산업통상부에서 시행하는 2026년 시설농업 AI로봇 실증기반 구축사업(주관: 한국전자기술연구원)」의 일환으로, 국내 시설농업 AI로봇 산업의 기업 경쟁력 강화를 위해 관련 기업 (혹은 연관기업)을 대상으로 “기술지도” 지원을 공고하오니, 희망하시는 기업의 많은 참여 바랍니다\n\n☞ 시설농업 AI로봇(본사, 공장, 연구소 등) 관련 기업 및 연관기업\n※ 연관기업: 시설농업AI로봇 완제품 제조뿐만 아니라 AI모델, 로봇 부품, 설계, SW 등을 개발하는 기업 포함\n\n☞ 시설농업AI로봇 관련 기술개발, 사업화, 장비활용 등 컨설팅 지원",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-10-16",
+   "applyText": "2026-09-07 ~ 2026-10-16",
+   "applyMethod": "이메일 접수 (hyein224@keti.re.kr)",
+   "contact": "한국전자기술연구원 063-219-0082, hyein224@keti.re.kr",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126293",
+   "attachments": [
+    {
+     "name": "[붙임1]기술지원(기술지도) 수혜기업 신청서(서식).hwpx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772634&fileSn=1"
+    },
+    {
+     "name": "[첨부1]시설농업 AI로봇 실증기반 구축사업_기술지원(기술지도)수혜기업 모집공고.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772635&fileSn=1"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "시설농업",
+    "산업통상부",
+    "2026",
+    "AI로봇",
+    "실증기반",
+    "로봇부품",
+    "설계",
+    "한국전자기술연구원",
+    "장비활용",
+    "SW",
+    "기술지도",
+    "제조",
+    "컨설팅",
+    "기술개발"
+   ],
+   "created": "2026-09-09",
+   "views": 366,
+   "source": "기업마당"
+  },
+  {
+   "id": "PBLN_000000000126292",
+   "title": "AI 기반 지역관광 문제해결 프로젝트(역사문화형) AI 배리어프리 부문 모집 공고",
+   "agency": "문화체육관광부",
+   "org": "한국관광공사",
+   "field": "기술",
+   "subField": "단독기술개발",
+   "summary": "한국관광공사는 AI 등 혁신기술을 기반으로 지역 관광현장의 복합적인 현안을 해결하고, 내외국인 관광객의 편의 증진 및 관광객 지역유치 확대를 도모하기 위해 아래와 같이 AI 기반 지역관광 문제해결 프로젝트(역사문화형) 참여 기업을 모집하고 있습니다. 관광분야에서 새로운 가능성을 실현할 우수 기술기업들의 많은 관심과 참여를 부탁드립니다.\n\n☞ 관광현장(역사문화형)의 문제해결을 위해 요구되는 AI 등 혁신기술을 보유한 기업\n\n☞ 2026년도 실증사업 수행 완료 시 실증비(금55,000,000원(금오천오백만원)) 지원\n- 단독과제 : AI 배리어프리\n※ 자세한 지원내용 공고문 참조",
+   "target": "중소기업",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-16",
+   "applyText": "2026-09-07 ~ 2026-09-16",
+   "applyMethod": "온라인 접수 (온오프믹스)",
+   "contact": "(신청 문의) 운영사무국 070-4786-3152, 2026xlab@gmail.com  (사업 및 과제내용 문의) 한국관광공사 트래블X-Lab 033-738-3693, 3687",
+   "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000126292",
+   "attachments": [
+    {
+     "name": "★ (FAQ) AI 기반 지역관광 문제해결 프로젝트(역사문화형) 「AI 배리어프리 부문」.pdf@★ (과업설명자료) AI 기반 지역관광 문제해결 프로젝트(역사문화형) 「AI 배리어프리 부문」.pdf@★ (제출서류 양식) AI 기반 지역관광 문제해결 프로젝트(역사문화형) 「AI 배리어프리 부문」.hwp@★ (참가신청양식) AI 기반 지역관광 문제해결 프로젝트(역사문화형) 「AI 배리어프리 부문」.pptx",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772598&fileSn=1"
+    },
+    {
+     "name": "★ (공고문 및 가이드라인) AI 기반 지역관광 문제해결 프로젝트(역사문화형) 「AI 배리어프리 부문」.pdf",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772599&fileSn=1@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772599&fileSn=2@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772599&fileSn=3@https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000772599&fileSn=4"
+    }
+   ],
+   "hashtags": [
+    "기술",
+    "서울",
+    "부산",
+    "대구",
+    "인천",
+    "전남광주",
+    "대전",
+    "울산",
+    "세종",
+    "경기",
+    "강원",
+    "충북",
+    "충남",
+    "전북",
+    "경북",
+    "경남",
+    "제주",
+    "단독과제",
+    "역사문화형",
+    "2026",
+    "실증비",
+    "배리어프리",
+    "혁신기술",
+    "한국관광공사",
+    "문화체육관광부",
+    "AI"
+   ],
+   "created": "2026-09-09",
+   "views": 428,
+   "source": "기업마당"
+  },
+  {
+   "id": "KOSMO_2026-N-0193_1",
+   "title": "2026년 경북 지역특화형 스마트공장 보급∙확산사업(2차)",
+   "agency": "중소벤처기업부",
+   "org": "구미전자정보기술원",
+   "field": "기술",
+   "subField": "스마트공장 구축 및 고도화 사업(고도화1)",
+   "summary": "[구미전자정보기술원 공고 2026-276호]\n 2026년 경북 지역특화형 스마트공장 보급∙확산사업 공고(2차)\n \n식품 제조·가공업체 생산 제조현장의 첨단화로 안정적인 식자제 관리, 스마트 식품생산, 품질관리기반 구축과 글로벌 경쟁력을 제고하고, 식품산업 분야 스마트 제조 공장 보급․확산을 위한 「2026년 경북 지역특화형 스마트공장 보급․확산 사업」을 다음과 같이 공고합니다.\n2026년 9월 9일\n구미전자정보기술원장",
+   "target": "",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-09 00:00 ~ 2026-09-17 23:50",
+   "applyMethod": "KOSMO 스마트공장 사업관리시스템(www.smart-factory.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.smart-factory.kr/usr/bg/ba/ma/bsnsPbancDtl?pbancId=2026-N-0193&pbancSn=1",
+   "attachments": [
+    {
+     "name": "(계획서)2026년 경북 지역특화 스마트공장  보급 확산사업 사업계획서.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=j5tfJrNBbHt9wp%2BUo9NARw%3D%3D&atchFileSn=je%2B5frX7e7TMXdv5AThZkA%3D%3D"
+    },
+    {
+     "name": "(서식)2026년 경북 지역특화 스마트공장 보급 확산사업 서식.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=j5tfJrNBbHt9wp%2BUo9NARw%3D%3D&atchFileSn=%2Fydaw%2BTFhpLoILqimOuVUw%3D%3D"
+    },
+    {
+     "name": "1. [구미전자정보기술원 공고] 2026년 경북 지역특화형 스마트공장  보급∙확산사업 공고_고도화.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=j5tfJrNBbHt9wp%2BUo9NARw%3D%3D&atchFileSn=j%2FQMcVelPhskXpY9D3LvGQ%3D%3D"
+    }
+   ],
+   "hashtags": [
+    "스마트공장",
+    "KOSMO",
+    "고도화"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "KOSMO"
+  },
+  {
+   "id": "KOSMO_2026-N-0192_1",
+   "title": "2026년「푸드테크 스마트 제조 기반 구축」사업 공고(기초)_5차",
+   "agency": "중소벤처기업부",
+   "org": "구미전자정보기술원",
+   "field": "기술",
+   "subField": "경북형 스마트공장 구축 지원사업",
+   "summary": "[구미전자정보기술원 공고 2026-277호]\n 2026년「푸드테크 스마트 제조 기반 구축」사업 공고(5차)\n \n식품 제조·가공업체 생산 제조현장의 첨단화로 안정적인 식자제 관리, 스마트 식품생산, 품질관리기반 구축과 글로벌 경쟁력을 제고하고, 식품산업 분야 스마트 제조 공장 보급․확산을 위한 「2026년 푸드테크 스마트 제조 기반구축 사업」을 다음과 같이 재공고합니다.\n2026년 9월 9일\n구미전자정보기술원장\n ◦ (공고 기간) ’26. 9. 9.(수) ~ ’26. 9. 17.(목) 17시까지",
+   "target": "",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-09 00:00 ~ 2026-09-17 23:00",
+   "applyMethod": "KOSMO 스마트공장 사업관리시스템(www.smart-factory.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.smart-factory.kr/usr/bg/ba/ma/bsnsPbancDtl?pbancId=2026-N-0192&pbancSn=1",
+   "attachments": [
+    {
+     "name": "(붙임)푸드테크 스마트제조 기반 구축 사업공고.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=WT1XHdoxyflTEWb1uHE2%2FQ%3D%3D&atchFileSn=je%2B5frX7e7TMXdv5AThZkA%3D%3D"
+    },
+    {
+     "name": "(계획서)2026년 푸드테크 스마트 제조 기반 구축 사업계획서.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=WT1XHdoxyflTEWb1uHE2%2FQ%3D%3D&atchFileSn=%2Fydaw%2BTFhpLoILqimOuVUw%3D%3D"
+    },
+    {
+     "name": "(서식)2026년 푸드테크 스마트 제조 기반 구축 사업 서식.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=WT1XHdoxyflTEWb1uHE2%2FQ%3D%3D&atchFileSn=j%2FQMcVelPhskXpY9D3LvGQ%3D%3D"
+    },
+    {
+     "name": "1. [구미전자정보기술원 공고] 2026년「푸드테크 스마트 제조 기반 구축」사업 공고_기초_5차.hwp",
+     "url": "https://www.smart-factory.kr/file/imageFileDownload.do?atchFileId=WT1XHdoxyflTEWb1uHE2%2FQ%3D%3D&atchFileSn=vmVAv3cvmL%2Bh7upwTs07Dg%3D%3D"
+    }
+   ],
+   "hashtags": [
+    "스마트공장",
+    "KOSMO",
+    "기초"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "KOSMO"
+  },
+  {
+   "id": "IRIS_024137",
+   "title": "2026년도 우주기술혁신인재양성(R&D)사업[우주항공 글로벌 인력양성 및 활용] 2차 추가공고",
+   "agency": "우주항공청",
+   "org": "우주항공청",
+   "field": "R&D",
+   "subField": "지정공모",
+   "summary": "우주항공청 공고 제2026-0104호\n\n2026년도 우주기술혁신인재양성(R&D)사업 [우주항공 글로벌 인력양성 및 활용] 2차 추가 공고\n\n우주항공청이 추진하는 「우주기술혁신인재양성R&D 사업」의 2026년도 신규 과제를(우주항공 글로벌 인력양성 및 활용) 아래와 같이 추가공모하오니 관심 있는 연구자들의 많은 참여 바랍니다.\n\n2026년 9월 9일\n\n우주항공청장 오 태 석\n\r\n            \r\n                    \r\n                        \r\n                                \r\n                                    \r\n                                    (공고)우주기술혁신인재양성_(내역2)우주항공 글로벌 인력양성 및 활용_추가공고.pdf\r\n                                    (649.5KB)\r\n                                \r\n                            \r\n                        \r\n                                \r\n                                    \r\n                                    (RFP) 내역2 우주항공 글로벌 인력양성 및 활용.pdf\r\n                                    (502.6KB)\r\n                                \r\n                            \r\n                        \r\n                                \r\n                                    \r\n                                    별첨1. 연구개발계획서(신청용)(양식).hwp\r\n                                    (137.5KB)\r\n                                \r\n                            \r\n                        \r\n                                \r\n                                    \r\n                                    별첨2. 기타증빙(양식).hwpx\r\n                                    (110.1KB)\r\n                                \r\n                            \r\n                        \r\n                \r\n            \r\n          \r\n             \r\n          \r\n          \r\n            목록 -->\r\n            목",
+   "target": "",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-10-09",
+   "applyText": "2026.09.09 ~ 2026.10.09",
+   "applyMethod": "IRIS 범부처통합연구지원시스템(www.iris.go.kr) 온라인 접수",
+   "contact": "우주기술혁신인재양성 2026 신동윤(0558565018)",
+   "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=024137",
+   "attachments": [
+    {
+     "name": "(공고)우주기술혁신인재양성_(내역2)우주항공 글로벌 인력양성 및 활용_추가공고.pdf",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=GXBdygjj%2F21VqRZu510aIg%3D%3D&atchFileId=9qM3Dt%2B%2F0begAgo3kDAqfw%3D%3D"
+    },
+    {
+     "name": "(RFP) 내역2 우주항공 글로벌 인력양성 및 활용.pdf",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=GXBdygjj%2F21VqRZu510aIg%3D%3D&atchFileId=PmqgZw5%2FH%2B9z5bM24OJvkQ%3D%3D"
+    },
+    {
+     "name": "별첨1. 연구개발계획서(신청용)(양식).hwp",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=GXBdygjj%2F21VqRZu510aIg%3D%3D&atchFileId=5DSO3ofPE1AM2Fs7C%2BvStw%3D%3D"
+    },
+    {
+     "name": "별첨2. 기타증빙(양식).hwpx",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=GXBdygjj%2F21VqRZu510aIg%3D%3D&atchFileId=GkivwKCz10JXbNdjgPiOQg%3D%3D"
+    }
+   ],
+   "hashtags": [
+    "R&D",
+    "IRIS",
+    "지정공모"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "IRIS"
+  },
+  {
+   "id": "IRIS_023897",
+   "title": "2026년도 제3차 디지털혁신기술국제공동연구 신규지원 대상과제 공고",
+   "agency": "과학기술정보통신부",
+   "org": "정보통신기획평가원",
+   "field": "R&D",
+   "subField": "품목지정공모",
+   "summary": "과학기술정보통신부 공고 제2026-0939호\n \n\n2026년도 3차 디지털혁신기술국제공동연구사업\n신규지원 대상과제 공고\n\n \n2026년도 디지털혁신기술국제공동연구사업의 신규지원 대상과제(일반형 1건)를 다음과 같이 공고하오니 동 사업에 참여를 희망하는 기관(기업) 등은 관련 규정 및 절차에 따라 신청하여 주시기 바랍니다.\n \n2026년 9월 9일\n \n부총리 겸 과학기술정보통신부 장관\n정보통신기획평가원 원장\n\n□ 사업목적\n \n○글로벌 기술패권 경쟁 대응 및 초격차 기술확보를 위한 디지털 핵심기술분야 국제공동연구 추진\n \n□ 지원대상 과제\n \n○ (일반형) 협력국가 자율제안 국제공동연구 1개 과제\n* 일반형 : 국내 연구개발기관이 해외기관을 활용하여 연구를 수행하는 방식으로 기존에 일반적으로 추진되는 공동연구 형태\n \n□ 공고기간 : 2026. 9. 9(수) ～ 2026. 10. 8(목), 30일간\n \n○ 전산접수기간 : 2026. 9. 14(월)～2026. 10. 8(목) 15시 까지 (IRIS 시스템 시간 기준)\n \n□ 접수방법 : 범부처통합연구지원시스템(iris.go.kr)을 통한 신청 접수\n \n○ 신청 부문별 사업공고 확인(세부사업, 내역사업, RFP명 등) 후 신청 접수·완료\n* IRIS를 통한 접수 방법은 매뉴얼 참조\n \n※ 관련 법령 개정 등 주요한 변경 사항 발생 시 수정 공고문을 게시할 수 있습니다.\n\n\r\n            \r\n                    \r\n                        \r\n                                \r\n                                    \r\n                                    (붙임 1) 2026년도 2차 디지털혁신기술국제공동연구사업 신규지원 대상과제 공고문.hwp\r\n                                    (131.5KB)\r\n                                \r\n                            \r\n                        \r\n                                \r\n                                    \r\n                                    (붙임 2) 2026년도 3차 디지털혁신기술국제공동연구사업 신규지원 대상과제 RFP.hwpx\r\n                                    (113.8KB)\r\n                                \r\n                            \r\n                        \r\n                                \r\n                                    \r\n                                    (붙임 3) 신청서식 및 참고자료.zip\r\n                   ",
+   "target": "",
+   "applyStart": "2026-09-14",
+   "applyEnd": "2026-10-08",
+   "applyText": "2026.09.14 ~ 2026.10.08",
+   "applyMethod": "IRIS 범부처통합연구지원시스템(www.iris.go.kr) 온라인 접수",
+   "contact": "디지털핵심기술국제공동연구 2026 양광만(0426128234)/윤종혁(0426128232)/이태우(0426128233)",
+   "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=023897",
+   "attachments": [
+    {
+     "name": "(붙임 1) 2026년도 2차 디지털혁신기술국제공동연구사업 신규지원 대상과제 공고문.hwp",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=Rm6hxNBy5tvfR9%2F1SauEHA%3D%3D"
+    },
+    {
+     "name": "(붙임 2) 2026년도 3차 디지털혁신기술국제공동연구사업 신규지원 대상과제 RFP.hwpx",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=LlzfbkJK4myJjopDNnsaEQ%3D%3D"
+    },
+    {
+     "name": "(붙임 3) 신청서식 및 참고자료.zip",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=szxlatdjGE8DS3tkyHqxgQ%3D%3D"
+    },
+    {
+     "name": "(붙임 4) 국가연구개발혁신법 및 주요 부속 규정.zip",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=No%2Ftq0vjLKqTt7diZtTOjg%3D%3D"
+    },
+    {
+     "name": "(붙임 5) IRIS 전산접수 매뉴얼.zip",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=tqlL2I01JOh0CKMgvNypXg%3D%3D"
+    },
+    {
+     "name": "(붙임 6) 국제공동연구 매뉴얼 본권.pdf",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=tkPRHoTNcznbCmK8fppbgw%3D%3D"
+    },
+    {
+     "name": "(붙임 7) 국제공동연구 매뉴얼 별권.pdf",
+     "url": "https://www.iris.go.kr/comm/file/fileDownload.do?atchDocId=MaKC4YnQVyt98NBIlzIZ1Q%3D%3D&atchFileId=LX0ZaLBo3%2BZpuntOCdkB9w%3D%3D"
+    }
+   ],
+   "hashtags": [
+    "R&D",
+    "IRIS",
+    "품목지정공모"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "IRIS"
+  },
+  {
+   "id": "KSTARTUP_179174",
+   "title": "2026 아스트라제네카-서울바이오허브 글로벌 오픈이노베이션 참여기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "한국과학기술연구원",
+   "field": "창업",
+   "subField": "기술개발(R&D)",
+   "summary": "2026 아스트라제네카-서울바이오허브 글로벌 오픈이노베이션 참여기업 모집",
+   "target": "",
+   "applyStart": "2026-08-21",
+   "applyEnd": "2026-09-16",
+   "applyText": "2026-08-21 ~ 2026-09-16",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179174",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "기술개발(R&D)"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179193",
+   "title": "2026년 한전KPS 창업벤처기업 육성 지원사업 참여기업 모집안내(연장)",
+   "agency": "중소벤처기업부",
+   "org": "에너지밸리기업개발원",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "한전KPS 창업벤처기업 육성 지원사업 참여기업 모집안내(연장)",
+   "target": "",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-15",
+   "applyText": "2026-09-08 ~ 2026-09-15",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179193",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179191",
+   "title": "[고양시×스타필드 고양] 2026 고양 스타트업 팝업스토어 참가기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "고양시청",
+   "field": "창업",
+   "subField": "행사ㆍ네트워크",
+   "summary": "고양스타트업 팝업스토어",
+   "target": "",
+   "applyStart": "2026-09-07",
+   "applyEnd": "2026-09-20",
+   "applyText": "2026-09-07 ~ 2026-09-20",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179191",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "행사ㆍ네트워크"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179194",
+   "title": "한국공학대학교 창업보육센터 입주기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "㈜한국공학대학교기술지주회사",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "창업보육센터 지원",
+   "target": "",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-08 ~ 2026-09-30",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179194",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179199",
+   "title": "2026년 스타트업 96 입주 예비창업자 모집",
+   "agency": "중소벤처기업부",
+   "org": "대전일자리경제진흥원",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "2026년 스타트업 96 입주 예비창업자 모집",
+   "target": "",
+   "applyStart": "2026-09-08",
+   "applyEnd": "2026-09-22",
+   "applyText": "2026-09-08 ~ 2026-09-22",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179199",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179205",
+   "title": "('26년 4분기) 공공조달시장 진출지원 컨설팅 희망기업 모집",
+   "agency": "중소벤처기업부",
+   "org": "인천지방조달청",
+   "field": "창업",
+   "subField": "멘토링ㆍ컨설팅ㆍ교육",
+   "summary": "('26년 4분기) 공공조달시장 진출지원 컨설팅 희망기업 모집",
+   "target": "",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-30",
+   "applyText": "2026-09-09 ~ 2026-09-30",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179205",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "멘토링ㆍ컨설팅ㆍ교육"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179209",
+   "title": "2026년 국가철도공단 창업·벤처기업 지원사업 희망기업 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "국가철도공단",
+   "field": "창업",
+   "subField": "사업화",
+   "summary": "국가철도공단 창업·벤처기업 지원사업 희망기업 모집공고",
+   "target": "",
+   "applyStart": "2026-09-10",
+   "applyEnd": "2026-10-30",
+   "applyText": "2026-09-10 ~ 2026-10-30",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179209",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "사업화"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KSTARTUP_179200",
+   "title": "2026년 SVC Seoul 인턴십 프로그램 학생인턴 모집공고",
+   "agency": "중소벤처기업부",
+   "org": "창업진흥원",
+   "field": "창업",
+   "subField": "시설ㆍ공간ㆍ보육",
+   "summary": "글로벌 창업허브 사업",
+   "target": "",
+   "applyStart": "2026-09-09",
+   "applyEnd": "2026-09-17",
+   "applyText": "2026-09-09 ~ 2026-09-17",
+   "applyMethod": "K-Startup(www.k-startup.go.kr) 온라인 신청",
+   "contact": "",
+   "url": "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do?schM=view&pbancSn=179200",
+   "attachments": [],
+   "hashtags": [
+    "창업",
+    "K-Startup",
+    "시설ㆍ공간ㆍ보육"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "K-Startup"
+  },
+  {
+   "id": "KEITI_40998",
+   "title": "2026년도 창업·벤처 녹색융합클러스터 그린아이디어랩(비상주오피스) 청년 이용자 모집 공고",
+   "agency": "기후에너지환경부",
+   "org": "한국환경산업기술원",
+   "field": "환경",
+   "subField": "",
+   "summary": "녹색산업 및 녹색연관산업 분야의 청년 예비창업자를 대상으로 아래와 같이 그린아이디어랩(비상주오피스) 청년 이용자를 모집합니다. 1. 그린아이디어랩(비상주오피스) 청년 이용자",
+   "target": "",
+   "applyStart": null,
+   "applyEnd": null,
+   "applyText": "공고문 참조",
+   "applyMethod": "",
+   "contact": "",
+   "url": "https://www.keiti.re.kr/site/keiti/ex/board/View.do?cbIdx=277&bcIdx=40998",
+   "attachments": [
+    {
+     "name": "붙임._창업·벤처_녹색융합클러스터_그린아이디어랩_청년_이용자_모집공고(비상주오피스).hwp",
+     "url": "https://www.keiti.re.kr/common/board/Download.do?bcIdx=40998&cbIdx=277&streFileNm=68eab9ae-6dff-42ba-af80-60e5385cf1d2&fileNo=1"
+    }
+   ],
+   "hashtags": [
+    "환경",
+    "탄소중립",
+    "한국환경산업기술원"
+   ],
+   "created": "2026-09-09",
+   "views": 0,
+   "source": "KEITI"
+  },
   {
    "id": "IRIS_024097",
    "title": "2026년도 미래개척융합과학기술개발사업 신규과제 제4차 공모",
@@ -119,7 +2942,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-08",
-   "views": 965,
+   "views": 2252,
    "source": "기업마당"
   },
   {
@@ -162,7 +2985,7 @@
     "강소기업"
    ],
    "created": "2026-09-08",
-   "views": 1114,
+   "views": 2652,
    "source": "기업마당"
   },
   {
@@ -209,7 +3032,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 909,
+   "views": 2139,
    "source": "기업마당"
   },
   {
@@ -256,7 +3079,7 @@
     "스타트업"
    ],
    "created": "2026-09-08",
-   "views": 969,
+   "views": 2272,
    "source": "기업마당"
   },
   {
@@ -301,7 +3124,7 @@
     "제조기업"
    ],
    "created": "2026-09-08",
-   "views": 877,
+   "views": 2040,
    "source": "기업마당"
   },
   {
@@ -348,7 +3171,7 @@
     "특허"
    ],
    "created": "2026-09-08",
-   "views": 934,
+   "views": 2220,
    "source": "기업마당"
   },
   {
@@ -401,7 +3224,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 936,
+   "views": 2180,
    "source": "기업마당"
   },
   {
@@ -459,7 +3282,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 1004,
+   "views": 2363,
    "source": "기업마당"
   },
   {
@@ -517,7 +3340,7 @@
     "딥테크"
    ],
    "created": "2026-09-08",
-   "views": 1049,
+   "views": 2467,
    "source": "기업마당"
   },
   {
@@ -557,7 +3380,7 @@
     "부스조성비"
    ],
    "created": "2026-09-08",
-   "views": 916,
+   "views": 2166,
    "source": "기업마당"
   },
   {
@@ -602,7 +3425,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-08",
-   "views": 851,
+   "views": 1981,
    "source": "기업마당"
   },
   {
@@ -644,7 +3467,7 @@
     "제작비"
    ],
    "created": "2026-09-08",
-   "views": 876,
+   "views": 2102,
    "source": "기업마당"
   },
   {
@@ -691,7 +3514,7 @@
     "중견기업"
    ],
    "created": "2026-09-08",
-   "views": 893,
+   "views": 2101,
    "source": "기업마당"
   },
   {
@@ -732,7 +3555,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-08",
-   "views": 835,
+   "views": 1953,
    "source": "기업마당"
   },
   {
@@ -775,7 +3598,7 @@
     "측정기기"
    ],
    "created": "2026-09-08",
-   "views": 846,
+   "views": 2009,
    "source": "기업마당"
   },
   {
@@ -823,7 +3646,7 @@
     "홍보"
    ],
    "created": "2026-09-08",
-   "views": 395,
+   "views": 777,
    "source": "기업마당"
   },
   {
@@ -865,7 +3688,7 @@
     "일경험"
    ],
    "created": "2026-09-08",
-   "views": 353,
+   "views": 716,
    "source": "기업마당"
   },
   {
@@ -905,7 +3728,7 @@
     "수산식품"
    ],
    "created": "2026-09-08",
-   "views": 347,
+   "views": 703,
    "source": "기업마당"
   },
   {
@@ -945,7 +3768,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 334,
+   "views": 670,
    "source": "기업마당"
   },
   {
@@ -986,7 +3809,7 @@
     "자동차부품"
    ],
    "created": "2026-09-08",
-   "views": 353,
+   "views": 704,
    "source": "기업마당"
   },
   {
@@ -1047,7 +3870,7 @@
     "농림축산식품부"
    ],
    "created": "2026-09-08",
-   "views": 504,
+   "views": 922,
    "source": "기업마당"
   },
   {
@@ -1093,7 +3916,7 @@
     "서울특별시"
    ],
    "created": "2026-09-08",
-   "views": 583,
+   "views": 1414,
    "source": "기업마당"
   },
   {
@@ -1154,7 +3977,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 535,
+   "views": 1024,
    "source": "기업마당"
   },
   {
@@ -1199,7 +4022,7 @@
     "상담"
    ],
    "created": "2026-09-08",
-   "views": 362,
+   "views": 844,
    "source": "기업마당"
   },
   {
@@ -1247,7 +4070,7 @@
     "스타트업"
    ],
    "created": "2026-09-08",
-   "views": 401,
+   "views": 820,
    "source": "기업마당"
   },
   {
@@ -1306,7 +4129,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 555,
+   "views": 1224,
    "source": "기업마당"
   },
   {
@@ -1366,7 +4189,7 @@
     "소상공인"
    ],
    "created": "2026-09-08",
-   "views": 526,
+   "views": 969,
    "source": "기업마당"
   },
   {
@@ -1427,7 +4250,7 @@
     "부산본점"
    ],
    "created": "2026-09-08",
-   "views": 440,
+   "views": 842,
    "source": "기업마당"
   },
   {
@@ -1469,7 +4292,7 @@
     "소상공인"
    ],
    "created": "2026-09-08",
-   "views": 385,
+   "views": 762,
    "source": "기업마당"
   },
   {
@@ -1511,7 +4334,7 @@
     "중소벤처기업부"
    ],
    "created": "2026-09-08",
-   "views": 373,
+   "views": 706,
    "source": "기업마당"
   },
   {
@@ -1554,7 +4377,7 @@
     "경영환경개선"
    ],
    "created": "2026-09-08",
-   "views": 305,
+   "views": 619,
    "source": "기업마당"
   },
   {
@@ -1602,7 +4425,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 411,
+   "views": 789,
    "source": "기업마당"
   },
   {
@@ -1647,7 +4470,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 301,
+   "views": 601,
    "source": "기업마당"
   },
   {
@@ -1690,7 +4513,7 @@
     "바이어"
    ],
    "created": "2026-09-08",
-   "views": 293,
+   "views": 574,
    "source": "기업마당"
   },
   {
@@ -1734,7 +4557,7 @@
     "컨설팅"
    ],
    "created": "2026-09-08",
-   "views": 337,
+   "views": 680,
    "source": "기업마당"
   },
   {
@@ -1779,7 +4602,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 291,
+   "views": 574,
    "source": "기업마당"
   },
   {
@@ -1821,7 +4644,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 335,
+   "views": 923,
    "source": "기업마당"
   },
   {
@@ -1866,7 +4689,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 355,
+   "views": 688,
    "source": "기업마당"
   },
   {
@@ -1910,7 +4733,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 343,
+   "views": 631,
    "source": "기업마당"
   },
   {
@@ -1961,7 +4784,7 @@
     "편도항공료"
    ],
    "created": "2026-09-08",
-   "views": 298,
+   "views": 581,
    "source": "기업마당"
   },
   {
@@ -2010,7 +4833,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 325,
+   "views": 656,
    "source": "기업마당"
   },
   {
@@ -2057,7 +4880,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 346,
+   "views": 651,
    "source": "기업마당"
   },
   {
@@ -2106,7 +4929,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 302,
+   "views": 593,
    "source": "기업마당"
   },
   {
@@ -2163,7 +4986,7 @@
     "R&D"
    ],
    "created": "2026-09-08",
-   "views": 516,
+   "views": 1236,
    "source": "기업마당"
   },
   {
@@ -2207,7 +5030,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 317,
+   "views": 601,
    "source": "기업마당"
   },
   {
@@ -2254,7 +5077,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 249,
+   "views": 501,
    "source": "기업마당"
   },
   {
@@ -2317,7 +5140,7 @@
     "중소기업"
    ],
    "created": "2026-09-08",
-   "views": 360,
+   "views": 714,
    "source": "기업마당"
   },
   {
@@ -2958,7 +5781,7 @@
     "소상공인"
    ],
    "created": "2026-09-07",
-   "views": 2228,
+   "views": 2446,
    "source": "기업마당"
   },
   {
@@ -2998,7 +5821,7 @@
     "사회적기업"
    ],
    "created": "2026-09-07",
-   "views": 2038,
+   "views": 2207,
    "source": "기업마당"
   },
   {
@@ -3045,7 +5868,7 @@
     "목욕업"
    ],
    "created": "2026-09-07",
-   "views": 2183,
+   "views": 2413,
    "source": "기업마당"
   },
   {
@@ -3084,7 +5907,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-07",
-   "views": 2226,
+   "views": 2462,
    "source": "기업마당"
   },
   {
@@ -3128,7 +5951,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 2408,
+   "views": 2662,
    "source": "기업마당"
   },
   {
@@ -3187,7 +6010,7 @@
     "직접수행"
    ],
    "created": "2026-09-07",
-   "views": 2342,
+   "views": 2569,
    "source": "기업마당"
   },
   {
@@ -3224,7 +6047,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 2064,
+   "views": 2272,
    "source": "기업마당"
   },
   {
@@ -3268,7 +6091,7 @@
     "집체교육"
    ],
    "created": "2026-09-07",
-   "views": 2080,
+   "views": 2291,
    "source": "기업마당"
   },
   {
@@ -3316,7 +6139,7 @@
     "컨설팅"
    ],
    "created": "2026-09-07",
-   "views": 2244,
+   "views": 2462,
    "source": "기업마당"
   },
   {
@@ -3363,7 +6186,7 @@
     "서울특별시"
    ],
    "created": "2026-09-07",
-   "views": 2170,
+   "views": 2397,
    "source": "기업마당"
   },
   {
@@ -3411,7 +6234,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 1995,
+   "views": 2176,
    "source": "기업마당"
   },
   {
@@ -3453,7 +6276,7 @@
     "홈페이지"
    ],
    "created": "2026-09-07",
-   "views": 2280,
+   "views": 2509,
    "source": "기업마당"
   },
   {
@@ -3510,7 +6333,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 2277,
+   "views": 2504,
    "source": "기업마당"
   },
   {
@@ -3549,7 +6372,7 @@
     "현판"
    ],
    "created": "2026-09-07",
-   "views": 1977,
+   "views": 2172,
    "source": "기업마당"
   },
   {
@@ -3587,7 +6410,7 @@
     "우대"
    ],
    "created": "2026-09-07",
-   "views": 2168,
+   "views": 2373,
    "source": "기업마당"
   },
   {
@@ -3640,7 +6463,7 @@
     "홍보"
    ],
    "created": "2026-09-07",
-   "views": 821,
+   "views": 1066,
    "source": "기업마당"
   },
   {
@@ -3682,7 +6505,7 @@
     "우수기업인"
    ],
    "created": "2026-09-07",
-   "views": 765,
+   "views": 961,
    "source": "기업마당"
   },
   {
@@ -3736,7 +6559,7 @@
     "K-FOOD"
    ],
    "created": "2026-09-07",
-   "views": 833,
+   "views": 1085,
    "source": "기업마당"
   },
   {
@@ -3781,7 +6604,7 @@
     "협동조합"
    ],
    "created": "2026-09-07",
-   "views": 783,
+   "views": 992,
    "source": "기업마당"
   },
   {
@@ -3826,7 +6649,7 @@
     "당진"
    ],
    "created": "2026-09-07",
-   "views": 715,
+   "views": 905,
    "source": "기업마당"
   },
   {
@@ -3875,7 +6698,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 706,
+   "views": 871,
    "source": "기업마당"
   },
   {
@@ -3928,7 +6751,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 1007,
+   "views": 1336,
    "source": "기업마당"
   },
   {
@@ -3987,7 +6810,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 1019,
+   "views": 1233,
    "source": "기업마당"
   },
   {
@@ -4036,7 +6859,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 635,
+   "views": 797,
    "source": "기업마당"
   },
   {
@@ -4095,7 +6918,7 @@
     "경상북도"
    ],
    "created": "2026-09-07",
-   "views": 708,
+   "views": 875,
    "source": "기업마당"
   },
   {
@@ -4139,7 +6962,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 560,
+   "views": 706,
    "source": "기업마당"
   },
   {
@@ -4198,7 +7021,7 @@
     "유지관리"
    ],
    "created": "2026-09-07",
-   "views": 1406,
+   "views": 1928,
    "source": "기업마당"
   },
   {
@@ -4243,7 +7066,7 @@
     "제조업"
    ],
    "created": "2026-09-07",
-   "views": 592,
+   "views": 747,
    "source": "기업마당"
   },
   {
@@ -4284,7 +7107,7 @@
     "소상공인"
    ],
    "created": "2026-09-07",
-   "views": 574,
+   "views": 695,
    "source": "기업마당"
   },
   {
@@ -4325,7 +7148,7 @@
     "서울특별시"
    ],
    "created": "2026-09-07",
-   "views": 1248,
+   "views": 1818,
    "source": "기업마당"
   },
   {
@@ -4389,7 +7212,7 @@
     "시제품"
    ],
    "created": "2026-09-07",
-   "views": 959,
+   "views": 1271,
    "source": "기업마당"
   },
   {
@@ -4430,7 +7253,7 @@
     "소상공인"
    ],
    "created": "2026-09-07",
-   "views": 484,
+   "views": 592,
    "source": "기업마당"
   },
   {
@@ -4477,7 +7300,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 653,
+   "views": 835,
    "source": "기업마당"
   },
   {
@@ -4524,7 +7347,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 584,
+   "views": 712,
    "source": "기업마당"
   },
   {
@@ -4572,7 +7395,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 714,
+   "views": 886,
    "source": "기업마당"
   },
   {
@@ -4612,7 +7435,7 @@
     "소요비용"
    ],
    "created": "2026-09-07",
-   "views": 601,
+   "views": 754,
    "source": "기업마당"
   },
   {
@@ -4663,7 +7486,7 @@
     "의료"
    ],
    "created": "2026-09-07",
-   "views": 565,
+   "views": 690,
    "source": "기업마당"
   },
   {
@@ -4711,7 +7534,7 @@
     "충북과학기술혁신원"
    ],
    "created": "2026-09-07",
-   "views": 544,
+   "views": 681,
    "source": "기업마당"
   },
   {
@@ -4760,7 +7583,7 @@
     "충청북도"
    ],
    "created": "2026-09-07",
-   "views": 509,
+   "views": 679,
    "source": "기업마당"
   },
   {
@@ -4819,7 +7642,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 1032,
+   "views": 1372,
    "source": "기업마당"
   },
   {
@@ -4867,7 +7690,7 @@
     "컨설팅"
    ],
    "created": "2026-09-07",
-   "views": 596,
+   "views": 778,
    "source": "기업마당"
   },
   {
@@ -4912,7 +7735,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 634,
+   "views": 803,
    "source": "기업마당"
   },
   {
@@ -4971,7 +7794,7 @@
     "소상공인"
    ],
    "created": "2026-09-07",
-   "views": 1200,
+   "views": 1634,
    "source": "기업마당"
   },
   {
@@ -5014,7 +7837,7 @@
     "시제품"
    ],
    "created": "2026-09-07",
-   "views": 536,
+   "views": 660,
    "source": "기업마당"
   },
   {
@@ -5061,7 +7884,7 @@
     "R&D"
    ],
    "created": "2026-09-07",
-   "views": 592,
+   "views": 734,
    "source": "기업마당"
   },
   {
@@ -5118,7 +7941,7 @@
     "포상"
    ],
    "created": "2026-09-07",
-   "views": 560,
+   "views": 694,
    "source": "기업마당"
   },
   {
@@ -5181,7 +8004,7 @@
     "중소기업"
    ],
    "created": "2026-09-07",
-   "views": 1012,
+   "views": 1302,
    "source": "기업마당"
   },
   {
@@ -5235,7 +8058,7 @@
     "교육비"
    ],
    "created": "2026-09-07",
-   "views": 611,
+   "views": 808,
    "source": "기업마당"
   },
   {
@@ -5291,7 +8114,7 @@
     "푸드테크기업"
    ],
    "created": "2026-09-07",
-   "views": 620,
+   "views": 792,
    "source": "기업마당"
   },
   {
@@ -5352,7 +8175,7 @@
     "R&D"
    ],
    "created": "2026-09-07",
-   "views": 601,
+   "views": 759,
    "source": "기업마당"
   },
   {
@@ -5396,7 +8219,7 @@
     "마케팅"
    ],
    "created": "2026-09-07",
-   "views": 462,
+   "views": 588,
    "source": "기업마당"
   },
   {
@@ -5608,7 +8431,7 @@
     "교육"
    ],
    "created": "2026-09-04",
-   "views": 5656,
+   "views": 5823,
    "source": "기업마당"
   },
   {
@@ -5669,7 +8492,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 6070,
+   "views": 6317,
    "source": "기업마당"
   },
   {
@@ -5743,7 +8566,7 @@
     "상담"
    ],
    "created": "2026-09-04",
-   "views": 5847,
+   "views": 6022,
    "source": "기업마당"
   },
   {
@@ -5800,7 +8623,7 @@
     "스타트업"
    ],
    "created": "2026-09-04",
-   "views": 5994,
+   "views": 6133,
    "source": "기업마당"
   },
   {
@@ -5851,7 +8674,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 5946,
+   "views": 6122,
    "source": "기업마당"
   },
   {
@@ -5889,7 +8712,7 @@
     "소상공인"
    ],
    "created": "2026-09-04",
-   "views": 5597,
+   "views": 5814,
    "source": "기업마당"
   },
   {
@@ -5937,7 +8760,7 @@
     "송풍량"
    ],
    "created": "2026-09-04",
-   "views": 5256,
+   "views": 5387,
    "source": "기업마당"
   },
   {
@@ -5974,7 +8797,7 @@
     "소상공인"
    ],
    "created": "2026-09-04",
-   "views": 5626,
+   "views": 5838,
    "source": "기업마당"
   },
   {
@@ -6012,7 +8835,7 @@
     "소상공인경영안정지원금"
    ],
    "created": "2026-09-04",
-   "views": 5749,
+   "views": 5961,
    "source": "기업마당"
   },
   {
@@ -6051,7 +8874,7 @@
     "인증"
    ],
    "created": "2026-09-04",
-   "views": 5244,
+   "views": 5358,
    "source": "기업마당"
   },
   {
@@ -6095,7 +8918,7 @@
     "경상남도"
    ],
    "created": "2026-09-04",
-   "views": 5280,
+   "views": 5415,
    "source": "기업마당"
   },
   {
@@ -6137,7 +8960,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 5405,
+   "views": 5545,
    "source": "기업마당"
   },
   {
@@ -6180,7 +9003,7 @@
     "인센티브"
    ],
    "created": "2026-09-04",
-   "views": 5364,
+   "views": 5504,
    "source": "기업마당"
   },
   {
@@ -6223,7 +9046,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-04",
-   "views": 5098,
+   "views": 5216,
    "source": "기업마당"
   },
   {
@@ -6269,7 +9092,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 5198,
+   "views": 5294,
    "source": "기업마당"
   },
   {
@@ -6308,7 +9131,7 @@
     "사회적협동조합"
    ],
    "created": "2026-09-04",
-   "views": 1592,
+   "views": 1736,
    "source": "기업마당"
   },
   {
@@ -6352,7 +9175,7 @@
     "항공료"
    ],
    "created": "2026-09-04",
-   "views": 1472,
+   "views": 1577,
    "source": "기업마당"
   },
   {
@@ -6390,7 +9213,7 @@
     "지정"
    ],
    "created": "2026-09-04",
-   "views": 1369,
+   "views": 1470,
    "source": "기업마당"
   },
   {
@@ -6442,7 +9265,7 @@
     "특허"
    ],
    "created": "2026-09-04",
-   "views": 1661,
+   "views": 1807,
    "source": "기업마당"
   },
   {
@@ -6487,7 +9310,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1724,
+   "views": 1882,
    "source": "기업마당"
   },
   {
@@ -6532,7 +9355,7 @@
     "2026"
    ],
    "created": "2026-09-04",
-   "views": 1340,
+   "views": 1436,
    "source": "기업마당"
   },
   {
@@ -6583,7 +9406,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1373,
+   "views": 1461,
    "source": "기업마당"
   },
   {
@@ -6622,7 +9445,7 @@
     "경기도"
    ],
    "created": "2026-09-04",
-   "views": 1266,
+   "views": 1363,
    "source": "기업마당"
   },
   {
@@ -6666,7 +9489,7 @@
     "생산"
    ],
    "created": "2026-09-04",
-   "views": 1416,
+   "views": 1542,
    "source": "기업마당"
   },
   {
@@ -6712,7 +9535,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1290,
+   "views": 1389,
    "source": "기업마당"
   },
   {
@@ -6763,7 +9586,7 @@
     "벤처기업"
    ],
    "created": "2026-09-04",
-   "views": 1572,
+   "views": 1713,
    "source": "기업마당"
   },
   {
@@ -6805,7 +9628,7 @@
     "소상공인"
    ],
    "created": "2026-09-04",
-   "views": 1383,
+   "views": 1500,
    "source": "기업마당"
   },
   {
@@ -6851,7 +9674,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1872,
+   "views": 2031,
    "source": "기업마당"
   },
   {
@@ -6903,7 +9726,7 @@
     "해외시장"
    ],
    "created": "2026-09-04",
-   "views": 1689,
+   "views": 1819,
    "source": "기업마당"
   },
   {
@@ -6947,7 +9770,7 @@
     "출원관납료"
    ],
    "created": "2026-09-04",
-   "views": 1344,
+   "views": 1462,
    "source": "기업마당"
   },
   {
@@ -6995,7 +9818,7 @@
     "해외시장"
    ],
    "created": "2026-09-04",
-   "views": 1405,
+   "views": 1524,
    "source": "기업마당"
   },
   {
@@ -7042,7 +9865,7 @@
     "일본"
    ],
    "created": "2026-09-04",
-   "views": 1546,
+   "views": 1710,
    "source": "기업마당"
   },
   {
@@ -7101,7 +9924,7 @@
     "과학기술정보통신부"
    ],
    "created": "2026-09-04",
-   "views": 1535,
+   "views": 1674,
    "source": "기업마당"
   },
   {
@@ -7148,7 +9971,7 @@
     "SECaaS"
    ],
    "created": "2026-09-04",
-   "views": 1142,
+   "views": 1278,
    "source": "기업마당"
   },
   {
@@ -7191,7 +10014,7 @@
     "컨설팅"
    ],
    "created": "2026-09-04",
-   "views": 1343,
+   "views": 1461,
    "source": "기업마당"
   },
   {
@@ -7240,7 +10063,7 @@
     "의료비"
    ],
    "created": "2026-09-04",
-   "views": 1099,
+   "views": 1187,
    "source": "기업마당"
   },
   {
@@ -7303,7 +10126,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1892,
+   "views": 2145,
    "source": "기업마당"
   },
   {
@@ -7360,7 +10183,7 @@
     "판로개척"
    ],
    "created": "2026-09-04",
-   "views": 1345,
+   "views": 1459,
    "source": "기업마당"
   },
   {
@@ -7419,7 +10242,7 @@
     "컨설팅"
    ],
    "created": "2026-09-04",
-   "views": 1238,
+   "views": 1338,
    "source": "기업마당"
   },
   {
@@ -7468,7 +10291,7 @@
     "자금"
    ],
    "created": "2026-09-04",
-   "views": 1096,
+   "views": 1188,
    "source": "기업마당"
   },
   {
@@ -7517,7 +10340,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1060,
+   "views": 1163,
    "source": "기업마당"
   },
   {
@@ -7561,7 +10384,7 @@
     "수소산업"
    ],
    "created": "2026-09-04",
-   "views": 1046,
+   "views": 1141,
    "source": "기업마당"
   },
   {
@@ -7606,7 +10429,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1236,
+   "views": 1347,
    "source": "기업마당"
   },
   {
@@ -7649,7 +10472,7 @@
     "중소기업"
    ],
    "created": "2026-09-04",
-   "views": 1196,
+   "views": 1297,
    "source": "기업마당"
   },
   {
@@ -7696,7 +10519,7 @@
     "디자인"
    ],
    "created": "2026-09-04",
-   "views": 1002,
+   "views": 1089,
    "source": "기업마당"
   },
   {
@@ -7808,7 +10631,7 @@
     "경기도"
    ],
    "created": "2026-09-03",
-   "views": 2922,
+   "views": 3041,
    "source": "기업마당"
   },
   {
@@ -7900,7 +10723,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 2876,
+   "views": 2993,
    "source": "기업마당"
   },
   {
@@ -7944,7 +10767,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 2733,
+   "views": 2846,
    "source": "기업마당"
   },
   {
@@ -7989,7 +10812,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 2785,
+   "views": 2889,
    "source": "기업마당"
   },
   {
@@ -8047,7 +10870,7 @@
     "특허"
    ],
    "created": "2026-09-03",
-   "views": 3172,
+   "views": 3360,
    "source": "기업마당"
   },
   {
@@ -8095,7 +10918,7 @@
     "인증"
    ],
    "created": "2026-09-03",
-   "views": 2644,
+   "views": 2761,
    "source": "기업마당"
   },
   {
@@ -8215,7 +11038,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 3231,
+   "views": 3427,
    "source": "기업마당"
   },
   {
@@ -8251,7 +11074,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-03",
-   "views": 2506,
+   "views": 2588,
    "source": "기업마당"
   },
   {
@@ -8295,7 +11118,7 @@
     "수수료"
    ],
    "created": "2026-09-03",
-   "views": 2594,
+   "views": 2694,
    "source": "기업마당"
   },
   {
@@ -8345,7 +11168,7 @@
     "중소벤처기업부"
    ],
    "created": "2026-09-03",
-   "views": 3592,
+   "views": 3914,
    "source": "기업마당"
   },
   {
@@ -8387,7 +11210,7 @@
     "중소기업육성자금"
    ],
    "created": "2026-09-03",
-   "views": 2669,
+   "views": 2765,
    "source": "기업마당"
   },
   {
@@ -8446,7 +11269,7 @@
     "경상북도"
    ],
    "created": "2026-09-03",
-   "views": 3581,
+   "views": 3798,
    "source": "기업마당"
   },
   {
@@ -8487,7 +11310,7 @@
     "국내박람회"
    ],
    "created": "2026-09-03",
-   "views": 2542,
+   "views": 2619,
    "source": "기업마당"
   },
   {
@@ -8551,7 +11374,7 @@
     "온라인"
    ],
    "created": "2026-09-03",
-   "views": 1583,
+   "views": 1697,
    "source": "기업마당"
   },
   {
@@ -8589,7 +11412,7 @@
     "인센티브"
    ],
    "created": "2026-09-03",
-   "views": 1139,
+   "views": 1235,
    "source": "기업마당"
   },
   {
@@ -8634,7 +11457,7 @@
     "마케팅"
    ],
    "created": "2026-09-03",
-   "views": 1470,
+   "views": 1562,
    "source": "기업마당"
   },
   {
@@ -8737,7 +11560,7 @@
     "2026"
    ],
    "created": "2026-09-03",
-   "views": 1213,
+   "views": 1314,
    "source": "기업마당"
   },
   {
@@ -8785,7 +11608,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1119,
+   "views": 1193,
    "source": "기업마당"
   },
   {
@@ -8825,7 +11648,7 @@
     "부스임차료"
    ],
    "created": "2026-09-03",
-   "views": 1464,
+   "views": 1556,
    "source": "기업마당"
   },
   {
@@ -8873,7 +11696,7 @@
     "경상북도"
    ],
    "created": "2026-09-03",
-   "views": 1121,
+   "views": 1198,
    "source": "기업마당"
   },
   {
@@ -8926,7 +11749,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1150,
+   "views": 1314,
    "source": "기업마당"
   },
   {
@@ -8975,7 +11798,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1546,
+   "views": 1690,
    "source": "기업마당"
   },
   {
@@ -9040,7 +11863,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1550,
+   "views": 1727,
    "source": "기업마당"
   },
   {
@@ -9082,7 +11905,7 @@
     "법인사업자"
    ],
    "created": "2026-09-03",
-   "views": 1146,
+   "views": 1220,
    "source": "기업마당"
   },
   {
@@ -9130,7 +11953,7 @@
     "IR"
    ],
    "created": "2026-09-03",
-   "views": 1471,
+   "views": 1558,
    "source": "기업마당"
   },
   {
@@ -9192,7 +12015,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1768,
+   "views": 1914,
    "source": "기업마당"
   },
   {
@@ -9252,7 +12075,7 @@
     "특허"
    ],
    "created": "2026-09-03",
-   "views": 1374,
+   "views": 1498,
    "source": "기업마당"
   },
   {
@@ -9309,7 +12132,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1156,
+   "views": 1360,
    "source": "기업마당"
   },
   {
@@ -9391,7 +12214,7 @@
     "경상북도"
    ],
    "created": "2026-09-03",
-   "views": 1085,
+   "views": 1175,
    "source": "기업마당"
   },
   {
@@ -9439,7 +12262,7 @@
     "AI"
    ],
    "created": "2026-09-03",
-   "views": 1392,
+   "views": 1548,
    "source": "기업마당"
   },
   {
@@ -9503,7 +12326,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1264,
+   "views": 1371,
    "source": "기업마당"
   },
   {
@@ -9570,7 +12393,7 @@
     "컨설팅"
    ],
    "created": "2026-09-03",
-   "views": 1085,
+   "views": 1196,
    "source": "기업마당"
   },
   {
@@ -9617,7 +12440,7 @@
     "전남테크노파크"
    ],
    "created": "2026-09-03",
-   "views": 924,
+   "views": 1005,
    "source": "기업마당"
   },
   {
@@ -9658,7 +12481,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 934,
+   "views": 1008,
    "source": "기업마당"
   },
   {
@@ -9718,7 +12541,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1144,
+   "views": 1252,
    "source": "기업마당"
   },
   {
@@ -9780,7 +12603,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 953,
+   "views": 1024,
    "source": "기업마당"
   },
   {
@@ -9821,7 +12644,7 @@
     "소상공인"
    ],
    "created": "2026-09-03",
-   "views": 986,
+   "views": 1057,
    "source": "기업마당"
   },
   {
@@ -9863,7 +12686,7 @@
     "이미지"
    ],
    "created": "2026-09-03",
-   "views": 1172,
+   "views": 1258,
    "source": "기업마당"
   },
   {
@@ -9921,7 +12744,7 @@
     "서울특별시"
    ],
    "created": "2026-09-03",
-   "views": 1421,
+   "views": 1539,
    "source": "기업마당"
   },
   {
@@ -10026,7 +12849,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 1702,
+   "views": 1860,
    "source": "기업마당"
   },
   {
@@ -10067,7 +12890,7 @@
     "중소기업"
    ],
    "created": "2026-09-03",
-   "views": 943,
+   "views": 1050,
    "source": "기업마당"
   },
   {
@@ -10111,7 +12934,7 @@
     "방산"
    ],
    "created": "2026-09-03",
-   "views": 855,
+   "views": 931,
    "source": "기업마당"
   },
   {
@@ -10154,7 +12977,7 @@
     "국내식품"
    ],
    "created": "2026-09-03",
-   "views": 983,
+   "views": 1104,
    "source": "기업마당"
   },
   {
@@ -10468,7 +13291,7 @@
     "맞춤형지원"
    ],
    "created": "2026-09-02",
-   "views": 4074,
+   "views": 4208,
    "source": "기업마당"
   },
   {
@@ -10550,7 +13373,7 @@
     "장비구입"
    ],
    "created": "2026-09-02",
-   "views": 2743,
+   "views": 2812,
    "source": "기업마당"
   },
   {
@@ -10588,7 +13411,7 @@
     "물류비지원"
    ],
    "created": "2026-09-02",
-   "views": 2715,
+   "views": 2792,
    "source": "기업마당"
   },
   {
@@ -10674,7 +13497,7 @@
     "홍보"
    ],
    "created": "2026-09-02",
-   "views": 2634,
+   "views": 2880,
    "source": "기업마당"
   },
   {
@@ -10727,7 +13550,7 @@
     "기초자치단체"
    ],
    "created": "2026-09-02",
-   "views": 2742,
+   "views": 2955,
    "source": "기업마당"
   },
   {
@@ -10771,7 +13594,7 @@
     "소상공인"
    ],
    "created": "2026-09-02",
-   "views": 2671,
+   "views": 2775,
    "source": "기업마당"
   },
   {
@@ -10809,7 +13632,7 @@
     "복지편익개선"
    ],
    "created": "2026-09-02",
-   "views": 2533,
+   "views": 2702,
    "source": "기업마당"
   },
   {
@@ -10852,7 +13675,7 @@
     "융자"
    ],
    "created": "2026-09-02",
-   "views": 2721,
+   "views": 2804,
    "source": "기업마당"
   },
   {
@@ -10904,7 +13727,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 2637,
+   "views": 2721,
    "source": "기업마당"
   },
   {
@@ -10948,7 +13771,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 2520,
+   "views": 2605,
    "source": "기업마당"
   },
   {
@@ -10989,7 +13812,7 @@
     "소상공인"
    ],
    "created": "2026-09-02",
-   "views": 2498,
+   "views": 2583,
    "source": "기업마당"
   },
   {
@@ -11031,7 +13854,7 @@
     "물류환경개선"
    ],
    "created": "2026-09-02",
-   "views": 2384,
+   "views": 2556,
    "source": "기업마당"
   },
   {
@@ -11075,7 +13898,7 @@
     "홍보"
    ],
    "created": "2026-09-02",
-   "views": 2356,
+   "views": 2422,
    "source": "기업마당"
   },
   {
@@ -11124,7 +13947,7 @@
     "소상공인"
    ],
    "created": "2026-09-02",
-   "views": 1987,
+   "views": 2134,
    "source": "기업마당"
   },
   {
@@ -11174,7 +13997,7 @@
     "경상북도"
    ],
    "created": "2026-09-02",
-   "views": 1468,
+   "views": 1563,
    "source": "기업마당"
   },
   {
@@ -11216,7 +14039,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1163,
+   "views": 1256,
    "source": "기업마당"
   },
   {
@@ -11261,7 +14084,7 @@
     "2026"
    ],
    "created": "2026-09-02",
-   "views": 1211,
+   "views": 1293,
    "source": "기업마당"
   },
   {
@@ -11362,7 +14185,7 @@
     "디지털의료제품"
    ],
    "created": "2026-09-02",
-   "views": 2416,
+   "views": 2709,
    "source": "기업마당"
   },
   {
@@ -11406,7 +14229,7 @@
     "바이어"
    ],
    "created": "2026-09-02",
-   "views": 1224,
+   "views": 1326,
    "source": "기업마당"
   },
   {
@@ -11479,7 +14302,7 @@
     "일반산업"
    ],
    "created": "2026-09-02",
-   "views": 1478,
+   "views": 1573,
    "source": "기업마당"
   },
   {
@@ -11530,7 +14353,7 @@
     "ICT"
    ],
    "created": "2026-09-02",
-   "views": 1853,
+   "views": 2011,
    "source": "기업마당"
   },
   {
@@ -11593,7 +14416,7 @@
     "해석"
    ],
    "created": "2026-09-02",
-   "views": 2075,
+   "views": 2259,
    "source": "기업마당"
   },
   {
@@ -11666,7 +14489,7 @@
     "마케팅"
    ],
    "created": "2026-09-02",
-   "views": 1680,
+   "views": 1791,
    "source": "기업마당"
   },
   {
@@ -11709,7 +14532,7 @@
     "소상공인"
    ],
    "created": "2026-09-02",
-   "views": 1682,
+   "views": 1856,
    "source": "기업마당"
   },
   {
@@ -11772,7 +14595,7 @@
     "일본"
    ],
    "created": "2026-09-02",
-   "views": 1636,
+   "views": 1733,
    "source": "기업마당"
   },
   {
@@ -11809,7 +14632,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1316,
+   "views": 1425,
    "source": "기업마당"
   },
   {
@@ -11854,7 +14677,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1298,
+   "views": 1377,
    "source": "기업마당"
   },
   {
@@ -11918,7 +14741,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1952,
+   "views": 2156,
    "source": "기업마당"
   },
   {
@@ -12023,7 +14846,7 @@
     "고용노동부"
    ],
    "created": "2026-09-02",
-   "views": 1032,
+   "views": 1104,
    "source": "기업마당"
   },
   {
@@ -12074,7 +14897,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1110,
+   "views": 1189,
    "source": "기업마당"
   },
   {
@@ -12131,7 +14954,7 @@
     "온라인"
    ],
    "created": "2026-09-02",
-   "views": 3430,
+   "views": 3825,
    "source": "기업마당"
   },
   {
@@ -12172,7 +14995,7 @@
     "소상공인"
    ],
    "created": "2026-09-02",
-   "views": 1222,
+   "views": 1313,
    "source": "기업마당"
   },
   {
@@ -12217,7 +15040,7 @@
     "경상남도"
    ],
    "created": "2026-09-02",
-   "views": 1417,
+   "views": 1534,
    "source": "기업마당"
   },
   {
@@ -12259,7 +15082,7 @@
     "경상운영비"
    ],
    "created": "2026-09-02",
-   "views": 908,
+   "views": 976,
    "source": "기업마당"
   },
   {
@@ -12304,7 +15127,7 @@
     "마을기업"
    ],
    "created": "2026-09-02",
-   "views": 1050,
+   "views": 1125,
    "source": "기업마당"
   },
   {
@@ -12348,7 +15171,7 @@
     "통역"
    ],
    "created": "2026-09-02",
-   "views": 1087,
+   "views": 1162,
    "source": "기업마당"
   },
   {
@@ -12395,7 +15218,7 @@
     "해외마케팅"
    ],
    "created": "2026-09-02",
-   "views": 1133,
+   "views": 1226,
    "source": "기업마당"
   },
   {
@@ -12437,7 +15260,7 @@
     "제조업체"
    ],
    "created": "2026-09-02",
-   "views": 1464,
+   "views": 1595,
    "source": "기업마당"
   },
   {
@@ -12486,7 +15309,7 @@
     "스타트업"
    ],
    "created": "2026-09-02",
-   "views": 1293,
+   "views": 1402,
    "source": "기업마당"
   },
   {
@@ -12535,7 +15358,7 @@
     "공장부지매입"
    ],
    "created": "2026-09-02",
-   "views": 1090,
+   "views": 1166,
    "source": "기업마당"
   },
   {
@@ -12601,7 +15424,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1908,
+   "views": 2103,
    "source": "기업마당"
   },
   {
@@ -12652,7 +15475,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 979,
+   "views": 1057,
    "source": "기업마당"
   },
   {
@@ -12694,7 +15517,7 @@
     "중소기업"
    ],
    "created": "2026-09-02",
-   "views": 1225,
+   "views": 1365,
    "source": "기업마당"
   },
   {
@@ -12805,7 +15628,7 @@
     "R&D"
    ],
    "created": "2026-09-02",
-   "views": 1379,
+   "views": 1464,
    "source": "기업마당"
   },
   {
@@ -12849,7 +15672,7 @@
     "분쟁조정"
    ],
    "created": "2026-09-02",
-   "views": 892,
+   "views": 952,
    "source": "기업마당"
   },
   {
@@ -12886,7 +15709,7 @@
     "채용상담"
    ],
    "created": "2026-09-02",
-   "views": 774,
+   "views": 840,
    "source": "기업마당"
   },
   {
@@ -12946,7 +15769,7 @@
     "IR"
    ],
    "created": "2026-09-02",
-   "views": 1761,
+   "views": 1950,
    "source": "기업마당"
   },
   {
@@ -12990,7 +15813,7 @@
     "여성편의시설"
    ],
    "created": "2026-09-02",
-   "views": 1063,
+   "views": 1148,
    "source": "기업마당"
   },
   {
@@ -13275,7 +16098,7 @@
     "컨설팅"
    ],
    "created": "2026-09-01",
-   "views": 3118,
+   "views": 3202,
    "source": "기업마당"
   },
   {
@@ -13318,7 +16141,7 @@
     "농축산업"
    ],
    "created": "2026-09-01",
-   "views": 2770,
+   "views": 2851,
    "source": "기업마당"
   },
   {
@@ -13357,7 +16180,7 @@
     "근로자"
    ],
    "created": "2026-09-01",
-   "views": 2774,
+   "views": 2842,
    "source": "기업마당"
   },
   {
@@ -13401,7 +16224,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 2625,
+   "views": 2687,
    "source": "기업마당"
   },
   {
@@ -13446,7 +16269,7 @@
     "경기도"
    ],
    "created": "2026-09-01",
-   "views": 3491,
+   "views": 3637,
    "source": "기업마당"
   },
   {
@@ -13509,7 +16332,7 @@
     "바이어"
    ],
    "created": "2026-09-01",
-   "views": 3499,
+   "views": 3610,
    "source": "기업마당"
   },
   {
@@ -13561,7 +16384,7 @@
     "경상남도"
    ],
    "created": "2026-09-01",
-   "views": 3108,
+   "views": 3206,
    "source": "기업마당"
   },
   {
@@ -13621,7 +16444,7 @@
     "경상남도"
    ],
    "created": "2026-09-01",
-   "views": 3275,
+   "views": 3382,
    "source": "기업마당"
   },
   {
@@ -13715,7 +16538,7 @@
     "고용노동부"
    ],
    "created": "2026-09-01",
-   "views": 2614,
+   "views": 2685,
    "source": "기업마당"
   },
   {
@@ -13754,7 +16577,7 @@
     "컨설팅"
    ],
    "created": "2026-09-01",
-   "views": 2658,
+   "views": 2757,
    "source": "기업마당"
   },
   {
@@ -13867,7 +16690,7 @@
     "전남테크노파크"
    ],
    "created": "2026-09-01",
-   "views": 3500,
+   "views": 3652,
    "source": "기업마당"
   },
   {
@@ -13908,7 +16731,7 @@
     "소규모사업장"
    ],
    "created": "2026-09-01",
-   "views": 2661,
+   "views": 2733,
    "source": "기업마당"
   },
   {
@@ -13956,7 +16779,7 @@
     "경상북도"
    ],
    "created": "2026-09-01",
-   "views": 2825,
+   "views": 2906,
    "source": "기업마당"
   },
   {
@@ -14006,7 +16829,7 @@
     "네트워킹"
    ],
    "created": "2026-09-01",
-   "views": 1552,
+   "views": 1631,
    "source": "기업마당"
   },
   {
@@ -14056,7 +16879,7 @@
     "콘텐츠"
    ],
    "created": "2026-09-01",
-   "views": 1551,
+   "views": 1650,
    "source": "기업마당"
   },
   {
@@ -14097,7 +16920,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1383,
+   "views": 1448,
    "source": "기업마당"
   },
   {
@@ -14140,7 +16963,7 @@
     "사회적기업"
    ],
    "created": "2026-09-01",
-   "views": 1367,
+   "views": 1433,
    "source": "기업마당"
   },
   {
@@ -14197,7 +17020,7 @@
     "기술개발"
    ],
    "created": "2026-09-01",
-   "views": 1840,
+   "views": 2067,
    "source": "기업마당"
   },
   {
@@ -14252,7 +17075,7 @@
     "R&D"
    ],
    "created": "2026-09-01",
-   "views": 1496,
+   "views": 1701,
    "source": "기업마당"
   },
   {
@@ -14301,7 +17124,7 @@
     "투자지원"
    ],
    "created": "2026-09-01",
-   "views": 1333,
+   "views": 1441,
    "source": "기업마당"
   },
   {
@@ -14370,7 +17193,7 @@
     "중남미"
    ],
    "created": "2026-09-01",
-   "views": 1745,
+   "views": 1870,
    "source": "기업마당"
   },
   {
@@ -14427,7 +17250,7 @@
     "아이디어"
    ],
    "created": "2026-09-01",
-   "views": 2495,
+   "views": 2660,
    "source": "기업마당"
   },
   {
@@ -14476,7 +17299,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1851,
+   "views": 1974,
    "source": "기업마당"
   },
   {
@@ -14524,7 +17347,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1295,
+   "views": 1376,
    "source": "기업마당"
   },
   {
@@ -14569,7 +17392,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1177,
+   "views": 1247,
    "source": "기업마당"
   },
   {
@@ -14612,7 +17435,7 @@
     "일자리창출"
    ],
    "created": "2026-09-01",
-   "views": 1276,
+   "views": 1350,
    "source": "기업마당"
   },
   {
@@ -14744,7 +17567,7 @@
     "왕복교통비"
    ],
    "created": "2026-09-01",
-   "views": 1148,
+   "views": 1249,
    "source": "기업마당"
   },
   {
@@ -14782,7 +17605,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1130,
+   "views": 1212,
    "source": "기업마당"
   },
   {
@@ -14829,7 +17652,7 @@
     "초기창업"
    ],
    "created": "2026-09-01",
-   "views": 1652,
+   "views": 1758,
    "source": "기업마당"
   },
   {
@@ -14880,7 +17703,7 @@
     "SMR"
    ],
    "created": "2026-09-01",
-   "views": 1479,
+   "views": 1579,
    "source": "기업마당"
   },
   {
@@ -14924,7 +17747,7 @@
     "소상공인"
    ],
    "created": "2026-09-01",
-   "views": 1208,
+   "views": 1297,
    "source": "기업마당"
   },
   {
@@ -14981,7 +17804,7 @@
     "문화체육관광부"
    ],
    "created": "2026-09-01",
-   "views": 1199,
+   "views": 1283,
    "source": "기업마당"
   },
   {
@@ -15069,7 +17892,7 @@
     "농업기술센터"
    ],
    "created": "2026-09-01",
-   "views": 1048,
+   "views": 1131,
    "source": "기업마당"
   },
   {
@@ -15115,7 +17938,7 @@
     "수집환경"
    ],
    "created": "2026-09-01",
-   "views": 1551,
+   "views": 1676,
    "source": "기업마당"
   },
   {
@@ -15162,7 +17985,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1453,
+   "views": 1571,
    "source": "기업마당"
   },
   {
@@ -15216,7 +18039,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1366,
+   "views": 1468,
    "source": "기업마당"
   },
   {
@@ -15346,7 +18169,7 @@
     "B2C"
    ],
    "created": "2026-09-01",
-   "views": 1511,
+   "views": 1605,
    "source": "기업마당"
   },
   {
@@ -15405,7 +18228,7 @@
     "소상공인"
    ],
    "created": "2026-09-01",
-   "views": 2393,
+   "views": 2552,
    "source": "기업마당"
   },
   {
@@ -15478,7 +18301,7 @@
     "R&D"
    ],
    "created": "2026-09-01",
-   "views": 1266,
+   "views": 1348,
    "source": "기업마당"
   },
   {
@@ -15536,7 +18359,7 @@
     "중소기업"
    ],
    "created": "2026-09-01",
-   "views": 1821,
+   "views": 1940,
    "source": "기업마당"
   },
   {
@@ -15598,7 +18421,7 @@
     "바이오"
    ],
    "created": "2026-09-01",
-   "views": 1207,
+   "views": 1350,
    "source": "기업마당"
   },
   {
@@ -15655,7 +18478,7 @@
     "교육"
    ],
    "created": "2026-09-01",
-   "views": 1331,
+   "views": 1439,
    "source": "기업마당"
   },
   {
@@ -16151,7 +18974,7 @@
     "근로자주거환경개선"
    ],
    "created": "2026-08-31",
-   "views": 2347,
+   "views": 2447,
    "source": "기업마당"
   },
   {
@@ -16197,7 +19020,7 @@
     "디지털전환"
    ],
    "created": "2026-08-31",
-   "views": 2309,
+   "views": 2386,
    "source": "기업마당"
   },
   {
@@ -16239,7 +19062,7 @@
     "사업장임대료"
    ],
    "created": "2026-08-31",
-   "views": 2155,
+   "views": 2225,
    "source": "기업마당"
   },
   {
@@ -16281,7 +19104,7 @@
     "소상공인"
    ],
    "created": "2026-08-31",
-   "views": 2362,
+   "views": 2434,
    "source": "기업마당"
   },
   {
@@ -16325,7 +19148,7 @@
     "컨설팅"
    ],
    "created": "2026-08-31",
-   "views": 2435,
+   "views": 2529,
    "source": "기업마당"
   },
   {
@@ -16367,7 +19190,7 @@
     "스케일업"
    ],
    "created": "2026-08-31",
-   "views": 2316,
+   "views": 2398,
    "source": "기업마당"
   },
   {
@@ -16471,7 +19294,7 @@
     "중소기업"
    ],
    "created": "2026-08-31",
-   "views": 5361,
+   "views": 5617,
    "source": "기업마당"
   },
   {
@@ -16525,7 +19348,7 @@
     "IR"
    ],
    "created": "2026-08-31",
-   "views": 3258,
+   "views": 3418,
    "source": "기업마당"
   },
   {
@@ -16565,7 +19388,7 @@
     "기초자치단체"
    ],
    "created": "2026-08-31",
-   "views": 1360,
+   "views": 1445,
    "source": "기업마당"
   },
   {
@@ -16620,7 +19443,7 @@
     "R&D"
    ],
    "created": "2026-08-31",
-   "views": 1646,
+   "views": 1729,
    "source": "기업마당"
   },
   {
@@ -16660,7 +19483,7 @@
     "중소기업"
    ],
    "created": "2026-08-31",
-   "views": 1422,
+   "views": 1493,
    "source": "기업마당"
   },
   {
@@ -16702,7 +19525,7 @@
     "제조업"
    ],
    "created": "2026-08-31",
-   "views": 1643,
+   "views": 1732,
    "source": "기업마당"
   },
   {
@@ -16743,7 +19566,7 @@
     "사회적기업"
    ],
    "created": "2026-08-31",
-   "views": 1414,
+   "views": 1488,
    "source": "기업마당"
   },
   {
@@ -16803,7 +19626,7 @@
     "R&D"
    ],
    "created": "2026-08-31",
-   "views": 3481,
+   "views": 3742,
    "source": "기업마당"
   },
   {
@@ -16848,7 +19671,7 @@
     "AI"
    ],
    "created": "2026-08-31",
-   "views": 1985,
+   "views": 2098,
    "source": "기업마당"
   },
   {
@@ -16892,7 +19715,7 @@
     "충청북도"
    ],
    "created": "2026-08-31",
-   "views": 1441,
+   "views": 1535,
    "source": "기업마당"
   },
   {
@@ -16937,7 +19760,7 @@
     "중소기업"
    ],
    "created": "2026-08-31",
-   "views": 1402,
+   "views": 1477,
    "source": "기업마당"
   },
   {
@@ -16985,7 +19808,7 @@
     "소상공인"
    ],
    "created": "2026-08-31",
-   "views": 1819,
+   "views": 1916,
    "source": "기업마당"
   },
   {
@@ -17037,7 +19860,7 @@
     "중소기업"
    ],
    "created": "2026-08-31",
-   "views": 1190,
+   "views": 1255,
    "source": "기업마당"
   },
   {
@@ -17083,7 +19906,7 @@
     "중소기업"
    ],
    "created": "2026-08-31",
-   "views": 1544,
+   "views": 1644,
    "source": "기업마당"
   },
   {
@@ -17186,7 +20009,7 @@
     "시험평가"
    ],
    "created": "2026-08-31",
-   "views": 1375,
+   "views": 1484,
    "source": "기업마당"
   },
   {
@@ -17232,7 +20055,7 @@
     "제조업"
    ],
    "created": "2026-08-31",
-   "views": 1859,
+   "views": 2037,
    "source": "기업마당"
   },
   {
@@ -17277,7 +20100,7 @@
     "바이오융합"
    ],
    "created": "2026-08-31",
-   "views": 1596,
+   "views": 1701,
    "source": "기업마당"
   },
   {
@@ -17322,7 +20145,7 @@
     "통역"
    ],
    "created": "2026-08-31",
-   "views": 1249,
+   "views": 1335,
    "source": "기업마당"
   },
   {
@@ -17384,7 +20207,7 @@
     "온라인"
    ],
    "created": "2026-08-31",
-   "views": 1677,
+   "views": 1759,
    "source": "기업마당"
   },
   {
@@ -17487,7 +20310,7 @@
     "공급기업"
    ],
    "created": "2026-08-31",
-   "views": 2461,
+   "views": 2639,
    "source": "기업마당"
   },
   {
@@ -17541,7 +20364,7 @@
     "판촉"
    ],
    "created": "2026-08-31",
-   "views": 1413,
+   "views": 1485,
    "source": "기업마당"
   },
   {
@@ -17597,7 +20420,7 @@
     "간섭분석"
    ],
    "created": "2026-08-31",
-   "views": 2071,
+   "views": 2214,
    "source": "기업마당"
   },
   {
@@ -17641,7 +20464,7 @@
     "수산식품"
    ],
    "created": "2026-08-31",
-   "views": 1054,
+   "views": 1131,
    "source": "기업마당"
   },
   {
@@ -17700,7 +20523,7 @@
     "베트남"
    ],
    "created": "2026-08-31",
-   "views": 1477,
+   "views": 1604,
    "source": "기업마당"
   },
   {
@@ -17750,7 +20573,7 @@
     "투자유치"
    ],
    "created": "2026-08-31",
-   "views": 1409,
+   "views": 1491,
    "source": "기업마당"
   },
   {
@@ -18321,7 +21144,7 @@
     "동래구"
    ],
    "created": "2026-08-28",
-   "views": 6216,
+   "views": 6289,
    "source": "기업마당"
   },
   {
@@ -18366,7 +21189,7 @@
     "인증"
    ],
    "created": "2026-08-28",
-   "views": 5811,
+   "views": 5880,
    "source": "기업마당"
   },
   {
@@ -18453,7 +21276,7 @@
     "어르신고용"
    ],
    "created": "2026-08-28",
-   "views": 5932,
+   "views": 6008,
    "source": "기업마당"
   },
   {
@@ -18510,7 +21333,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 5975,
+   "views": 6049,
    "source": "기업마당"
   },
   {
@@ -18686,7 +21509,7 @@
     "상생협력"
    ],
    "created": "2026-08-28",
-   "views": 6512,
+   "views": 6596,
    "source": "기업마당"
   },
   {
@@ -18746,7 +21569,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 6298,
+   "views": 6391,
    "source": "기업마당"
   },
   {
@@ -19003,7 +21826,7 @@
     "R&D"
    ],
    "created": "2026-08-28",
-   "views": 2564,
+   "views": 2664,
    "source": "기업마당"
   },
   {
@@ -19134,7 +21957,7 @@
     "기반시설"
    ],
    "created": "2026-08-28",
-   "views": 2037,
+   "views": 2117,
    "source": "기업마당"
   },
   {
@@ -19216,7 +22039,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 2180,
+   "views": 2254,
    "source": "기업마당"
   },
   {
@@ -19304,7 +22127,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 1774,
+   "views": 1835,
    "source": "기업마당"
   },
   {
@@ -19358,7 +22181,7 @@
     "아마존"
    ],
    "created": "2026-08-28",
-   "views": 2057,
+   "views": 2115,
    "source": "기업마당"
   },
   {
@@ -19517,7 +22340,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 2742,
+   "views": 2827,
    "source": "기업마당"
   },
   {
@@ -19577,7 +22400,7 @@
     "마케팅"
    ],
    "created": "2026-08-28",
-   "views": 2417,
+   "views": 2505,
    "source": "기업마당"
   },
   {
@@ -19690,7 +22513,7 @@
     "마케팅"
    ],
    "created": "2026-08-28",
-   "views": 2865,
+   "views": 2971,
    "source": "기업마당"
   },
   {
@@ -19738,7 +22561,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 1959,
+   "views": 2071,
    "source": "기업마당"
   },
   {
@@ -19797,7 +22620,7 @@
     "바이어"
    ],
    "created": "2026-08-28",
-   "views": 1988,
+   "views": 2063,
    "source": "기업마당"
   },
   {
@@ -19841,7 +22664,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 1910,
+   "views": 1982,
    "source": "기업마당"
   },
   {
@@ -19892,7 +22715,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 1965,
+   "views": 2049,
    "source": "기업마당"
   },
   {
@@ -20044,7 +22867,7 @@
     "인천광역시"
    ],
    "created": "2026-08-28",
-   "views": 1555,
+   "views": 1622,
    "source": "기업마당"
   },
   {
@@ -20170,7 +22993,7 @@
     "판로개척"
    ],
    "created": "2026-08-28",
-   "views": 2320,
+   "views": 2406,
    "source": "기업마당"
   },
   {
@@ -20230,7 +23053,7 @@
     "중소기업"
    ],
    "created": "2026-08-28",
-   "views": 1677,
+   "views": 1778,
    "source": "기업마당"
   },
   {
@@ -20316,7 +23139,7 @@
     "제작"
    ],
    "created": "2026-08-28",
-   "views": 1855,
+   "views": 1942,
    "source": "기업마당"
   },
   {
@@ -20466,7 +23289,7 @@
     "기술유출 피해예방"
    ],
    "created": "2026-08-28",
-   "views": 1938,
+   "views": 2005,
    "source": "기업마당"
   },
   {
@@ -20517,7 +23340,7 @@
     "멘토링"
    ],
    "created": "2026-08-28",
-   "views": 1589,
+   "views": 1655,
    "source": "기업마당"
   },
   {
@@ -20613,7 +23436,7 @@
     "컨설팅"
    ],
    "created": "2026-08-28",
-   "views": 1342,
+   "views": 1413,
    "source": "기업마당"
   },
   {
@@ -20701,7 +23524,7 @@
     "소상공인"
    ],
    "created": "2026-08-28",
-   "views": 2089,
+   "views": 2177,
    "source": "기업마당"
   },
   {
@@ -21194,7 +24017,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 4794,
+   "views": 4952,
    "source": "기업마당"
   },
   {
@@ -21284,7 +24107,7 @@
     "온라인"
    ],
    "created": "2026-08-27",
-   "views": 3796,
+   "views": 3905,
    "source": "기업마당"
   },
   {
@@ -21346,7 +24169,7 @@
     "제품애로기술"
    ],
    "created": "2026-08-27",
-   "views": 3437,
+   "views": 3517,
    "source": "기업마당"
   },
   {
@@ -21393,7 +24216,7 @@
     "지능형농업"
    ],
    "created": "2026-08-27",
-   "views": 3501,
+   "views": 3607,
    "source": "기업마당"
   },
   {
@@ -21451,7 +24274,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 3527,
+   "views": 3607,
    "source": "기업마당"
   },
   {
@@ -21496,7 +24319,7 @@
     "기숙사임차료"
    ],
    "created": "2026-08-27",
-   "views": 2740,
+   "views": 2805,
    "source": "기업마당"
   },
   {
@@ -21543,7 +24366,7 @@
     "홍보"
    ],
    "created": "2026-08-27",
-   "views": 3499,
+   "views": 3602,
    "source": "기업마당"
   },
   {
@@ -21600,7 +24423,7 @@
     "재발급"
    ],
    "created": "2026-08-27",
-   "views": 3024,
+   "views": 3098,
    "source": "기업마당"
   },
   {
@@ -21661,7 +24484,7 @@
     "마케팅"
    ],
    "created": "2026-08-27",
-   "views": 2815,
+   "views": 2876,
    "source": "기업마당"
   },
   {
@@ -21708,7 +24531,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 2698,
+   "views": 2763,
    "source": "기업마당"
   },
   {
@@ -21768,7 +24591,7 @@
     "소상공인"
    ],
    "created": "2026-08-27",
-   "views": 6805,
+   "views": 7049,
    "source": "기업마당"
   },
   {
@@ -21824,7 +24647,7 @@
     "한국발명진흥회"
    ],
    "created": "2026-08-27",
-   "views": 3156,
+   "views": 3227,
    "source": "기업마당"
   },
   {
@@ -21875,7 +24698,7 @@
     "마케팅"
    ],
    "created": "2026-08-27",
-   "views": 2624,
+   "views": 2695,
    "source": "기업마당"
   },
   {
@@ -21936,7 +24759,7 @@
     "컨설팅"
    ],
    "created": "2026-08-27",
-   "views": 3209,
+   "views": 3305,
    "source": "기업마당"
   },
   {
@@ -22101,7 +24924,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1930,
+   "views": 2013,
    "source": "기업마당"
   },
   {
@@ -22155,7 +24978,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1655,
+   "views": 1731,
    "source": "기업마당"
   },
   {
@@ -22214,7 +25037,7 @@
     "게임"
    ],
    "created": "2026-08-27",
-   "views": 1858,
+   "views": 1963,
    "source": "기업마당"
   },
   {
@@ -22256,7 +25079,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1516,
+   "views": 1572,
    "source": "기업마당"
   },
   {
@@ -22306,7 +25129,7 @@
     "바이어"
    ],
    "created": "2026-08-27",
-   "views": 1688,
+   "views": 1778,
    "source": "기업마당"
   },
   {
@@ -22351,7 +25174,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1466,
+   "views": 1523,
    "source": "기업마당"
   },
   {
@@ -22397,7 +25220,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1535,
+   "views": 1604,
    "source": "기업마당"
   },
   {
@@ -22501,7 +25324,7 @@
     "기초자치단체"
    ],
    "created": "2026-08-27",
-   "views": 1355,
+   "views": 1441,
    "source": "기업마당"
   },
   {
@@ -22548,7 +25371,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1515,
+   "views": 1589,
    "source": "기업마당"
   },
   {
@@ -22610,7 +25433,7 @@
     "창업7년이내"
    ],
    "created": "2026-08-27",
-   "views": 1871,
+   "views": 1937,
    "source": "기업마당"
   },
   {
@@ -22655,7 +25478,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 2242,
+   "views": 2316,
    "source": "기업마당"
   },
   {
@@ -22702,7 +25525,7 @@
     "경진대회"
    ],
    "created": "2026-08-27",
-   "views": 1975,
+   "views": 2084,
    "source": "기업마당"
   },
   {
@@ -22757,7 +25580,7 @@
     "충청북도"
    ],
    "created": "2026-08-27",
-   "views": 1378,
+   "views": 1461,
    "source": "기업마당"
   },
   {
@@ -22806,7 +25629,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1355,
+   "views": 1419,
    "source": "기업마당"
   },
   {
@@ -22996,7 +25819,7 @@
     "중소기업"
    ],
    "created": "2026-08-27",
-   "views": 1892,
+   "views": 1974,
    "source": "기업마당"
   },
   {
@@ -23153,7 +25976,7 @@
     "스타트업"
    ],
    "created": "2026-08-27",
-   "views": 2940,
+   "views": 3123,
    "source": "기업마당"
   },
   {
@@ -23590,7 +26413,7 @@
     "마케팅"
    ],
    "created": "2026-08-26",
-   "views": 3144,
+   "views": 3230,
    "source": "기업마당"
   },
   {
@@ -23633,7 +26456,7 @@
     "투자유치"
    ],
    "created": "2026-08-26",
-   "views": 3482,
+   "views": 3657,
    "source": "기업마당"
   },
   {
@@ -23721,7 +26544,7 @@
     "충청남도"
    ],
    "created": "2026-08-26",
-   "views": 2912,
+   "views": 3001,
    "source": "기업마당"
   },
   {
@@ -23865,7 +26688,7 @@
     "문화체육관광부"
    ],
    "created": "2026-08-26",
-   "views": 3619,
+   "views": 3735,
    "source": "기업마당"
   },
   {
@@ -23908,7 +26731,7 @@
     "충청남도"
    ],
    "created": "2026-08-26",
-   "views": 2766,
+   "views": 2840,
    "source": "기업마당"
   },
   {
@@ -24036,7 +26859,7 @@
     "대구광역시"
    ],
    "created": "2026-08-26",
-   "views": 2588,
+   "views": 2650,
    "source": "기업마당"
   },
   {
@@ -24081,7 +26904,7 @@
     "해결형"
    ],
    "created": "2026-08-26",
-   "views": 3211,
+   "views": 3294,
    "source": "기업마당"
   },
   {
@@ -24125,7 +26948,7 @@
     "기술개발자금"
    ],
    "created": "2026-08-26",
-   "views": 5159,
+   "views": 5276,
    "source": "기업마당"
   },
   {
@@ -24181,7 +27004,7 @@
     "수소에너지"
    ],
    "created": "2026-08-26",
-   "views": 3096,
+   "views": 3175,
    "source": "기업마당"
   },
   {
@@ -24221,7 +27044,7 @@
     "청년정착"
    ],
    "created": "2026-08-26",
-   "views": 2770,
+   "views": 2830,
    "source": "기업마당"
   },
   {
@@ -24316,7 +27139,7 @@
     "협약기업"
    ],
    "created": "2026-08-26",
-   "views": 1984,
+   "views": 2224,
    "source": "기업마당"
   },
   {
@@ -24359,7 +27182,7 @@
     "R&D"
    ],
    "created": "2026-08-26",
-   "views": 1802,
+   "views": 1883,
    "source": "기업마당"
   },
   {
@@ -24450,7 +27273,7 @@
     "중소기업"
    ],
    "created": "2026-08-26",
-   "views": 1575,
+   "views": 1639,
    "source": "기업마당"
   },
   {
@@ -24507,7 +27330,7 @@
     "식음료"
    ],
    "created": "2026-08-26",
-   "views": 1606,
+   "views": 1670,
    "source": "기업마당"
   },
   {
@@ -24569,7 +27392,7 @@
     "중소기업"
    ],
    "created": "2026-08-26",
-   "views": 2424,
+   "views": 2537,
    "source": "기업마당"
   },
   {
@@ -24675,7 +27498,7 @@
     "중소기업"
    ],
    "created": "2026-08-26",
-   "views": 4317,
+   "views": 4512,
    "source": "기업마당"
   },
   {
@@ -24721,7 +27544,7 @@
     "콘텐츠"
    ],
    "created": "2026-08-26",
-   "views": 1992,
+   "views": 2065,
    "source": "기업마당"
   },
   {
@@ -24763,7 +27586,7 @@
     "경상북도경제진흥원"
    ],
    "created": "2026-08-26",
-   "views": 1583,
+   "views": 1643,
    "source": "기업마당"
   },
   {
@@ -24903,7 +27726,7 @@
     "보건복지부"
    ],
    "created": "2026-08-26",
-   "views": 1859,
+   "views": 1938,
    "source": "기업마당"
   },
   {
@@ -25007,7 +27830,7 @@
     "중소기업"
    ],
    "created": "2026-08-26",
-   "views": 1580,
+   "views": 1646,
    "source": "기업마당"
   },
   {
@@ -25176,7 +27999,7 @@
     "예비창업자"
    ],
    "created": "2026-08-26",
-   "views": 2559,
+   "views": 2660,
    "source": "기업마당"
   },
   {
@@ -25229,12 +28052,12 @@
     "홍보"
    ],
    "created": "2026-08-26",
-   "views": 2325,
+   "views": 2424,
    "source": "기업마당"
   },
   {
    "id": "PBLN_000000000125813",
-   "title": "[울산ㆍ경남] 2026년 인도네시아 자카르타 K-뷰티ㆍ푸드 소비재 수출상담회 지역 수출컨소시엄 참여기업 모집 공고",
+   "title": "[울산ㆍ경남] 2026년 인도네시아 자카르타 K-뷰티ㆍ푸드 소비재 수출상담회 지역 수출컨소시엄 참여기업 모집 수정 공고",
    "agency": "경상남도",
    "org": "진주바이오산업진흥원",
    "field": "수출",
@@ -25249,8 +28072,8 @@
    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000125813",
    "attachments": [
     {
-     "name": "2026 인도네시아 자카르타 K-뷰티ㆍ푸드 소비재 수출상담회 지역 수출컨소시엄 참여기업 모집 공고.hwp",
-     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000770703&fileSn=0"
+     "name": "(수정공고) 2026 인도네시아 자카르타 K-뷰티&푸드 소비재 수출상담회 지역수출컨소시엄 참여기업 모집(수정공고).hwp",
+     "url": "https://www.bizinfo.go.kr/cmm/fms/getImageFile.do?atchFileId=FILE_000000000770703&fileSn=1"
     }
    ],
    "hashtags": [
@@ -25259,6 +28082,8 @@
     "경남",
     "2026",
     "K-푸드",
+    "울산지방중소벤처기업청",
+    "경남지방중소벤처기업청",
     "K-뷰티",
     "진주바이오산업진흥원",
     "자카르타",
@@ -25271,12 +28096,10 @@
     "소비재",
     "마케팅",
     "중소기업",
-    "온라인",
-    "경남지방중소벤처기업청",
-    "울산지방중소벤처기업청"
+    "온라인"
    ],
    "created": "2026-08-26",
-   "views": 1552,
+   "views": 1648,
    "source": "기업마당"
   },
   {
@@ -25386,7 +28209,7 @@
     "중소기업"
    ],
    "created": "2026-08-26",
-   "views": 1944,
+   "views": 2022,
    "source": "기업마당"
   },
   {
@@ -25424,7 +28247,7 @@
     "청년"
    ],
    "created": "2026-08-26",
-   "views": 1786,
+   "views": 1870,
    "source": "기업마당"
   },
   {
@@ -26171,7 +28994,7 @@
     "마케팅"
    ],
    "created": "2026-08-25",
-   "views": 2860,
+   "views": 2928,
    "source": "기업마당"
   },
   {
@@ -26276,7 +29099,7 @@
     "개인서비스업"
    ],
    "created": "2026-08-25",
-   "views": 2776,
+   "views": 2853,
    "source": "기업마당"
   },
   {
@@ -26709,7 +29532,7 @@
     "대기오염"
    ],
    "created": "2026-08-25",
-   "views": 2627,
+   "views": 2694,
    "source": "기업마당"
   },
   {
@@ -26765,7 +29588,7 @@
     "포상"
    ],
    "created": "2026-08-25",
-   "views": 2872,
+   "views": 2948,
    "source": "기업마당"
   },
   {
@@ -27085,7 +29908,7 @@
     "상담"
    ],
    "created": "2026-08-25",
-   "views": 1704,
+   "views": 1775,
    "source": "기업마당"
   },
   {
@@ -27245,7 +30068,7 @@
     "추가등록"
    ],
    "created": "2026-08-25",
-   "views": 2861,
+   "views": 2931,
    "source": "기업마당"
   },
   {
@@ -27513,7 +30336,7 @@
     "융합센서"
    ],
    "created": "2026-08-25",
-   "views": 2031,
+   "views": 2119,
    "source": "기업마당"
   },
   {
@@ -27657,7 +30480,7 @@
     "컨설팅"
    ],
    "created": "2026-08-25",
-   "views": 2269,
+   "views": 2375,
    "source": "기업마당"
   },
   {
@@ -27710,7 +30533,7 @@
     "창업기업"
    ],
    "created": "2026-08-25",
-   "views": 2161,
+   "views": 2260,
    "source": "기업마당"
   },
   {
@@ -27846,7 +30669,7 @@
     "적하보험료"
    ],
    "created": "2026-08-25",
-   "views": 1795,
+   "views": 1865,
    "source": "기업마당"
   },
   {
@@ -27887,7 +30710,7 @@
     "내부수선비"
    ],
    "created": "2026-08-25",
-   "views": 1756,
+   "views": 1832,
    "source": "기업마당"
   },
   {
@@ -27964,7 +30787,7 @@
     "경상남도"
    ],
    "created": "2026-08-25",
-   "views": 1427,
+   "views": 1515,
    "source": "기업마당"
   },
   {
@@ -28892,7 +31715,7 @@
     "평가항목대응"
    ],
    "created": "2026-08-25",
-   "views": 1604,
+   "views": 1676,
    "source": "기업마당"
   },
   {
@@ -28937,7 +31760,7 @@
     "시제품"
    ],
    "created": "2026-08-25",
-   "views": 2028,
+   "views": 2113,
    "source": "기업마당"
   },
   {
@@ -29168,7 +31991,7 @@
     "경상남도"
    ],
    "created": "2026-08-24",
-   "views": 2809,
+   "views": 2900,
    "source": "기업마당"
   },
   {
@@ -29207,7 +32030,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 2728,
+   "views": 2796,
    "source": "기업마당"
   },
   {
@@ -29436,7 +32259,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 2646,
+   "views": 2708,
    "source": "기업마당"
   },
   {
@@ -29474,7 +32297,7 @@
     "융자"
    ],
    "created": "2026-08-24",
-   "views": 3582,
+   "views": 3657,
    "source": "기업마당"
   },
   {
@@ -29514,7 +32337,7 @@
     "융자"
    ],
    "created": "2026-08-24",
-   "views": 2950,
+   "views": 3025,
    "source": "기업마당"
   },
   {
@@ -29799,7 +32622,7 @@
     "검증"
    ],
    "created": "2026-08-24",
-   "views": 2350,
+   "views": 2435,
    "source": "기업마당"
   },
   {
@@ -30138,7 +32961,7 @@
     "직접수행"
    ],
    "created": "2026-08-24",
-   "views": 1682,
+   "views": 1760,
    "source": "기업마당"
   },
   {
@@ -30186,7 +33009,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 1814,
+   "views": 1893,
    "source": "기업마당"
   },
   {
@@ -30283,7 +33106,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 1679,
+   "views": 1755,
    "source": "기업마당"
   },
   {
@@ -30342,7 +33165,7 @@
     "2026"
    ],
    "created": "2026-08-24",
-   "views": 1505,
+   "views": 1568,
    "source": "기업마당"
   },
   {
@@ -30442,7 +33265,7 @@
     "소상공인"
    ],
    "created": "2026-08-24",
-   "views": 2057,
+   "views": 2135,
    "source": "기업마당"
   },
   {
@@ -30562,7 +33385,7 @@
     "세종특별자치시"
    ],
    "created": "2026-08-24",
-   "views": 1552,
+   "views": 1631,
    "source": "기업마당"
   },
   {
@@ -30612,7 +33435,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 1498,
+   "views": 1578,
    "source": "기업마당"
   },
   {
@@ -30661,7 +33484,7 @@
     "온라인"
    ],
    "created": "2026-08-24",
-   "views": 1849,
+   "views": 1924,
    "source": "기업마당"
   },
   {
@@ -30929,7 +33752,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 2978,
+   "views": 3125,
    "source": "기업마당"
   },
   {
@@ -31011,7 +33834,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 1974,
+   "views": 2037,
    "source": "기업마당"
   },
   {
@@ -31061,7 +33884,7 @@
     "중소기업"
    ],
    "created": "2026-08-24",
-   "views": 2449,
+   "views": 2581,
    "source": "기업마당"
   },
   {
@@ -31280,7 +34103,7 @@
     "소상공인"
    ],
    "created": "2026-08-24",
-   "views": 1402,
+   "views": 1454,
    "source": "기업마당"
   },
   {
@@ -31329,7 +34152,7 @@
     "특허"
    ],
    "created": "2026-08-24",
-   "views": 1593,
+   "views": 1659,
    "source": "기업마당"
   },
   {
@@ -31771,7 +34594,7 @@
     "사업화"
    ],
    "created": "2026-08-21",
-   "views": 6749,
+   "views": 6832,
    "source": "기업마당"
   },
   {
@@ -31874,7 +34697,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 5592,
+   "views": 5668,
    "source": "기업마당"
   },
   {
@@ -32026,7 +34849,7 @@
     "농림축산식품부"
    ],
    "created": "2026-08-21",
-   "views": 5839,
+   "views": 5921,
    "source": "기업마당"
   },
   {
@@ -32157,7 +34980,7 @@
     "부스입점비용"
    ],
    "created": "2026-08-21",
-   "views": 5294,
+   "views": 5358,
    "source": "기업마당"
   },
   {
@@ -32206,7 +35029,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 5357,
+   "views": 5429,
    "source": "기업마당"
   },
   {
@@ -32474,7 +35297,7 @@
     "물류비"
    ],
    "created": "2026-08-21",
-   "views": 6293,
+   "views": 6394,
    "source": "기업마당"
   },
   {
@@ -32532,7 +35355,7 @@
     "멘토링"
    ],
    "created": "2026-08-21",
-   "views": 5400,
+   "views": 5570,
    "source": "기업마당"
   },
   {
@@ -32577,7 +35400,7 @@
     "융자"
    ],
    "created": "2026-08-21",
-   "views": 5031,
+   "views": 5155,
    "source": "기업마당"
   },
   {
@@ -32748,7 +35571,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 2227,
+   "views": 2301,
    "source": "기업마당"
   },
   {
@@ -32944,7 +35767,7 @@
     "시험비"
    ],
    "created": "2026-08-21",
-   "views": 2334,
+   "views": 2401,
    "source": "기업마당"
   },
   {
@@ -33093,7 +35916,7 @@
     "채용"
    ],
    "created": "2026-08-21",
-   "views": 2595,
+   "views": 2676,
    "source": "기업마당"
   },
   {
@@ -33230,7 +36053,7 @@
     "교육"
    ],
    "created": "2026-08-21",
-   "views": 2452,
+   "views": 2520,
    "source": "기업마당"
   },
   {
@@ -33291,7 +36114,7 @@
     "창업대전"
    ],
    "created": "2026-08-21",
-   "views": 2650,
+   "views": 2744,
    "source": "기업마당"
   },
   {
@@ -33349,7 +36172,7 @@
     "고용노동부"
    ],
    "created": "2026-08-21",
-   "views": 2471,
+   "views": 2565,
    "source": "기업마당"
   },
   {
@@ -33412,7 +36235,7 @@
     "소상공인"
    ],
    "created": "2026-08-21",
-   "views": 2647,
+   "views": 2728,
    "source": "기업마당"
   },
   {
@@ -33554,7 +36377,7 @@
     "컨설팅"
    ],
    "created": "2026-08-21",
-   "views": 2011,
+   "views": 2069,
    "source": "기업마당"
   },
   {
@@ -33796,7 +36619,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 2033,
+   "views": 2098,
    "source": "기업마당"
   },
   {
@@ -33967,7 +36790,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 2283,
+   "views": 2361,
    "source": "기업마당"
   },
   {
@@ -34005,7 +36828,7 @@
     "중소기업"
    ],
    "created": "2026-08-21",
-   "views": 2161,
+   "views": 2227,
    "source": "기업마당"
   },
   {
@@ -34135,7 +36958,7 @@
     "작업환경"
    ],
    "created": "2026-08-21",
-   "views": 1810,
+   "views": 1888,
    "source": "기업마당"
   },
   {
@@ -34495,7 +37318,7 @@
     "기술개발"
    ],
    "created": "2026-08-20",
-   "views": 3666,
+   "views": 3733,
    "source": "기업마당"
   },
   {
@@ -34821,7 +37644,7 @@
     "중소기업"
    ],
    "created": "2026-08-20",
-   "views": 2980,
+   "views": 3033,
    "source": "기업마당"
   },
   {
@@ -34967,7 +37790,7 @@
     "창업기업"
    ],
    "created": "2026-08-20",
-   "views": 3601,
+   "views": 3670,
    "source": "기업마당"
   },
   {
@@ -35195,7 +38018,7 @@
     "중소기업"
    ],
    "created": "2026-08-20",
-   "views": 1960,
+   "views": 2017,
    "source": "기업마당"
   },
   {
@@ -35283,7 +38106,7 @@
     "제조업"
    ],
    "created": "2026-08-20",
-   "views": 1865,
+   "views": 1922,
    "source": "기업마당"
   },
   {
@@ -35322,7 +38145,7 @@
     "중소기업"
    ],
    "created": "2026-08-20",
-   "views": 1914,
+   "views": 1974,
    "source": "기업마당"
   },
   {
@@ -35415,7 +38238,7 @@
     "중소기업"
    ],
    "created": "2026-08-20",
-   "views": 1854,
+   "views": 1912,
    "source": "기업마당"
   },
   {
@@ -35468,7 +38291,7 @@
     "신재생에너지"
    ],
    "created": "2026-08-20",
-   "views": 2546,
+   "views": 2643,
    "source": "기업마당"
   },
   {
@@ -35556,7 +38379,7 @@
     "스마트파머"
    ],
    "created": "2026-08-20",
-   "views": 2350,
+   "views": 2433,
    "source": "기업마당"
   },
   {
@@ -35605,7 +38428,7 @@
     "시장개척"
    ],
    "created": "2026-08-20",
-   "views": 2502,
+   "views": 2572,
    "source": "기업마당"
   },
   {
